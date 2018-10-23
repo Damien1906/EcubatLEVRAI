@@ -38,6 +38,11 @@ li.barredenavigation a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+li a:hover {
+  background-color: #7D131E;
+}
+
 /*CSS de l'exemple de carousel, à modifier plus tard*/
 
 * {box-sizing:border-box}

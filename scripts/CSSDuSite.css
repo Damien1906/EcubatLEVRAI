@@ -16,9 +16,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: fixed;
-  left: 60px;
-  top: 300px;
+  position: relative;
   margin: auto;
 }
 
@@ -62,6 +60,15 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 /* The dots/bullets/indicators */

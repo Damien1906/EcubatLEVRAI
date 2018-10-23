@@ -104,3 +104,11 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#descriptionentreprise
+{
+  text-align: left;
+  font-family: sans-serif;
+  font: helvetica;
+  font-size: 6px;
+}

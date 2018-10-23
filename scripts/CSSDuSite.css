@@ -17,10 +17,15 @@
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
+}
 
+ul.barredenavigation {
 
 }
 
+li.barredenavigation {
+    display: inline;
+}
 /*CSS de l'exemple de carousel, à modifier plus tard*/
 
 * {box-sizing:border-box}

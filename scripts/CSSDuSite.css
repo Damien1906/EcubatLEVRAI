@@ -130,16 +130,26 @@ li a:hover {
   to {opacity: 1}
 }
 
-#descriptionentreprise
-{
+#descriptionentreprise {
   text-align: left;
   font-family: sans-serif;
   font: helvetica;
   font-size: 18px;
 }
 
-#plâtrerie
-{
+#plâtrerie {
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: left;
+}
+
+#peinture {
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: left;
+}
+
+#garanties {
   font-family: sans-serif;
   font: helvetica;
   text-align: left;

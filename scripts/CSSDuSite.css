@@ -30,6 +30,14 @@ ul.barredenavigation {
 li.barredenavigation {
     display: inline;
 }
+
+li.barredenavigation a {
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 /*CSS de l'exemple de carousel, à modifier plus tard*/
 
 * {box-sizing:border-box}

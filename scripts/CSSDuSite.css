@@ -28,7 +28,7 @@ ul.barredenavigation {
 }
 
 li.barredenavigation {
-    display: inline;
+    float: left;
 }
 
 li.barredenavigation a {

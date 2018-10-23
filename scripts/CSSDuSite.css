@@ -15,20 +15,8 @@ ul {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-color: #ff3333;
 }
 
-li {
-  display: inline;
-}
-
-li a {
-  display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 #présentationdusite
 {

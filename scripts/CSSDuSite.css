@@ -54,12 +54,8 @@ li a:hover {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
 
-/* Next & previous buttons */
+/* Boutons suivant et précédent */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -74,7 +70,7 @@ li a:hover {
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
+/* Bouton image suivante */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -85,7 +81,7 @@ li a:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Le texte de description des photos */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -96,7 +92,7 @@ li a:hover {
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
+/* Les points */
 .dot {
   cursor: pointer;
   height: 15px;

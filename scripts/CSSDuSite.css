@@ -154,3 +154,11 @@ li a:hover {
   font: helvetica;
   text-align: left;
 }
+
+#references
+{
+  text-align: left;
+  font-family: sans-serif;
+  font: helvetica;
+  font-size: 17px;
+}

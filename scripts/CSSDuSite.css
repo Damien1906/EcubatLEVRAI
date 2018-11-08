@@ -147,10 +147,9 @@ li a:hover {
 
 #marché
 {
-  text-align: left;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 17px;
+  text-align: left;  
 }
 
 #garanties {

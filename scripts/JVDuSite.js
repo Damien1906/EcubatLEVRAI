@@ -1,6 +1,5 @@
-<object>
-
-alert("coucou")
+var titre = document.getElementsById("titre")
+console.log(titre.style)
 
 
 var slideIndex = 1;

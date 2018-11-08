@@ -52,7 +52,10 @@ li a:hover {
   position: relative;
   margin: auto;
 }
-
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
 
 /* Boutons suivant et précédent */
 .prev, .next {

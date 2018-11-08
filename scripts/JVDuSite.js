@@ -1,5 +1,8 @@
 <object>
 
+alert("coucou")
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

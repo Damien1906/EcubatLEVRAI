@@ -24,6 +24,9 @@ ul.barredenavigation {
     padding: 0;
     overflow: hidden;
     background-color: #8B0000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 li.barredenavigation {

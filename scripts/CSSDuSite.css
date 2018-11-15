@@ -18,6 +18,10 @@
   font-size: 17px;
 }
 
+#BarreDeNavigation {
+position: relative;
+}
+
 ul.barredenavigation {
   list-style-type: none;
     margin: 0;

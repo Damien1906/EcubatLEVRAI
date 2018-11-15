@@ -1,3 +1,5 @@
+
+
 var titre = document.getElementsById("titre")
 console.log(titre.style)
 
@@ -30,10 +32,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-$('.autoplay').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});

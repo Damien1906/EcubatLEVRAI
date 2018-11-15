@@ -1,5 +1,3 @@
-
-
 var titre = document.getElementsById("titre")
 console.log(titre.style)
 

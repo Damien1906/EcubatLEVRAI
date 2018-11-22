@@ -13,8 +13,8 @@ body , html{
   background-color: #e74c3c;
   color: #ffffff;
   font-family: helvetica;
-font-size: 20px;
-
+  font-size: 20px;
+  border: none;
 }
 
 

@@ -17,46 +17,6 @@
   font-size: 17px;
 }
 
-#DescriptionEntreprise {
-
-}
-
-#plâtrerie {
-
-}
-
-#peinture {
-
-}
-
-#marché {
-
-}
-
-#garanties {
-
-}
-
-#références {
-
-}
-
-#liens {
-
-}
-
-#seigneurie {
-
-}
-
-#blancolor {
-
-}
-
-#adresse {
-
-}
-
 
 ul.barredenavigation {
   list-style-type: none;
@@ -203,13 +163,19 @@ li a:hover {
 
 #références
 {
-  text-align: left;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 17px;
+  text-align: left;
 }
 
 #liens
+{
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: left;
+}
+
+#adresse
 {
   font-family: sans-serif;
   font: helvetica;

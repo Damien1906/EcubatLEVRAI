@@ -10,13 +10,53 @@
  }
 
 
-#présentationdusite
-{
+#présentationdusite {
   text-align: left;
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
 }
+
+#DescriptionEntreprise {
+
+}
+
+#plâtrerie {
+
+}
+
+#peinture {
+
+}
+
+#marché {
+
+}
+
+#garanties {
+
+}
+
+#références {
+
+}
+
+#liens {
+
+}
+
+#seigneurie {
+
+}
+
+#blancolor {
+
+}
+
+#adresse {
+
+}
+
 
 ul.barredenavigation {
   list-style-type: none;

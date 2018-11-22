@@ -2,6 +2,23 @@
 
 @charset "UTF-8";
 
+body , html{
+  padding: 0;
+  margin: 0;
+}
+
+#button_modal{
+  height: 50px;
+  width: 300px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-family: helvetica;
+font-size: 20px;
+
+}
+
+
+
 
  #hautdelapage {
 
@@ -15,7 +32,6 @@
 
 #présentationdusite {
   text-align: left;
-  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
@@ -135,7 +151,6 @@ li a:hover {
 
 #descriptionentreprise {
   text-align: left;
-  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
@@ -143,14 +158,12 @@ li a:hover {
 
 #plâtrerie {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }
 
 #peinture {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }
@@ -158,14 +171,12 @@ li a:hover {
 #marché
 {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }
 
 #garanties {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }
@@ -173,7 +184,6 @@ li a:hover {
 #références
 {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }
@@ -181,7 +191,6 @@ li a:hover {
 #liens
 {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }
@@ -189,7 +198,6 @@ li a:hover {
 #adresse
 {
   font-family: sans-serif;
-  color: #8B0000;
   font: helvetica;
   text-align: left;
 }

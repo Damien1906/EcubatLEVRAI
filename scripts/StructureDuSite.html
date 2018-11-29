@@ -208,20 +208,142 @@
          </script>
       </div>
 
-<br>
-<br>
-<br>
+      <br>
+      <br>
+      <br>
 
-      <div id="adresse">
-        <h1>Adresse</h1>
-<br>
-          <h3>Plan d'accès et coordonnées</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.168865081144!2d4.792263315109574!3d45.68758307910424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e8dfce70cdcf%3A0xf174998cd5374060!2s38+Route+de+Charly%2C+69230+Saint-Genis-Laval!5e0!3m2!1sfr!2sfr!4v1542392206464" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-              <p>ECUBAT:</p>
-                <li>38, route de Charly</li>
-                <li>69230 Saint Genis Laval</li>
-                <li>Tél : 04 78 56 34 10</li>
-      </div>
+            <div id="adresse">
+              <h1>Adresse et Contact</h1>
+      <br>
+                <h3>Plan d'accès et coordonnées</h3>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.168865081144!2d4.792263315109574!3d45.68758307910424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e8dfce70cdcf%3A0xf174998cd5374060!2s38+Route+de+Charly%2C+69230+Saint-Genis-Laval!5e0!3m2!1sfr!2sfr!4v1542392206464" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <p>ECUBAT:</p>
+                      <li>38, route de Charly</li>
+                      <li>69230 Saint Genis Laval</li>
+                      <li>Tél : 04 78 56 34 10</li>
+
+                      <br>
+                      <br>
+      <form method="post" action="/cgi/formmail.cgi">
+        <input type="HIDDEN" name="recipient" value="contact@ecubat.fr">
+        <br>
+        <div align="center">
+          <h2>Une question, besoin d'un contact... ? </h2>
+              Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
+              Nous vous répondrons rapidement !<br>
+        <br>
+              Merci de bien vouloir remplir le plus complètement possible ce formulaire,<br>
+              afin que nous puissions bien vous répondre. <br>
+        <br>
+        </div>
+        <center>
+          <table cellspacing="3" width="600">
+            <tbody>
+              <td align="right" width="120">
+                <div align="right">Titre :</div>
+              </td>
+              <td align="left" width="276">
+                <select name="Titre">
+                  <option>Monsieur</option>
+                  <option>Madame</option>
+                  <option>Mademoiselle</option>
+                  <option>Société</option>
+                </select>
+              </td>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Nom :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Nom" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Prénom :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Prénom" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Entreprise :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Entreprise" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Rue :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Rue" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Ville : </div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Lieu" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Code Postal :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="CP" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Téléphone :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Tél" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Fax :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="Fax" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">E-mail :</div>
+                </td>
+                <td align="left" width="276">
+                  <input name="eMail" length="30" size="30">
+                </td>
+              </tr>
+              <tr valign="middle">
+                <td align="right" width="120">
+                  <div align="right">Ma question :</div>
+                </td>
+                <td align="left" width="276">
+                  <textarea name="Mes désirs" length="30" cols="35" rows="5"></textarea>
+                </td>
+              </tr>
+              <td>
+                <tr valign="middle">
+                  <td align="middle" width="120">
+                    <input type="submit" value="Envoyer" name="submit">
+                  </td>
+              </td>
+            </tbody>
+          </table>
+        </center>
+      </form>
+
+
+
+            </div>
 
 
       <div class="button_container">

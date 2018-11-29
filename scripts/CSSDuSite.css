@@ -33,8 +33,7 @@ background-color: #ecf0f1
 }
 
 
- #hautdelapage {
-
+ #accueil {
   text-align: left;
   color: #8B0000;
   font-family: sans-serif;
@@ -172,7 +171,6 @@ li a:hover {
 }
 
 #plâtrerie {
-  width:1200px;
 	background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;

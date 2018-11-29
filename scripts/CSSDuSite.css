@@ -16,7 +16,7 @@ background-color: #ecf0f1
 #button_modal{
   height: 50px;
   width: 300px;
-  background-color: #00FFFF;
+  background-color: #8B0000;
   color: #ffffff;
   font-family: helvetica;
   font-size: 20px;
@@ -26,8 +26,8 @@ background-color: #ecf0f1
 }
 
 #modal {
-  height: 300px;
-  width: 30px;
+  height: 100px;
+  width: 1500px;
   background-color: #ffffff;
   font-family: helvetica;
   text-align: center;
@@ -67,6 +67,8 @@ ul.barredenavigation {
     position: sticky;
     top: 0;
     z-index: +1;
+    height: 55px;
+    width: 1500px;
 }
 
 li.barredenavigation {

@@ -36,11 +36,11 @@ background-color: #ecf0f1
 
 
  #accueil {
-  text-align: left;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   font-weight: bold;
+  text-align: left;
  }
 
 
@@ -52,6 +52,10 @@ background-color: #ecf0f1
   font-size: 17px;
 }
 
+
+#carousel1 {
+
+}
 
 ul.barredenavigation {
   list-style-type: none;
@@ -198,7 +202,7 @@ li a:hover {
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
+  text-align: center;
 }
 
 #références {
@@ -212,12 +216,13 @@ li a:hover {
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
+  text-align: center;
 }
 
 #adresse {
+  background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
+  text-align: center;
 }

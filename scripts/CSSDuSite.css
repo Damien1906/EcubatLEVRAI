@@ -41,6 +41,7 @@ background-color: #ecf0f1
   font: helvetica;
   font-weight: bold;
   text-align: left;
+  text-decoration: underline;
  }
 
 
@@ -67,8 +68,6 @@ ul.barredenavigation {
     position: sticky;
     top: 0;
     z-index: +1;
-    height: 55px;
-    width: 1500px;
 }
 
 li.barredenavigation {

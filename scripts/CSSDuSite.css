@@ -25,7 +25,14 @@ background-color: #ecf0f1
   margin-top: 200px;
 }
 
+#modal {
+  height: 300px;
+  width: 30px;
+  background-color: #ffffff;
+  font-family: helvetica;
+  text-align: center;
 
+}
 
 
  #accueil {
@@ -166,7 +173,6 @@ li a:hover {
 }
 
 #plâtrerie {
-  width:1400px;
 	background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;

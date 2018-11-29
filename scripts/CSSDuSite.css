@@ -13,8 +13,8 @@ body , html{
   background-color: #e74c3c;
   color: #ffffff;
   font-family: helvetica;
-  font-size: 20px;
-  border: none;
+font-size: 20px;
+
 }
 
 
@@ -32,6 +32,7 @@ body , html{
 
 #présentationdusite {
   text-align: left;
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
@@ -151,18 +152,21 @@ li a:hover {
 
 #descriptionentreprise {
   text-align: left;
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
 }
 
 #plâtrerie {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
 
 #peinture {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;

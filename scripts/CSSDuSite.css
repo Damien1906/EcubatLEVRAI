@@ -15,18 +15,13 @@ body , html{
 #button_modal{
   height: 50px;
   width: 300px;
-  background-color: #e74c3c;
+  background-color: #00FFFF;
   color: #ffffff;
   font-family: helvetica;
-<<<<<<< HEAD
   font-size: 20px;
   border: none;
   cursor: pointer;
   margin 0 auto;
-=======
-font-size: 20px;
-
->>>>>>> db0072d7ff351088dffb343b6d6b57d8b473c290
 }
 
 

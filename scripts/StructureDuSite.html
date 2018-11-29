@@ -185,27 +185,28 @@
       <div id="liens">
         <h1>Fournisseurs</h1>
 
-          <div id=”seigneurie”>
-            <img src="AA_seigneuriegauthier.jpg" style="width:30%">
-            <div class="text">Caption One</div>
-          </div>
+         <div class="slideshow-container">
 
-          <div id="blancolor">
-            <img src="AA_blancolor.jpg" style="width:30%">
-            <div class="text">Caption Two</div>
-         </div>
+  <div class="mySlides fade">
+    <img src="AA_seigneuriegauthier.jpg" style="width:30%">
+    <div class="text">Caption Text</div>
+  </div>
 
-         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-         <script type="text/javascript" src="slick/slick.min.js"></script>
+  <div class="mySlides fade">
+    <img src="AA_blancolor.jpg" style="width:30%">
+    <div class="text">Caption Two</div>
+  </div>
 
-         <script type="text/javascript">
-           $(document).ready(function(){
-           $('.autoplay').slick({
-           setting-name: setting-value
-           });
-           });
-         </script>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
       </div>
 
       <br>

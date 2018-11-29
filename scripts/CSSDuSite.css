@@ -166,7 +166,10 @@ li a:hover {
   font-size: 17px;
 }
 
-#plâtrerie {
+div#plâtrerie {
+  width:600px;
+	height:50px;
+	background-color:#00CCFF;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -180,35 +183,36 @@ li a:hover {
   text-align: left;
 }
 
-#marché
-{
+#marché {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
 
 #garanties {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
 
-#références
-{
+#références {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
 
-#liens
-{
+#liens {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
 
-#adresse
-{
+#adresse {
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;

@@ -6,6 +6,7 @@ body , html{
   padding: 0;
   margin: 0;
 background-color: #ecf0f1
+background-color: #ecf0f1;
 }
 
 .button_container{
@@ -148,7 +149,7 @@ li a:hover {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #8B0000;
 }
 
 /* Fading animation */
@@ -217,7 +218,7 @@ li a:hover {
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: center;
+  text-align: left;
 }
 
 #adresse {

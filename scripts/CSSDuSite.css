@@ -8,6 +8,9 @@ body , html{
 background-color: #ecf0f1
 }
 
+#tête_de_page {
+  background-color: #ffffff;
+}
 
  #accueil {
   text-align: left;

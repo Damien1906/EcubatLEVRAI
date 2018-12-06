@@ -27,10 +27,20 @@ background-color: #ecf0f1
 
 #modal {
   height: 300px;
-  width: 30px;
+  width: 30%;
   background-color: #ffffff;
   font-family: helvetica;
   text-align: center;
+  color: #95a5a6;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+
+
+#modal h1 {
+  padding-top: 60px;
 
 }
 

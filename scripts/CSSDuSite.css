@@ -17,8 +17,7 @@ background-color: #ecf0f1
   font-family: sans-serif;
   font: helvetica;
   font-weight: bold;
-
-
+  display: inline-block;
 }
 
  #accueil {

@@ -37,3 +37,8 @@ $('.autoplay').slick({
   autoplay: true,
   autoplaySpeed: 2000,
 });
+
+
+function openModal () {
+  document.getElementsById("modal").style.top = "0px";
+}

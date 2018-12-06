@@ -169,10 +169,11 @@ li a:hover {
 }
 
 #garanties {
+  background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
+  text-align: center;
 }
 
 #références {
@@ -190,10 +191,11 @@ li a:hover {
 }
 
 #adresse {
+  background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
+  text-align: center;
 }
 
 .button_container{

@@ -12,6 +12,15 @@ background-color: #ecf0f1
   background-color: #ffffff;
 }
 
+#tête_de_page p {
+  text-align: right;
+  font-family: sans-serif;
+  font: helvetica;
+  font-weight: bold;
+
+
+}
+
  #accueil {
   text-align: left;
   color: #8B0000;
@@ -31,7 +40,7 @@ background-color: #ecf0f1
 
 
 ul.barredenavigation {
-  list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;

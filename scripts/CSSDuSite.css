@@ -212,11 +212,15 @@ li a:hover {
 }
 
 #map {
+  float: right;
   text-align: left;
 }
 
 #information {
-  text-align: right;
+  float:right;
+	width:100px;
+	height:400px;
+	background-color:#FF6699;
 }
 .button_container{
   width: 100%;

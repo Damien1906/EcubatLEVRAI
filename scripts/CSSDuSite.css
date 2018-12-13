@@ -218,12 +218,12 @@ li a:hover {
 
 #map {
   float: right;
-  text-align: left;
+  text-align: center;
 }
 
 #information {
   color: #ecf0f1;
-  float:right;
+  float:left;
 	width:400px;
 	height:500px;
 	background-color:#8B0000;

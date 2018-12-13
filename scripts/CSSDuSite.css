@@ -42,7 +42,7 @@ background-color: #ecf0f1
   font-size: 17px;
 }
 .lien {
-  
+
 }
 
 
@@ -68,7 +68,7 @@ li.barredenavigation {
 }
 
 li.barredenavigation a {
-  display: block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -207,7 +207,7 @@ li a:hover {
   text-align: left;
 }
 
-#liens {
+#fournisseurs {
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;

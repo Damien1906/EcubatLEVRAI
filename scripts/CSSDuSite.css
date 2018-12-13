@@ -136,7 +136,7 @@ li a:hover {
   font: helvetica;
   text-align: left;
 }
-#fournisseurs td.BW a{
+#fournisseurs a, td.BW{
   z-index: auto;
   position: absolute;
   width: 500px
@@ -146,7 +146,7 @@ li a:hover {
   position: absolute;
   width: 500px
 }
-#fournisseurs td.BW a{
+#fournisseurs a, td.BW {
   position: absolute;
   width: 500px
 }

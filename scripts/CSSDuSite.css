@@ -218,14 +218,19 @@ li a:hover {
 
 #map {
   float: right;
-  text-align: left;
+  text-align: center;
 }
 
 #information {
+  color: #ecf0f1;
+<<<<<<< HEAD
   float:right;
-	width:100px;
-	height:400px;
-	background-color:#FF6699;
+=======
+  float:left;
+>>>>>>> a1ea2a87f5628fe786b32d15d09161e849358a0e
+	width:400px;
+	height:500px;
+	background-color:#8B0000;
 }
 .button_container{
   width: 100%;

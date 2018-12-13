@@ -6,8 +6,8 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides(0) {
-  showSlides(slideIndex += 0);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls

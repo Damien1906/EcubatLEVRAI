@@ -241,7 +241,11 @@ li a:hover {
 }
 
 #contact {
-  float: left;
+  
+  background-color:#E1D0D0;
+  color: #8B0000;
+  font-family: sans-serif;
+  font: helvetica;
   text-align: center;
 }
 

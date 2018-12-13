@@ -2,6 +2,10 @@
 
 @charset "UTF-8";
 
+* {
+  box-sizing:border-box
+}
+
 body , html{
   padding: 0;
   margin: 0;
@@ -16,7 +20,6 @@ background-color: #ecf0f1
   text-align: right;
   font-family: sans-serif;
   font: helvetica;
-  font-weight: bold;
   display: inline;
   position: absolute;
   right: 0px;
@@ -75,7 +78,7 @@ li a:hover {
 
 /*CSS de l'exemple de carousel, à modifier plus tard*/
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {

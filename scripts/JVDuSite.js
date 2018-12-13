@@ -40,5 +40,5 @@ $('.autoplay').slick({
 
 
 function openModal() {
-  document.getElementsById("modal").style.top = "0px" ;
+  document.getElementsById("modal").style.top = 200px ;
 }

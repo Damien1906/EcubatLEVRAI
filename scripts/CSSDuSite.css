@@ -52,6 +52,11 @@ ul.barredenavigation {
     z-index: +1;
 }
 
+.logo {
+  width: 18px;
+  height:18px;
+}
+
 li.barredenavigation {
     float: left;
 }

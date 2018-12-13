@@ -222,10 +222,11 @@ li a:hover {
 }
 
 #information {
+  color: #ecf0f1;
   float:right;
-	width:100px;
-	height:400px;
-	background-color:#FF6699;
+	width:400px;
+	height:500px;
+	background-color:#8B0000;
 }
 .button_container{
   width: 100%;

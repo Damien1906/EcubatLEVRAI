@@ -55,7 +55,7 @@ ul.barredenavigation {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +1;
+    z-index: +2;
 }
 
 .logo {
@@ -149,6 +149,7 @@ li a:hover {
 #fournisseurs a, td.C {
   position: absolute;
   width: 500px
+  z-index: +1;
 }
 #adresse {
   background-color:#E1D0D0;

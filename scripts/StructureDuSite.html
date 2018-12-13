@@ -13,14 +13,17 @@
 
       <div id="tête_de_page">
         <img src="AA_logo.png" style="height: 105px; width: 115px;">
+        <p> Email:écubat@écubat.écubat  <br>Téléphone:01 23 45 67 89  </p>
         <p> Email:  <br>Téléphone:  </p>
+        <p> <strong>Email:</strong> écubat@écubat.écubat  <br><strong>Téléphone:</strong> 01 23 45 67 89  </p>
+
 
       </div>
 
      <!-- barre de navigation -->
      <div>
        <ul class="barredenavigation">
-        <li class="barredenavigation"><a href="#accueil"><img src="AA_accueil.png" alt="Accueil" style="width: 18px; height:18px;"></a></li>
+        <li class="barredenavigation"><a href="#accueil"><img class="logo" src="AA_accueil.png" alt="Accueil"></a></li>
         <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
         <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
         <li class="barredenavigation"><a href="#marché">Marchés</a></li>
@@ -28,12 +31,15 @@
         <li class="barredenavigation"><a href="#références">Références</a></li>
         <li class="barredenavigation"><a href="#liens">Fournisseurs</a></li>
         <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
-       </ul>
-     </div>
-     <br>
+
+      </ul>
+
+<br>
+
        <div id="accueil">
-       <br>
-       <br>
+
+        <br>
+        <br>
      <div id="hautdelapage">
        <h1>Accueil</h1>
        <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
@@ -56,6 +62,11 @@
          <li>Suivi de chantier rigoureux</li>
        </ul>
      </div>
+     </div>
+</br>
+</br>
+</br>
+
 
      </br>
      </br>
@@ -64,6 +75,7 @@
      <!--Test de carousel d'images, à modifier: -->
 
      <!-- div pour contenir le carousel -->
+  <div id="carousel1">
      <div class="slideshow-container">
 
        <!-- images avec caption -->
@@ -205,6 +217,22 @@
         <br>
         <br>
         <h1>Fournisseurs</h1>
+        <table>
+        <thead>
+          <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+          <link href="style.css" type="text/css" rel="stylesheet">
+        </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">azerrt</td>
+              <td rowspan="2">azerrt</td>
+              <td rowspan="2">azerrt</td>
+              <td rowspan="2">azerrt</td>
+              <td rowspan="2">azerrt</td>
+              <td rowspan="2">azerrt</td>
+            </tr>
+          </tbody>
+        </table>
 
          <div class="slideshow-container">
 
@@ -228,26 +256,38 @@
       <br>
       <br>
 
-            <div id="adresse">
+          <div id="adresse">
+
+<div id="adresse">
               <br>
               <br>
               <h1>Adresse et Contact</h1>
               <br>
                 <h3>Plan d'accès et coordonnées</h3>
+
+          </div>
                   <div id="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.164358348958!2d4.792532815470984!3d45.687673526524996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e8dfd1096a79%3A0xe2c5ebf655736a77!2sEcubat+Sarl!5e0!3m2!1sfr!2sfr!4v1544096304658" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
+                  <div id="information">
+                    <br>
+                    <br>
+                    <br>
                     <p>ECUBAT:</p>
                       <li>38, route de Charly</li>
                       <li>69230 Saint Genis Laval</li>
                       <li>Tél : 04 78 56 34 10</li>
+                  </div>
+
 
                       <br>
                       <br>
+    <div id="contact">
       <form method="post" action="/cgi/formmail.cgi">
         <input type="HIDDEN" name="recipient" value="contact@ecubat.fr">
         <br>
         <div align="center">
+<br>
           <h2>Une question, besoin d'un contact... ? </h2>
               Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
               Nous vous répondrons rapidement !<br>
@@ -352,17 +392,21 @@
               </tr>
               <td>
                 <tr valign="middle">
+                  <td align="right" width="120">
+                  </td>
+                  <td align="left" width="276">
+                    <input type="submit" value="Envoyer" name="submit">
                     <td align="right" width="120">
-                    </td>
-                    <td align="left" width="276">
-                      <input type="submit" value="Envoyer" name="submit">
                     </td>
                   </td>
             </tbody>
           </table>
         </center>
       </form>
+    </div>
 
+
+</div>
 
       <div class="button_container">
 
@@ -374,8 +418,6 @@
    <h1> Hello World ! </h1>
    <h3> How are you ? </h3>
  </div>
-
- <script src="JVDuSite.js" type="text/javascript"></script>
 
    </body>
 

@@ -2,6 +2,10 @@
 
 @charset "UTF-8";
 
+* {
+  box-sizing:border-box
+}
+
 body , html{
   padding: 0;
   margin: 0;
@@ -16,7 +20,6 @@ background-color: #ecf0f1
   text-align: right;
   font-family: sans-serif;
   font: helvetica;
-  font-weight: bold;
   display: inline;
   position: absolute;
   right: 0px;
@@ -38,6 +41,9 @@ background-color: #ecf0f1
   font: helvetica;
   font-size: 17px;
 }
+.lien {
+  
+}
 
 
 ul.barredenavigation {
@@ -50,6 +56,11 @@ ul.barredenavigation {
     position: sticky;
     top: 0;
     z-index: +1;
+}
+
+.logo {
+  width: 18px;
+  height: 18px;
 }
 
 li.barredenavigation {
@@ -70,7 +81,7 @@ li a:hover {
 
 /*CSS de l'exemple de carousel, à modifier plus tard*/
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -211,6 +222,18 @@ li a:hover {
   text-align: center;
 }
 
+#map {
+  float: right;
+  text-align: right;
+}
+
+#information {
+  color: #ecf0f1;
+  float:left;
+	width:400px;
+	height:500px;
+	background-color:#8B0000;
+}
 .button_container{
   width: 100%;
   text-align: center;
@@ -236,7 +259,7 @@ li a:hover {
   text-align: center;
   color: #95a5a6;
   position: absolute;
-  top: 0;
+  top: -300px;
   left: 35%;
 }
 

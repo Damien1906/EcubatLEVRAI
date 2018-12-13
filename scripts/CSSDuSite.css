@@ -243,7 +243,7 @@ li a:hover {
   text-align: center;
   color: #95a5a6;
   position: absolute;
-  top: -300px;
+  top: 0;
   left: 35%;
 }
 

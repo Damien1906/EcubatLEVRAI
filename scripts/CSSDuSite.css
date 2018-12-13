@@ -141,7 +141,7 @@ li a:hover {
   position: absolute;
   width: 500px
 }
-#fournisseurs td.BW a:hover{
+#fournisseurs a:hover, td.BW {
   z-index: -1;
   position: absolute;
   width: 500px

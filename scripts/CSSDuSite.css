@@ -42,7 +42,7 @@ background-color: #ecf0f1
   font-size: 17px;
 }
 .lien {
-  
+
 }
 
 
@@ -224,16 +224,18 @@ li a:hover {
 
 #map {
   float: right;
-  text-align: right;
+  text-align: center;
 }
 
 #information {
+  text-align: center;
   color: #ecf0f1;
-  float:left;
-	width:400px;
+  float:right;
+	width:300px;
 	height:500px;
 	background-color:#8B0000;
 }
+
 .button_container{
   width: 100%;
   text-align: center;

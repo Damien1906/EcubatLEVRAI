@@ -211,6 +211,13 @@ li a:hover {
   text-align: center;
 }
 
+#map {
+  text-align: left;
+}
+
+#information {
+  text-align: right;
+}
 .button_container{
   width: 100%;
   text-align: center;

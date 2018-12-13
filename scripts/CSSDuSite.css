@@ -139,13 +139,16 @@ li a:hover {
 #fournisseurs td.BW a{
   z-index: auto;
   position: absolute;
+  width: 500px
 }
 #fournisseurs td.BW a:hover{
   z-index: -1;
   position: absolute;
+  width: 500px
 }
 #fournisseurs td.BW a{
   position: absolute;
+  width: 500px
 }
 #adresse {
   background-color:#E1D0D0;

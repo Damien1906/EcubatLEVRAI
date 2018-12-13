@@ -8,42 +8,19 @@ body , html{
 background-color: #ecf0f1
 }
 
-.button_container{
-  width: 100%;
-  text-align: center;
-}
-
-#button_modal{
-  height: 50px;
-  width: 300px;
-  background-color: #00FFFF;
-  color: #ffffff;
-  font-family: helvetica;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 200px;
-}
-
-#modal {
-  height: 300px;
-  width: 30%;
+#tête_de_page {
   background-color: #ffffff;
-  font-family: helvetica;
-  text-align: center;
-  color: #95a5a6;
+}
+
+#tête_de_page p {
+  text-align: right;
+  font-family: sans-serif;
+  font: helvetica;
+  font-weight: bold;
+  display: inline;
   position: absolute;
-  top: -300px;
-  left: 35%;
+  right: 0px;
 }
-
-
-
-#modal h1 {
-  padding-top: 60px;
-
-}
-
 
  #accueil {
   text-align: left;
@@ -64,7 +41,7 @@ background-color: #ecf0f1
 
 
 ul.barredenavigation {
-  list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -97,7 +74,7 @@ li a:hover {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1500px;
   position: relative;
   margin: auto;
   s
@@ -205,10 +182,11 @@ li a:hover {
 }
 
 #garanties {
+  background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
+  text-align: center;
 }
 
 #références {
@@ -226,8 +204,51 @@ li a:hover {
 }
 
 #adresse {
+  background-color:#E1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
+  text-align: center;
+}
+
+#map {
   text-align: left;
+}
+
+#information {
+  text-align: right;
+}
+.button_container{
+  width: 100%;
+  text-align: center;
+}
+
+#button_modal{
+  height: 50px;
+  width: 300px;
+  background-color: #00FFFF;
+  color: #ffffff;
+  font-family: helvetica;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 200px;
+}
+
+#modal {
+  height: 300px;
+  width: 30%;
+  background-color: #ffffff;
+  font-family: helvetica;
+  text-align: center;
+  color: #95a5a6;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+
+
+#modal h1 {
+  padding-top: 60px;
 }

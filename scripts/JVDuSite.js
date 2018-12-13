@@ -39,6 +39,6 @@ $('.autoplay').slick({
 });
 
 
-function openModal () {
-  document.getElementsById("modal").style.top = "0px";
+function openModal() {
+  document.getElementsById("modal").style.top = "0px" ;
 }

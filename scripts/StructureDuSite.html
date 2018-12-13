@@ -17,11 +17,10 @@
 
       </div>
 
-
      <!-- barre de navigation -->
      <div>
        <ul class="barredenavigation">
-        <li class="barredenavigation"><a href="#accueil"><img class="logo" src="AA_accueil.png" alt="Accueil" style=""></a></li>
+        <li class="barredenavigation"><a href="#accueil"><img src="AA_accueil.png" alt="Accueil" style="width: 18px; height:18px;"></a></li>
         <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
         <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
         <li class="barredenavigation"><a href="#marché">Marchés</a></li>
@@ -80,7 +79,6 @@
      </br>
      </br>
 
-
      <!--Test de carousel d'images, à modifier: -->
 
      <!-- div pour contenir le carousel -->
@@ -129,11 +127,8 @@
 
 
        <div id="plâtrerie">
-
-
          <br>
          <br>
-
          <h1>Plâtrerie</h1>
          <p>La plâtrerie aujourd'hui, c'est essentiellement la pose de systèmes de plaques de plâtre qui permettent une finition rapide des volumes intérieurs.</p>
          <br>
@@ -142,7 +137,6 @@
          <p>Nous respectons les préconisations de mise en œuvre des fabricants à la lettre, afin de garantir à nos clients les meilleures résultats dans le temps en terme d'acoustique, de thermique et d'hygrométrie.</p>
          <br>
          <br>
-
        </div>
        <br>
        <br>
@@ -246,17 +240,36 @@
             </tr>
           </tbody>
         </table>
+
+         <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="AA_seigneuriegauthier.jpg" style="width:100%">
+    <div class="text">Voir leur site</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="AA_blancolor.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
       </div>
 
       <br>
       <br>
 
-            <div id="adresse">
+<div id="adresse">
               <br>
               <br>
               <h1>Adresse et Contact</h1>
               <br>
                 <h3>Plan d'accès et coordonnées</h3>
+
                   <div id="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.164358348958!2d4.792532815470984!3d45.687673526524996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e8dfd1096a79%3A0xe2c5ebf655736a77!2sEcubat+Sarl!5e0!3m2!1sfr!2sfr!4v1544096304658" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
@@ -267,12 +280,15 @@
                       <li>Tél : 04 78 56 34 10</li>
                   </div>
 
+
                       <br>
                       <br>
+    <div id="contact">
       <form method="post" action="/cgi/formmail.cgi">
         <input type="HIDDEN" name="recipient" value="contact@ecubat.fr">
         <br>
         <div align="center">
+<br>
           <h2>Une question, besoin d'un contact... ? </h2>
               Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
               Nous vous répondrons rapidement !<br>
@@ -391,18 +407,18 @@
           </table>
         </center>
       </form>
+    </div>
 
-
-      <div class="button_modal">
+</div>
+      <div class="button_container">
 
         <button id="button_modal" onclick="openModal()"> Click me !</button>
 
      </div>
-<br>
-<br>
 
  <div id="modal">
-
+   <h1> Hello World ! </h1>
+   <h3> How are you ? </h3>
  </div>
 
    </body>

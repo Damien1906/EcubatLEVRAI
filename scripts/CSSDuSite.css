@@ -136,7 +136,17 @@ li a:hover {
   font: helvetica;
   text-align: left;
 }
-
+#fournisseurs td.BW a{
+  z-index: auto;
+  position: absolute;
+}
+#fournisseurs td.BW a:hover{
+  z-index: -1;
+  position: absolute;
+}
+#fournisseurs td.BW a{
+  position: absolute;
+}
 #adresse {
   background-color:#E1D0D0;
   color: #8B0000;

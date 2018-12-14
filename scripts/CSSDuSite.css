@@ -55,7 +55,7 @@ ul.barredenavigation {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +2;
+    z-index: +1;
 }
 
 .logo {
@@ -68,7 +68,7 @@ li.barredenavigation {
 }
 
 li.barredenavigation a {
-    display: block;
+  display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -83,7 +83,84 @@ li a:hover {
 
 
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+  s
+}
 
+/* Boutons suivant et précédent */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Bouton image suivante */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Le texte de description des photos */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Les points */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 #descriptionentreprise {
   text-align: left;
@@ -130,27 +207,13 @@ li a:hover {
   text-align: left;
 }
 
-#fournisseurs {
+#liens {
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
-#fournisseurs a, td.BW{
-  z-index: auto;
-  position: absolute;
-  width: 500px
-}
-#fournisseurs a:hover, td.BW {
-  z-index: -1;
-  position: absolute;
-  width: 500px
-}
-#fournisseurs a, td.C {
-  position: absolute;
-  width: 500px
-  z-index: +1;
-}
+
 #adresse {
   background-color:#E1D0D0;
   color: #8B0000;
@@ -161,16 +224,26 @@ li a:hover {
 
 #map {
   float: right;
-  text-align: right;
+  width: 1000px;
+	height:500px;
 }
 
 #information {
   color: #ecf0f1;
-  float:left;
-	width:400px;
+  float: left;
+  width: 304px;
 	height:500px;
 	background-color:#8B0000;
 }
+
+#contact {
+  background-color:#E1D0D0;
+  color: #8B0000;
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: center;
+}
+
 .button_container{
   width: 100%;
   text-align: center;
@@ -179,7 +252,7 @@ li a:hover {
 #button_modal{
   height: 50px;
   width: 300px;
-  background-color: #00FFFF;
+  background-color: #8B0000;
   color: #ffffff;
   font-family: helvetica;
   font-size: 20px;

@@ -39,10 +39,10 @@ background-color: #ecf0f1
   font: helvetica;
   font-size: 17px;
 }
-
 .lien {
 
 }
+
 
 ul.barredenavigation {
     list-style-type: none;
@@ -160,17 +160,12 @@ li a:hover {
   to {opacity: 1}
 }
 
-/* Parties du site*/
 #descriptionentreprise {
   text-align: left;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
-}
-
-#carrousel1 {
-  background-color: #D1D0D0;
 }
 
 #plâtrerie {
@@ -255,7 +250,6 @@ li a:hover {
   border-top: 2px solid #8B0000;
 }
 
-/* Bouton pop-up*/
 .button_container{
   width: 100%;
   text-align: center;
@@ -284,6 +278,8 @@ li a:hover {
   top: -300px;
   left: 35%;
 }
+
+
 
 #modal h1 {
   padding-top: 60px;

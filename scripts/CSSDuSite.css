@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 * {
-  box-sizing:border-box
+  box-sizing:border-box;
+  margin-left: 10px;
 }
 
 body , html{

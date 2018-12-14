@@ -226,6 +226,7 @@ li a:hover {
   float: right;
   width: 1000px;
 	height:500px;
+  margin-right: auto;
 }
 
 #information {

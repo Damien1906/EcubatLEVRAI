@@ -237,6 +237,12 @@ li a:hover {
 	background-color:#8B0000;
 }
 
+#information p, ul {
+  text-align: left;
+  margin-left: 100px;
+  font-style: bold;
+}
+
 #contact {
   background-color:#E1D0D0;
   color: #8B0000;

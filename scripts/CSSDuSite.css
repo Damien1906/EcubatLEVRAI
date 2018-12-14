@@ -240,7 +240,7 @@ li a:hover {
 #information p, ul {
   text-align: left;
   margin-left: 100px;
-  font-style: bold;
+  font-weight: bold;
 }
 
 #contact {

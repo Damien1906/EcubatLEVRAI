@@ -226,6 +226,7 @@ li a:hover {
   float: right;
   width: 1000px;
 	height:500px;
+  margin-right: 50px;
 }
 
 #information {
@@ -234,6 +235,12 @@ li a:hover {
   width: 304px;
 	height:500px;
 	background-color:#6A0314;
+}
+
+#information p, ul {
+  text-align: left;
+  margin-left: 100px;
+  font-weight: bold;
 }
 
 #contact {

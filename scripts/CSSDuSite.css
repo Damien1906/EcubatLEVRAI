@@ -2,13 +2,16 @@
 
 * {
   box-sizing:border-box;
-  margin-left: 10px;
 }
 
 body , html{
   padding: 0;
   margin: 0;
 background-color: #ecf0f1
+}
+
+p, img {
+  margin-left: 10px;
 }
 
 #tête_de_page {

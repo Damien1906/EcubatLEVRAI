@@ -43,8 +43,14 @@ p, img, h1, h2, h3, h4, h5, h6 {
   font: helvetica;
   font-size: 17px;
 }
-.lien {
 
+.lien {
+    color: blue;
+    text-decoration: none;
+}
+
+.lien a:hover{
+  text-decoration: underline;
 }
 
 
@@ -243,8 +249,8 @@ li a:hover {
 
 #information p, ul {
   text-align: left;
-  margin: auto;
   font-weight: bold;
+  margin-left: 8px;
 }
 
 #question {
@@ -254,12 +260,13 @@ li a:hover {
 	height: 500px;
   border-top: 2px solid #ffffff;
 }
+
 #question p, h2 {
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 #demande {

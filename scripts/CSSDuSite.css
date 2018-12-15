@@ -48,8 +48,8 @@ p, img, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.lien a:hover{
-  color: inherit #B30000;
+.lien, a:hover{
+  color: #B30000;
 }
 
 

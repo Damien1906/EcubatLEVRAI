@@ -249,14 +249,16 @@ li a:hover {
 
 #question {
   background-color:#6A0314;
-  color: #ecf0f1;
   float: left;
   width: 304px;
-	height:500px;
+	height: 500px;
+  border-top: 2px solid #ffffff;
+}
+#question p, h2 {
+  color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
-  text-align: center;
-  border-top: 2px solid #ffffff;
+  text-align: left;
 }
 
 #demande {

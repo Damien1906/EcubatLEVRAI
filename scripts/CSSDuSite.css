@@ -51,11 +51,15 @@ a.lien {
   color: blue;
 }
 
-.lien, a:hover{
+.lien, a:hover {
   color: #B30000;
   text-decoration: underline;
 }
 
+.lien, a:active {
+  color: #ff3333
+  text-decoration: underline;
+}
 
 ul.barredenavigation {
     list-style-type: none;

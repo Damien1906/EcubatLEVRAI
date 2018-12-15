@@ -16,15 +16,16 @@ p, img, h1, h2, h3, h4, h5, h6 {
 
 #tête_de_page {
   background-color: #ffffff;
+
 }
 
 #tête_de_page p {
-  text-align: right;
+  text-align: left;
+  float: right;
   font-family: sans-serif;
   font: helvetica;
   display: inline;
   position: absolute;
-  right: 0px;
 }
 
  #accueil {

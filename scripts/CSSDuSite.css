@@ -53,6 +53,7 @@ a.lien {
 
 .lien, a:hover{
   color: #B30000;
+  text-decoration: underline;
 }
 
 

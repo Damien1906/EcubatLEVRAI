@@ -255,8 +255,8 @@ li a:hover {
 	height:500px;
   font-family: sans-serif;
   font: helvetica;
-  text-align: left;
-  border-top: 2px solid #8B0000;
+  text-align: center;
+  border-top: 2px solid #ffffff;
 }
 
 #demande {
@@ -270,6 +270,8 @@ li a:hover {
   background-color: #D1D0D0;
   border-bottom: 2px solid #8B0000;
 }
+
+/* Bouton pop-up */
 .button_container{
   width: 100%;
   text-align: center;

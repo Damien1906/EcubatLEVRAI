@@ -243,7 +243,7 @@ li a:hover {
 
 #information p, ul {
   text-align: left;
-  margin-left: 100px;
+  margin: auto;
   font-weight: bold;
 }
 

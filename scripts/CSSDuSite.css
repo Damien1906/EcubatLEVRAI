@@ -208,6 +208,7 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
+  padding-top: 2px;
 }
 
 #références {

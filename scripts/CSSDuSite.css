@@ -1,6 +1,8 @@
-/*future page CSS du site*/
-
 @charset "UTF-8";
+
+* {
+  box-sizing:border-box;
+}
 
 body , html{
   padding: 0;
@@ -8,18 +10,23 @@ body , html{
 background-color: #ecf0f1
 }
 
+p, img, h1, h2, h3, h4, h5, h6 {
+  margin-left: 5px;
+}
+
 #tête_de_page {
   background-color: #ffffff;
+
 }
 
 #tête_de_page p {
-  text-align: right;
+  text-align: left;
+  float: right;
   font-family: sans-serif;
   font: helvetica;
-  font-weight: bold;
-  display: inline;
-  position: absolute;
-  right: 0px;
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
 }
 
  #accueil {
@@ -39,6 +46,20 @@ background-color: #ecf0f1
   font-size: 17px;
 }
 
+a.lien {
+  text-decoration: none;
+  color: blue;
+}
+
+.lien, a:hover {
+  color: #B30000;
+  text-decoration: underline;
+}
+
+.lien, a:active {
+  color: #ff3333
+  text-decoration: underline;
+}
 
 ul.barredenavigation {
     list-style-type: none;
@@ -50,6 +71,11 @@ ul.barredenavigation {
     position: sticky;
     top: 0;
     z-index: +1;
+}
+
+.logo {
+  width: 18px;
+  height: 18px;
 }
 
 li.barredenavigation {
@@ -70,7 +96,7 @@ li a:hover {
 
 /*CSS de l'exemple de carousel, à modifier plus tard*/
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -160,7 +186,7 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-color:#E1D0D0;
+	background-color:#D1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -182,11 +208,12 @@ li a:hover {
 }
 
 #garanties {
-  background-color:#E1D0D0;
+  background-color:#D1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
+  padding-top: 2px;
 }
 
 #références {
@@ -196,7 +223,7 @@ li a:hover {
   text-align: left;
 }
 
-#liens {
+#fournisseurs {
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -204,7 +231,7 @@ li a:hover {
 }
 
 #adresse {
-  background-color:#E1D0D0;
+  background-color:#D1D0D0;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -212,12 +239,73 @@ li a:hover {
 }
 
 #map {
-  text-align: left;
+  float: right;
+  width: 1000px;
+	height:500px;
+  margin-right: auto;
+  background-color: #D1D0D0;
+  border-top: 2px solid #8B0000;
 }
 
 #information {
-  text-align: right;
+  color: #ecf0f1;
+  float: left;
+  width: 304px;
+	height:500px;
+	background-color:#6A0314;
 }
+
+#information p, ul {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+#question {
+  background-color:#6A0314;
+  float: left;
+  width: 304px;
+	height: 500px;
+  border-top: 2px solid #ffffff;
+}
+
+#question p, h2 {
+  color: #ecf0f1;
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#demande {
+  float: right;
+  width: 1000px;
+	height:500px;
+  font-family: sans-serif;
+  font: helvetica;
+  color: #8B0000;
+  margin-right: auto;
+  border-bottom-color:#8B0000;
+  border-collapse:separate;
+  border-left-color:#8B0000;
+  border-right-color:#8B0000;
+  border-top-color:#8B0000;
+  display:table;
+  font-size:16px;
+  font-style:normal;
+  font-variant-caps:normal;
+  font-variant-east-asian:normal;
+  font-variant-ligatures:normal;
+  font-variant-numeric:normal;
+  font-weight:400;
+  line-height:normal;
+  text-align:left;
+  white-space:normal;
+  background-color: #D1D0D0;
+  border-bottom: 2px solid #8B0000;
+}
+
+/* Bouton pop-up */
 .button_container{
   width: 100%;
   text-align: center;
@@ -226,7 +314,7 @@ li a:hover {
 #button_modal{
   height: 50px;
   width: 300px;
-  background-color: #00FFFF;
+  background-color: #8B0000;
   color: #ffffff;
   font-family: helvetica;
   font-size: 20px;
@@ -243,7 +331,7 @@ li a:hover {
   text-align: center;
   color: #95a5a6;
   position: absolute;
-  top: 0;
+  top: -300px;
   left: 35%;
 }
 

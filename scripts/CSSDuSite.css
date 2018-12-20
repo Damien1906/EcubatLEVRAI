@@ -177,7 +177,9 @@ li a:hover {
   font-weight: bold;
   margin-left: 8px;
 }
-
+span.question {
+  display: block;
+}
 #question {
   background-color:#6A0314;
   float: left;
@@ -194,7 +196,11 @@ li a:hover {
   margin-left: 10px;
 }
 
+span.demande {
+  display: block;
+}
 #demande {
+  display: inline-block;
   float: right;
   width: 1000px;
 	height:500px;

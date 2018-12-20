@@ -181,7 +181,7 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
- <img src="AA_chat1.jpg" style="width:100%">
+ <img src="pasted image 1.png" style="width:100%">
  <div class="text">Caption Text</div>
 </div>
 
@@ -452,6 +452,7 @@ function showSlides(n) {
           <br>
           <br>
           <h2>Une question, besoin d'un contact... ? </h2>
+          <h2>Une question, besoin d'un contact ? </h2>
           <p>Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
               Nous vous répondrons rapidement !</p>
           <br>
@@ -461,6 +462,7 @@ function showSlides(n) {
           <br>
           <br>
         </div>
+        <form method="post" action="mailto:damien.pain@bellevue-lyon.org">
         <div id="demande">
         <center>
           <br>
@@ -484,7 +486,7 @@ function showSlides(n) {
                   <div align="right">Nom :</div>
                 </td>
                 <td align="left" width="276">
-                  <input name="Nom" length="30" size="30">
+                  <input name="Nom" length="30" size="30" required>
                 </td>
               </tr>
               <tr valign="middle">
@@ -492,7 +494,7 @@ function showSlides(n) {
                   <div align="right">Prénom :</div>
                 </td>
                 <td align="left" width="276">
-                  <input name="Prénom" length="30" size="30">
+                  <input name="Prénom" length="30" size="30" required>
                 </td>
               </tr>
               <tr valign="middle">
@@ -516,7 +518,7 @@ function showSlides(n) {
                   <div align="right">Ville : </div>
                 </td>
                 <td align="left" width="276">
-                  <input name="Lieu" length="30" size="30">
+                  <input name="Lieu" length="30" size="30" required>
                 </td>
               </tr>
               <tr valign="middle">
@@ -524,7 +526,7 @@ function showSlides(n) {
                   <div align="right">Code Postal :</div>
                 </td>
                 <td align="left" width="276">
-                  <input name="CP" length="30" size="30">
+                  <input name="CP" length="30" size="30" required>
                 </td>
               </tr>
               <tr valign="middle">
@@ -532,15 +534,7 @@ function showSlides(n) {
                   <div align="right">Téléphone :</div>
                 </td>
                 <td align="left" width="276">
-                  <input name="Tél" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Fax :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Fax" length="30" size="30">
+                  <input name="Tél" length="30" size="30" required>
                 </td>
               </tr>
               <tr valign="middle">
@@ -548,7 +542,7 @@ function showSlides(n) {
                   <div align="right">E-mail :</div>
                 </td>
                 <td align="left" width="276">
-                  <input name="eMail" length="30" size="30">
+                  <input name="eMail" length="30" size="30" required>
                 </td>
               </tr>
               <tr valign="middle">
@@ -556,7 +550,7 @@ function showSlides(n) {
                   <div align="right">Ma question :</div>
                 </td>
                 <td align="left" width="276">
-                  <textarea name="Mes désirs" length="30" cols="35" rows="5"></textarea>
+                  <textarea name="Mes désirs" length="30" cols="35" rows="5" required></textarea>
                 </td>
               </tr>
               <td>
@@ -565,10 +559,8 @@ function showSlides(n) {
                   </td>
                   <td align="left" width="276">
                     <form method="post" action="mailto:damien.pain@bellevue-lyon.org">
-                      <input type="submit" name="recipient" value="envoyer">
-                    </form>
+                      <input type="submit" name="recipient" value="Envoyer">
                     <td align="right" width="120">
-                    </form>
                     </td>
                   </td>
             </tbody>
@@ -581,7 +573,9 @@ function showSlides(n) {
 
       <div class="button_container">
 
-        <button id="button_modal" onclick="openModal()">adrien la grosse tapin qui mange du chien dans un bassin avec des requins et des bambins</button>
+        <button id="button_modal" onclick="openModal()"> adrien suce des chiens</button>
+        <button id="button_modal" onclick="openModal()"> Stop!</button>
+
 
      </div>
 

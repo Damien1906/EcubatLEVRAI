@@ -409,6 +409,7 @@ function showSlides(n) {
                   </div>
 
     <div>
+=======
       <form method="post" action="/cgi/formmail.cgi">
         <input type="HIDDEN" name="recipient" value="contact@ecubat.fr">
         <br>
@@ -531,8 +532,11 @@ function showSlides(n) {
                   <td align="right" width="120">
                   </td>
                   <td align="left" width="276">
-                    <input type="submit" value="Envoyer" name="submit">
+                    <form method="post" action="mailto:damien.pain@bellevue-lyon.org">
+                      <input type="submit" name="recipient" value="envoyer">
+                    </form>
                     <td align="right" width="120">
+                    </form>
                     </td>
                   </td>
             </tbody>

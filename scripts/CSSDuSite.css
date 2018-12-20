@@ -61,7 +61,7 @@ a.lien {
   text-decoration: underline;
 }
 
-ul.barredenavigation {
+div, ul.barredenavigation {
     list-style-type: none;
     margin: 0;
     padding: 0;

@@ -270,6 +270,7 @@ li a:hover {
 }
 
 #question p, h2 {
+  display: inline;
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -278,6 +279,7 @@ li a:hover {
 }
 
 #demande {
+  display: inline-block;
   float: right;
   width: 1000px;
 	height:500px;

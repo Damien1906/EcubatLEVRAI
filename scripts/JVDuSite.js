@@ -12,4 +12,4 @@ function openModal() {
   Texte à masquer, afficher
 </div>
 
-a href="" onclick="javascript:visibilite('id_div'_1); return false;" >Lien</a>
+a href="button_modal" onclick="javascript:visibilite('id_div'_1); return false;" >Lien</a>

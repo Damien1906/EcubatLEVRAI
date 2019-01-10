@@ -74,10 +74,6 @@ div.barredenavigation, ul.barredenavigation {
   width: 30px;
   height: 30px;
 }
-a.logo {
-  padding-top: 8.5px !important;
-  padding-bottom: 8.5px !important;
-}
 
 li.barredenavigation {
     float: left;
@@ -89,6 +85,10 @@ li.barredenavigation a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+li.barredenavigation a.logo {
+  padding-top: 8.5px;
+  padding-top: 8.5px;
 }
 
 li a:hover {

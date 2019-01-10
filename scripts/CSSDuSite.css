@@ -74,6 +74,10 @@ div.barredenavigation, ul.barredenavigation {
   width: 18px;
   height: 18px;
 }
+a.logo {
+  padding-top: 8.5px !important;
+  padding-bottom: 8.5px !important;
+}
 
 li.barredenavigation {
     float: left;
@@ -88,7 +92,7 @@ li.barredenavigation a {
 }
 
 li a:hover {
-  background-color: #640D14;
+  background-color: #640D1;
 }
 
 #descriptionentreprise {
@@ -154,11 +158,8 @@ li a:hover {
 
 #map {
   float: right;
-  margin:0 auto;
-  padding:0px 0px;
-  width: auto;
-	height:auto;
-  *height: 100%
+  width: 1000px;
+	height:500px;
   margin-right: auto;
   background-color: #D1D0D0;
   border-top: 2px solid #8B0000;
@@ -166,11 +167,10 @@ li a:hover {
 
 #information {
   color: #ecf0f1;
-  float: right;
-  width: 423px;
+  float: left;
+  width: 304px;
 	height:500px;
-  padding:0px 0 0 10px;
-	background-color:#6A0314;
+	background-color:#640D14;
 }
 
 #information p, ul {
@@ -200,7 +200,7 @@ span.question {
 #demande {
   display: inline-block;
   width: 1000px;
-	height:498px;
+	height:500px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;

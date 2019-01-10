@@ -407,133 +407,31 @@
                     </ul>
                   </div>
 
-    <div>
-      <form method="post" action="/cgi/formmail.cgi">
-        <input type="HIDDEN" name="recipient" value="contact@ecubat.fr">
-        <br>
-        <div id="question" align="center" style="width:29.7%">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <h2>Une question, besoin d'un contact ? </h2>
-          <p>Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
-              Nous vous répondrons rapidement !</p>
-          <br>
-          <br>
-          <p>Merci de bien vouloir remplir le plus complètement possible ce formulaire,<br>
-              afin que nous puissions bien vous répondre.</p>
-          <br>
-          <br>
-        </div>
-        <div id="demande">
-        <center>
-          <br>
-          <br>
-          <br>
-          <br>
-          <table cellspacing="3" width="600">
-            <tbody>
-              <td align="right" width="120">
-                <div align="right">Titre :</div>
-              </td>
-              <td align="left" width="276">
-                <select name="Titre">
-                  <option>Monsieur</option>
-                  <option>Madame</option>
-                  <option>Société</option>
-                </select>
-              </td>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Nom :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Nom" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Prénom :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Prénom" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Entreprise :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Entreprise" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Rue :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Rue" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Ville : </div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Lieu" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Code Postal :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="CP" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Téléphone :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="Tél" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">E-mail :</div>
-                </td>
-                <td align="left" width="276">
-                  <input name="eMail" length="30" size="30">
-                </td>
-              </tr>
-              <tr valign="middle">
-                <td align="right" width="120">
-                  <div align="right">Ma question :</div>
-                </td>
-                <td align="left" width="276">
-                  <textarea name="Mes désirs" length="30" cols="35" rows="5"></textarea>
-                </td>
-              </tr>
-              <td>
-                <tr valign="middle">
-                  <td align="right" width="120">
-                  </td>
-                  <td align="left" width="276">
-                    <input type="submit" value="Envoyer" name="submit">
-                    <td align="right" width="120">
-                    </td>
-                  </td>
-            </tbody>
-          </table>
-        </center>
-        </div>
+<br>
+<br>
+<br>
+<br>
+
+    <div class="form">
+      <form name="my_form" action="#result" method="post">
+	       <p> <label for="nom">Nom</label> <input type="text" id="nom"> </p>
+         <p> <label for="nom">Prénom</label> <input type="text" id="prenom"> </p>
+         <p> <label for="nom">Société</label> <input type="text" id="societe"> </p>
+         <p> <label for="nom">Rue</label> <input type="text" id="rue"> </p>
+         <p> <label for="nom">Ville</label> <input type="text" id="ville"> </p>
+         <p> <label for="nom">Code Postal</label> <input type="text" id="code postal"> </p>
+         <p> <label for="nom">Téléphone</label> <input type="text" id="telephone"> </p>
+	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email"> </p>
+	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet"> </p>
+         <p> <label for="message">Message/Question</label> <textarea id="message"></textarea> </p>
       </form>
     </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
 
 
       <div class="button_container">

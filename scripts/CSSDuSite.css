@@ -200,6 +200,7 @@ span.question {
 span.demande {
   display: block;
 }
+
 #demande {
   display: inline-block;
   float: right;
@@ -227,6 +228,26 @@ span.demande {
   white-space:normal;
   background-color: #D1D0D0;
   border-bottom: 2px solid #8B0000;
+}
+
+
+input, textarea {
+	/*déjà en inline-block*/
+	width: 150px;
+	padding: 4px;
+	vertical-align: top;
+}
+#sujet { width: 250px; }
+textarea {
+	width: 300px;
+	height: 5em;
+}
+label {
+	display: inline-block;
+	width: 100px;
+	margin-right: 20px;
+	vertical-align: top;
+	text-align: right;
 }
 
 /* Bouton pop-up */

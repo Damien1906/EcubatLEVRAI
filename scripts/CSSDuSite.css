@@ -75,7 +75,8 @@ div.barredenavigation, ul.barredenavigation {
   height: 30px;
 }
 a.logo {
-  max-height: 47px;
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
 }
 
 li.barredenavigation {

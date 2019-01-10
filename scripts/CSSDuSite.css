@@ -109,12 +109,13 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
-  border-bottom: 2px solid #38040E;
-  border-top: 2px solid #8B0000;
+  border-bottom: 4px solid #38040E;
+  border-top: 4px solid #38040E;
 }
 
 #peinture {
-  color: #8B0000;
+  background-color:#640C14;
+  color:white;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;

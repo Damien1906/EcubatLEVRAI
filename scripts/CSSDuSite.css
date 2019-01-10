@@ -195,29 +195,9 @@ span.question {
 
 #demande {
   display: inline-block;
-  float: right;
-  width: 1000px;
-	height:500px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
-  margin-right: auto;
-  border-bottom-color:#8B0000;
-  border-collapse:separate;
-  border-left-color:#8B0000;
-  border-right-color:#8B0000;
-  border-top-color:#8B0000;
-  display:table;
-  font-size:16px;
-  font-style:normal;
-  font-variant-caps:normal;
-  font-variant-east-asian:normal;
-  font-variant-ligatures:normal;
-  font-variant-numeric:normal;
-  font-weight:400;
-  line-height:normal;
-  text-align:left;
-  white-space:normal;
   background-color: #D1D0D0;
   border-bottom: 2px solid #8B0000;
 }

@@ -61,7 +61,7 @@ a.lien {
   text-decoration: underline;
 }
 
-ul.barredenavigation {
+div.barredenavigation, ul.barredenavigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -92,89 +92,6 @@ li.barredenavigation a {
 
 li a:hover {
   background-color: #7D131E;
-}
-
-/*CSS de l'exemple de carousel, à modifier plus tard*/
-
-
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1500px;
-  position: relative;
-  margin: auto;
-  s
-}
-
-/* Boutons suivant et précédent */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Bouton image suivante */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Le texte de description des photos */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Les points */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 #descriptionentreprise {
@@ -260,7 +177,9 @@ li a:hover {
   font-weight: bold;
   margin-left: 8px;
 }
-
+span.question {
+  display: block;
+}
 #question {
   background-color:#6A0314;
   float: left;
@@ -270,7 +189,6 @@ li a:hover {
 }
 
 #question p, h2 {
-  display: inline;
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -278,6 +196,9 @@ li a:hover {
   margin-left: 10px;
 }
 
+span.demande {
+  display: block;
+}
 #demande {
   display: inline-block;
   float: right;

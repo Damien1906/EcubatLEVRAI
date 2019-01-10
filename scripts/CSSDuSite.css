@@ -7,11 +7,12 @@
 body , html{
   padding: 0;
   margin: 0;
-background-color: #ecf0f1
+  background-color: #ecf0f1
 }
 
 p, img, h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
+  max-width: auto;
 }
 
 #tête_de_page {

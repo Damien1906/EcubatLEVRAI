@@ -71,8 +71,8 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 .logo {
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
 }
 
 li.barredenavigation {
@@ -86,9 +86,13 @@ li.barredenavigation a {
     padding: 14px 16px;
     text-decoration: none;
 }
+li.barredenavigation a.logo {
+  padding-top: 8.5px;
+  padding-top: 8.5px;
+}
 
 li a:hover {
-  background-color: #640D14;
+  background-color: #640D1;
 }
 
 #descriptionentreprise {
@@ -182,7 +186,7 @@ span.question {
   display: block;
 }
 #question {
-  background-color:#6A0314;
+  background-color:#640D14;
   float: left;
   width: 304px;
 	height: 500px;
@@ -197,13 +201,34 @@ span.question {
   margin-left: 10px;
 }
 
+span.demande {
+  display: block;
+}
 #demande {
   display: inline-block;
+  float: right;
   width: 1000px;
 	height:498px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
+  margin-right: auto;
+  border-bottom-color:#8B0000;
+  border-collapse:separate;
+  border-left-color:#8B0000;
+  border-right-color:#8B0000;
+  border-top-color:#8B0000;
+  display:table;
+  font-size:16px;
+  font-style:normal;
+  font-variant-caps:normal;
+  font-variant-east-asian:normal;
+  font-variant-ligatures:normal;
+  font-variant-numeric:normal;
+  font-weight:400;
+  line-height:normal;
+  text-align:left;
+  white-space:normal;
   background-color: #D1D0D0;
   border-bottom: 2px solid #8B0000;
 }
@@ -234,7 +259,7 @@ span.question {
   text-align: center;
   color: #95a5a6;
   position: absolute;
-  top: -300px;
+  top: 300px;
   left: 35%;
 }
 

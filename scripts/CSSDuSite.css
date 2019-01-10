@@ -10,10 +10,6 @@ body , html{
   background-color: #ecf0f1
 }
 
-p, img, h1, h2, h3, h4, h5, h6 {
-  margin-left: 5px;
-  max-width: auto;
-}
 
 #tête_de_page {
   background-color: #ffffff;
@@ -67,7 +63,7 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8B0000;
+    background-color: #800E13;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -92,7 +88,7 @@ li.barredenavigation a {
 }
 
 li a:hover {
-  background-color: #7D131E;
+  background-color: #640D14;
 }
 
 #descriptionentreprise {

@@ -4,6 +4,9 @@
    <head>
       <link rel="stylesheet" href="CSSDuSite.css" type="text/css">
       <title>ECUBAT - Platrerie-Peinture Saint Genis Laval (Lyon)</title>
+
+      function visibilite(thingId) { var targetElement; targetElement = document.getElementById(thingId) ; if (targetElement.style.display == "none") { targetElement.style.display = "" ; } else { targetElement.style.display = "none" ; } }
+
    </head>
 
    <body>
@@ -713,7 +716,7 @@ function showSlides(n) {
       <div class="button_container">
 
         <button id="button_modal" onclick="openModal()"> Test 1</button>
-      
+
      </div>
 
  <div id="modal">

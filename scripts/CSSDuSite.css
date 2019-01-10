@@ -10,10 +10,6 @@ body , html{
   background-color: #ecf0f1
 }
 
-p, img, h1, h2, h3, h4, h5, h6 {
-  margin-left: 5px;
-  max-width: auto;
-}
 
 #tête_de_page {
   background-color: #ffffff;
@@ -75,8 +71,12 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 .logo {
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
+}
+a.logo {
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
 }
 
 li.barredenavigation {
@@ -255,7 +255,7 @@ span.demande {
   text-align: center;
   color: #95a5a6;
   position: absolute;
-  top: -300px;
+  top: 300px;
   left: 35%;
 }
 

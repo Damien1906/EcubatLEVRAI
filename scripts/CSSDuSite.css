@@ -7,12 +7,12 @@
 body , html{
   padding: 0;
   margin: 0;
-  background-color: #C0C4C6
+  background-color: #ecf0f1
 }
 
 
 #tête_de_page {
-  background-color: #C0C4C6;
+  background-color: #ecf0f1;
   margin-bottom: 5px;
 }
 
@@ -104,11 +104,13 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-color:#D1D0D0;
-  color: #8B0000;
+	background-color:#C0C4C6;
+  color: #640C14;
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
+  border-bottom: 2px solid #38040E;
+  border-top: 2px solid #8B0000;
 }
 
 #peinture {

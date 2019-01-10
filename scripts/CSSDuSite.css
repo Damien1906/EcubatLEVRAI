@@ -62,7 +62,7 @@ a.lien {
   text-decoration: underline;
 }
 
-ul.barredenavigation {
+div.barredenavigation, ul.barredenavigation {
     list-style-type: none;
     margin: 0;
     padding: 0;

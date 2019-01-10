@@ -73,7 +73,10 @@ div.barredenavigation, ul.barredenavigation {
 .logo {
   width: 30px;
   height: 30px;
-  max-height: 54px;
+}
+a.logo {
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
 }
 
 li.barredenavigation {
@@ -84,12 +87,12 @@ li.barredenavigation a {
   display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px 10px 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-  background-color: #640D14;
+  background-color: #640D1;
 }
 
 #descriptionentreprise {

@@ -54,7 +54,7 @@ a.lien {
 }
 
 .lien, a:active {
-  color: #ff3333
+  color: #ff3333;
   text-decoration: underline;
 }
 
@@ -84,7 +84,7 @@ li.barredenavigation {
 }
 
 li.barredenavigation a {
-  display: block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;

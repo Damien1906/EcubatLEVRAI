@@ -13,8 +13,6 @@ body , html{
 
 #tête_de_page {
   background-color: #ffffff;
-  margin-bottom: 5px
-
 }
 
 #tête_de_page p {
@@ -153,7 +151,7 @@ li a:hover {
 }
 
 #adresse {
-  background-color:#D1D0D0;
+  background-color:#ecf0f1;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -161,12 +159,9 @@ li a:hover {
 }
 
 #map {
-  float: right;
-  width: 1000px;
-	height:500px;
-  margin-right: auto;
   background-color: #D1D0D0;
   border-top: 2px solid #8B0000;
+  border-bottom: 2px solid #8B0000;
 }
 
 #information {
@@ -182,9 +177,7 @@ li a:hover {
   font-weight: bold;
   margin-left: 8px;
 }
-span.question {
-  display: block;
-}
+
 #question {
   background-color:#6A0314;
   float: left;
@@ -201,19 +194,15 @@ span.question {
   margin-left: 10px;
 }
 
-span.demande {
-  display: block;
-}
-
 #demande {
   display: inline-block;
-  float: right;
-  width: 1000px;
+  float: left;
+  width: 100%;
+  max-width: 1000px;
 	height:500px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
-  margin-right: auto;
   border-bottom-color:#8B0000;
   border-collapse:separate;
   border-left-color:#8B0000;
@@ -222,14 +211,8 @@ span.demande {
   display:table;
   font-size:16px;
   font-style:normal;
-  font-variant-caps:normal;
-  font-variant-east-asian:normal;
-  font-variant-ligatures:normal;
-  font-variant-numeric:normal;
   font-weight:400;
-  line-height:normal;
-  text-align:left;
-  white-space:normal;
+  text-align:middle;
   background-color: #D1D0D0;
   border-bottom: 2px solid #8B0000;
 }

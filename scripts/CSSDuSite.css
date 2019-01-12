@@ -215,27 +215,36 @@ li a:hover {
 }
 
 .box {
-    background-color: rgb(224, 206, 247);
-    border: 5px solid rebeccapurple;
-    display: flow-root;
+  height:500px;
+  font-family: sans-serif;
+  font: helvetica;
+  color: #8B0000;
+  display:table;
+  font-size:16px;
+  font-style:normal;
+  font-weight:400;
+  text-align:middle;
+  background-color: #D1D0D0;
+  border-bottom: 2px solid #8B0000;
+  display: flow-root;
 }
 
 .float {
-    float: left;
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    border:1px solid black;
-    padding: 10px;
+  float: left;
+  width: 404px;
+  height: 500px;
+  background-color:#6A0314;
+  border:1px solid black;
+  padding: 10px;
 }
 
 .float2 {
-    float: right;
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    border:1px solid black;
-    padding: 10px;
+  background-color:#6A0314;
+  float: right;
+  width: 304px;
+  height: 500px;
+  border:1px solid black;
+  padding: 10px;
 }
 
 input, textarea {

@@ -10,22 +10,6 @@ body , html{
   background-color: #ecf0f1
 }
 
-
-#tête_de_page {
-  background-color: #ffffff;
-  padding-bottom: 5px;
-}
-
-#tête_de_page p {
-  text-align: left;
-  float: right;
-  font-family: sans-serif;
-  font: helvetica;
-  display: inline-block;
-  position: relative;
-  margin-right: 5px;
-}
-
  #accueil {
   text-align: left;
   color: #8B0000;
@@ -69,14 +53,22 @@ div.barredenavigation, ul.barredenavigation {
     top: 0;
     z-index: +1;
 }
-
+.biglogo {
+  width: 288px;
+  height: 110px;
+}
+a.biglogo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px
+}
 .logo {
   width: 30px;
   height: 30px;
 }
 a.logo {
-  padding-top: 8.5px;
-  padding-bottom: 8.5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 li.barredenavigation {
@@ -85,14 +77,21 @@ li.barredenavigation {
 
 li.barredenavigation a {
     display: block;
+    height: 30px;
+    width: auto;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-right: 1.5px solid white;
+    font-size: 18px;
     text-decoration: none;
 }
 
 li a:hover {
-  background-color: #640D1;
+  background-color: #640D15;
 }
 
 #descriptionentreprise {

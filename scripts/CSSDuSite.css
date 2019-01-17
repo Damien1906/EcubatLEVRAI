@@ -121,6 +121,7 @@ li a:hover {
 }
 
 #marché {
+  padding-top: 60px;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -128,6 +129,7 @@ li a:hover {
 }
 
 #garanties {
+  padding-top: 60px;
   background-color:#D1D0D0;
   color: #8B0000;
   font-family: sans-serif;
@@ -137,6 +139,7 @@ li a:hover {
 }
 
 #références {
+  padding-top: 60px;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -144,6 +147,7 @@ li a:hover {
 }
 
 #fournisseurs {
+  padding-top: 60px;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -151,6 +155,7 @@ li a:hover {
 }
 
 #adresse {
+  padding-top: 40px;
   background-color:#ecf0f1;
   color: #8B0000;
   font-family: sans-serif;

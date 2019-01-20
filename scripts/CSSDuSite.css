@@ -167,6 +167,12 @@ li a:hover {
   background-color: #D1D0D0;
   border-top: 2px solid #8B0000;
   border-bottom: 2px solid #8B0000;
+  display: flow-root;
+}
+
+.ggmap {
+  float: left;
+  height: 400px
 }
 
 .demande {

@@ -184,7 +184,7 @@ li a:hover {
 }
 
 .demande {
-  height: 700px;
+  height: 550px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
@@ -201,7 +201,7 @@ li a:hover {
 .information {
   float: left;
   width: 304px;
-  height: 500px;
+  height: 550px;
   background-color:#6A0314;
   padding: 10px;
 }
@@ -217,7 +217,7 @@ li a:hover {
   background-color:#6A0314;
   float: right;
   width: 304px;
-  height: 500px;
+  height: 550px;
   padding: 10px;
 }
 
@@ -259,15 +259,11 @@ label {
 
 #button_modal{
   height: 50px;
-  width: 300px;
+  width: 100px;
   background-color: #8B0000;
   color: #ffffff;
   font-family: helvetica;
-  font-size: 20px;
+  font-size: 12px;
   border: none;
   cursor: pointer;
-<<<<<<< HEAD
-=======
-  padding-left:450px;
->>>>>>> 1c934f214ec42adaabc0ae33f98bc50b01434647
 }

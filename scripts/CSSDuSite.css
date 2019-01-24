@@ -94,6 +94,7 @@ li.barredenavigation a {
     text-decoration: none;
 }
 
+
 li a:hover {
   background-color: #640D15;
 }
@@ -221,7 +222,7 @@ li a:hover {
   padding: 10px;
 }
 
-.question p, h2 {
+.question p, h2 , h3{
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;

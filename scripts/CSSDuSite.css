@@ -94,7 +94,6 @@ li.barredenavigation a {
     text-decoration: none;
 }
 
-
 li a:hover {
   background-color: #640D15;
 }
@@ -185,7 +184,7 @@ li a:hover {
 }
 
 .demande {
-  height: 550px;
+  height: 700px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
@@ -202,7 +201,7 @@ li a:hover {
 .information {
   float: left;
   width: 304px;
-  height: 550px;
+  height: 500px;
   background-color:#6A0314;
   padding: 10px;
 }
@@ -218,11 +217,11 @@ li a:hover {
   background-color:#6A0314;
   float: right;
   width: 304px;
-  height: 550px;
+  height: 500px;
   padding: 10px;
 }
 
-.question p, h2 , h3{
+.question p, h2 {
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -259,13 +258,12 @@ label {
 }
 
 #button_modal{
-  height: 25px;
-  width: 75px;
-  background-color: #D1D0D0;
-  color: #8B0000;
+  height: 50px;
+  width: 300px;
+  background-color: #8B0000;
+  color: #ffffff;
   font-family: helvetica;
-  font-size: 14px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
-  border: 0.5px solid #8B0000;
 }

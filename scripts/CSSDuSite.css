@@ -169,7 +169,7 @@ li a:hover {
 
 .map {
   background-color: #D1D0D0;
-  height: 404px;
+  height: 402px;
   text-align: center;
   border-top: 2px solid #8B0000;
   display: flow-root;
@@ -177,14 +177,14 @@ li a:hover {
 
 .ggmap {
   float: left;
-  height: 402px;
+  height: 400px;
   -webkit-box-shadow: 0px 14px 59px -13px rgba(0,0,0,0.84);
   -moz-box-shadow: 0px 14px 59px -13px rgba(0,0,0,0.84);
   box-shadow: 0px 14px 59px -13px rgba(0,0,0,0.84);
 }
 
 .demande {
-  height:500px;
+  height: 550px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
@@ -201,7 +201,7 @@ li a:hover {
 .information {
   float: left;
   width: 304px;
-  height: 500px;
+  height: 550px;
   background-color:#6A0314;
   padding: 10px;
 }
@@ -217,7 +217,7 @@ li a:hover {
   background-color:#6A0314;
   float: right;
   width: 304px;
-  height: 500px;
+  height: 550px;
   padding: 10px;
 }
 
@@ -259,30 +259,11 @@ label {
 
 #button_modal{
   height: 50px;
-  width: 300px;
+  width: 100px;
   background-color: #8B0000;
   color: #ffffff;
   font-family: helvetica;
-  font-size: 20px;
+  font-size: 12px;
   border: none;
   cursor: pointer;
-  margin-top: 200px;
-}
-
-#modal {
-  height: 300px;
-  width: 30%;
-  background-color: #ffffff;
-  font-family: helvetica;
-  text-align: center;
-  color: #95a5a6;
-  position: absolute;
-  top: 300px;
-  left: 35%;
-}
-
-
-
-#modal h1 {
-  padding-top: 60px;
 }

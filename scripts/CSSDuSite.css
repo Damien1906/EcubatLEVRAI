@@ -184,7 +184,7 @@ li a:hover {
 }
 
 .demande {
-  height:500px;
+  height: 700px;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;
@@ -266,4 +266,8 @@ label {
   font-size: 20px;
   border: none;
   cursor: pointer;
+<<<<<<< HEAD
+=======
+  padding-left:450px;
+>>>>>>> 1c934f214ec42adaabc0ae33f98bc50b01434647
 }

@@ -108,13 +108,13 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-color:#D1D0D0;
-  color: #8B0000;
+	background-image: url("Testimage1.jpg");
+  background-size: cover;
+  color: white;
+  height: 400px;
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
-  border-bottom: 4px solid #38040E;
-  border-top: 4px solid #38040E;
 }
 
 #peinture {

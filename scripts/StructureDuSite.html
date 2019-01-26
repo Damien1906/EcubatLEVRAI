@@ -8,13 +8,40 @@
   <script>
   function visibilite(thingId) { var targetElement; targetElement = document.getElementById(thingId) ; if (targetElement.style.display == "modal") { targetElement.style.display = "modal" ; } else { targetElement.style.display = "none" ; } }
 </script>
+
+<style>
+#scrollUp {
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.8;
+}
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<script>
+jQuery(function(){
+$(function () {
+$(window).scroll(function () {
+if ($(this).scrollTop() > 200 ) {
+$('#scrollUp').css('right','10px');
+} else {
+$('#scrollUp').removeAttr( 'style' );
+}
+
+});
+});
+});
+</script>
+
    </head>
 
    <body>
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-<div id="tête_de_page">
+<div id="#tête_de_page">
 </div>
      <!-- barre de navigation -->
      <div class="barredenavigation">
@@ -33,6 +60,9 @@
      <br>
 
 
+  <div id="scrollUp">
+      <a href="#top"><img src="to_top.png"/></a>
+  </div>
       <!--carousel d'images-->
 
       <!-- div pour contenir le carousel -->
@@ -426,9 +456,6 @@
               </form>
             </div></p>
       </div>
-
-
-
 
 
      </div>

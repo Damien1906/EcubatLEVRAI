@@ -57,15 +57,14 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 
-.biglogo {
+.bigmaquette {
   width: 280px;
   height: 110px;
 }
 
 .logo {
-  width: 30px;
+  width: 32px;
   height: 30px;
-}
   margin: -6px;
   margin-left: 10px;
   margin-right: 10px;

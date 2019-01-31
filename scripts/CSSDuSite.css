@@ -10,8 +10,6 @@ html {
   background-color: #ecf0f1;
 }
 
-
-
  #accueil {
   text-align: left;
   color: #8B0000;
@@ -61,18 +59,13 @@ div.barredenavigation, ul.barredenavigation {
   width: 280px;
   height: 110px;
 }
-a.biglogo {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px
-}
+
 .logo {
-  width: 30px;
+  width: 32px;
   height: 30px;
-}
-a.logo {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin: -6px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 li.barredenavigation {
@@ -81,18 +74,23 @@ li.barredenavigation {
 
 li.barredenavigation a {
     display: block;
-    height: 300px;
+    height: 30px;
     color: white;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: auto;
+    width: auto;
+    color: white;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 44px;
     padding-left: 16px;
     padding-right: 16px;
     border-right: 1px solid white;
     font-size: 18px;
     text-decoration: none;
 }
-
 
 li a:hover {
   background-color: #640D15;
@@ -107,13 +105,32 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-color:#D1D0D0;
-  color: #8B0000;
+	background-image: url("Testimage1.jpg");
+  background-size: cover;
+  color: white;
+  width: auto;
+  height: 100%;
   font-family: sans-serif;
   font: helvetica;
+  font-weight: bold;
+}
+
+#plâtrerie h1 {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#plâtrerie p {
   text-align: center;
-  border-bottom: 4px solid #38040E;
-  border-top: 4px solid #38040E;
+}
+
+#plâtrerie img {
+  float: left;
+  margin-right: 30px;
+  height:20%;
+  width:30%;
 }
 
 #peinture {
@@ -122,6 +139,14 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
+}
+
+#peinture p, h1, ul {
+  padding-left: 10px;
+}
+
+#peinture img {
+  float: right;
 }
 
 #marché {
@@ -193,7 +218,7 @@ li a:hover {
   font-style:normal;
   font-weight:400;
   text-align:left;
-  background-color: #D1D0D0;
+  background-color: #EDEDED;
   border-bottom: 2px solid #8B0000;
   display: flow-root;
 }
@@ -229,7 +254,8 @@ li a:hover {
 }
 
 .form {
-  padding-left: 450px;
+  padding-top: 5px;
+  padding-left: 420px;
 }
 
 input, textarea {
@@ -237,6 +263,8 @@ input, textarea {
 	width: 150px;
 	padding: 4px;
 	vertical-align: top;
+  color: #8B0000;
+  border: 0.1px solid #8B0000;
 }
 #sujet { width: 250px; }
 textarea {

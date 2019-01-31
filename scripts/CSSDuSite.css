@@ -77,8 +77,8 @@ li.barredenavigation a {
     height: 30px;
     color: white;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 70px;
+    padding-top: 43px;
+    padding-bottom: 67px;
     color: white;
     text-align: center;
     padding-left: 16px;
@@ -116,10 +116,12 @@ li a:hover {
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #plâtrerie p {
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #plâtrerie img {

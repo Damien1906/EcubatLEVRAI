@@ -8,19 +8,49 @@
   <script>
   function visibilite(thingId) { var targetElement; targetElement = document.getElementById(thingId) ; if (targetElement.style.display == "modal") { targetElement.style.display = "modal" ; } else { targetElement.style.display = "none" ; } }
 </script>
+
+<style>
+#scrollUp {
+position: fixed;
+width: 50px;
+height: 50px;
+bottom : 20px;
+right: -100px;
+opacity: 0.8;
+}
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<script>
+jQuery(function(){
+$(function () {
+$(window).scroll(function () {
+if ($(this).scrollTop() > 200 ) {
+$('#scrollUp').css('right','10px');
+} else {
+$('#scrollUp').removeAttr( 'style' );
+}
+
+});
+});
+});
+</script>
+
    </head>
 
    <body>
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-<div id="tête_de_page">
+<div id="#tête_de_page">
 </div>
+
      <!-- barre de navigation -->
      <div class="barredenavigation">
        <ul class="barredenavigation">
-        <li class="barredenavigation"><img class="biglogo" src="AA_logo.png" style="height: 20%; width: 20%;"></li>
-        <li class="barredenavigation"><a href="#tête_de_page"><img class="logo" src="AA_accueil_1.png" style="height: 30px; width: 30px;" alt="Accueil"></a></li>
+        <li class="barredenavigation"><img class="biglogo" src="AA_logo.png" style="height: 110px; width: 280px;"></li>
+        <li class="barredenavigation"><a href="#top"><img class="logo" src="AA_accueil_1.png" alt="Accueil"></a></li>
         <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
         <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
         <li class="barredenavigation"><a href="#marché">Marchés</a></li>
@@ -30,9 +60,10 @@
         <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
        </ul>
      </div>
-     <br>
-
-
+     <!--bouton back-to-top-->
+  <div id="scrollUp">
+      <a href="#top"><img src="to_top.png"></a>
+  </div>
       <!--carousel d'images-->
 
       <!-- div pour contenir le carousel -->
@@ -90,7 +121,7 @@
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: left;
  }
 
  /* Number text (1/3 etc) */
@@ -141,14 +172,14 @@
   .prev, .next,.text {font-size: 11px}
  }
  </style>
- </head>
+
  <body>
 
  <div class="slideshow-container">
 
  <div class="mySlides fade">
-  <img src="pasted image 1.png" style="width:100%">
-  <div class="text"><!--texte sous la photo--></div>
+  <img src="AA-c-1.jpg" style="width:100%">
+  <div class="text">TEXTE TEST</div>
  </div>
 
  <div class="mySlides fade">
@@ -249,7 +280,7 @@
 
 
        <div id="plâtrerie">
-         <br>
+         <img src="plâtrerie11.jpg">
          <br>
          <h1>Plâtrerie</h1>
          <p>La plâtrerie aujourd'hui, c'est essentiellement la pose de systèmes de plaques de plâtre qui permettent une finition rapide des volumes intérieurs.</p>
@@ -275,6 +306,7 @@
          <br>
            <p>ECUBAT est ausi très bien placée pour éxécuter vos travaux en extérieur : volets, fenêtres, bandeaux et forgets.</p>
            <br>
+           <img src="plâtrerie22.jpg" style="width:30%">
          <h3>Les peintures intérieures</h3>
            <p>Les peintures à effets, alliées à nos techniques de pose offrent des rendus agréables.</p>
            <br>
@@ -357,11 +389,11 @@
           <tbody>
             <tr>
               <td rowspan="2"><a class="BW" ><img src="AA_SGBW.png" alt="Seigneurie Gauthier"></a><a class="C" href="https://www.seigneuriegauthier.com/"><img src="AA_SGC.png" alt="Seigneurie Gauthier"></a></td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
             </tr>
           </tbody>
         </table>
@@ -401,6 +433,7 @@
               <li>69230 Saint Genis Laval</li>
               <li>Tél : 04 78 56 34 10</li>
             </ul2></div>
+
           <div class="question"><br>
           <h2>Une question, besoin d'un contact ? </h2>
           <p>Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
@@ -412,16 +445,16 @@
           <br></div>
           <p><div class="form">
               <form name="my_form" action="#result" method="post">
-        	       <p> <label for="nom">Nom</label> <input type="text" id="nom"> </p>
-                 <p> <label for="nom">Prénom</label> <input type="text" id="prenom"> </p>
-                 <p> <label for="nom">Société</label> <input type="text" id="societe"> </p>
-                 <p> <label for="nom">Rue</label> <input type="text" id="rue"> </p>
-                 <p> <label for="nom">Ville</label> <input type="text" id="ville"> </p>
-                 <p> <label for="nom">Code Postal</label> <input type="text" id="code postal"> </p>
-                 <p> <label for="nom">Téléphone</label> <input type="text" id="telephone"> </p>
-        	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email"> </p>
-        	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet"> </p>
-                 <p> <label for="message">Message/Question</label> <textarea id="message"></textarea> </p>
+        	       <p> <label for="nom">Nom</label> <input type="text" id="nom" placeholder="ROGER"/> </p>
+                 <p> <label for="nom">Prénom</label> <input type="text" id="prenom"/> </p>
+                 <p> <label for="nom">Société</label> <input type="text" id="societe"/> </p>
+                 <p> <label for="nom">Rue</label> <input type="text" id="rue"/> </p>
+                 <p> <label for="nom">Ville</label> <input type="text" id="ville"/> </p>
+                 <p> <label for="nom">Code Postal</label> <input type="text" id="code postal"/> </p>
+                 <p> <label for="nom">Téléphone</label> <input type="text" id="telephone"/> </p>
+        	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email"/> </p>
+        	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet"/> </p>
+                 <p> <label for="message">Message/Question</label> <textarea id="message"/></textarea> </p>
                  <p> <label for="envoyer"></label> <button id="button_modal" onclick= "alert ('demande envoyé')"> Envoyer</button> </p>
               </form>
             </div></p>
@@ -437,45 +470,8 @@
  <div id="id_div_1" style="display:none;">
    Texte à masquer, afficher
  </div>
-
+    <script src="JVDuSite.js"></script>
    </body>
-   <!-- Form Started -->
-   	<div class="container form-top">
-   		<div class="row">
-   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-   				<div class="panel panel-danger">
-   					<div class="panel-body">
-   						<form id="reused_form">
-   						 	<div class="form-group">
-   						 		<label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-   						 		<input type="text" name="name" class="form-control" placeholder="Enter Name">
-   						 	</div>
-   						 	<div class="form-group">
-   						 		<label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-   						 		<input type="email" name="email" class="form-control" placeholder="Enter Email">
-   						 	</div>
-   						 	<div class="form-group">
-   						 		<label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-   						 		<textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-   						 	</div>
 
-
-   						 	<div class="form-group">
-   						 		<button class="btn btn-raised btn-block btn-danger">Post →</button>
-   						 	</div>
-   						</form>
-   						<div id="error_message" style="width:100%; height:100%; display:none; ">
-   						<h4>Error</h4>
-   						Sorry there was an error sending your form.
-   						</div>
-   						<div id="success_message" style="width:100%; height:100%; display:none; ">
-   						<h2>Success! Your Message was Sent Successfully.</h2>
-   						</div>
-   					</div>
-   				</div>
-   			</div>
-   		</div>
-   	</div>
-   <!-- Form Ended -->
 
 </html>

@@ -70,6 +70,7 @@ $('#scrollUp').removeAttr( 'style' );
  .mySlides {
    display: none;
    margin: auto;
+   max-height: 1000px;
  }
 
  img {
@@ -79,6 +80,7 @@ $('#scrollUp').removeAttr( 'style' );
  /* Slideshow container */
  .slideshow-container {
   max-width: 1500px;
+  max-height: 1000px;
   position: relative;
   margin: auto;
  }
@@ -92,7 +94,6 @@ $('#scrollUp').removeAttr( 'style' );
   padding: 16px;
   margin-top: -22px;
   color: white;
-  font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -113,7 +114,7 @@ $('#scrollUp').removeAttr( 'style' );
  /* Caption text */
  .text {
   color: #f2f2f2;
-  font-size: 80px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -137,9 +138,10 @@ $('#scrollUp').removeAttr( 'style' );
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 20px;
   background-color: #bbb;
   border-radius: 50%;
+  margin-bottom: 17px;
   display: inline-block;
   transition: background-color 0.6s ease;
  }
@@ -178,17 +180,45 @@ $('#scrollUp').removeAttr( 'style' );
 
  <div class="mySlides fade">
   <img src="../images/AA-c-1.jpg" style="width:100%">
-  <div class="text">TEXTE TEST</div>
+  <div class="text">
+    <div id="hautdelapage">
+     <h1>Accueil</h1>
+     <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
+   </div>
+ </div>
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-2.jpg" style="width:100%">
-  <div class="text"><!--texte sous la photo--></div>
+  <div class="text">
+    <div id="présentationdusite">
+    <br>
+    <p>Spécialités :</p>
+    <ul2>
+      <li>Réalisation de cloisons</li>
+      <li>Plâtrerie</li>
+      <li>Peinture et décoration</li>
+    </ul2>
+    <p>Atouts :</p>
+    <ul2>
+      <li>Qualité de l'équipe</li>
+      <li>Suivi de chantier rigoureux</li>
+    </ul2>
+  </div>
+</div>
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-3.jpg" style="width:100%">
-  <div class="text"><!--texte sous la photo--></div>
+  <div class="text">
+    <div id="descriptionentreprise">
+  <br>
+  <br>
+  <p>ECUBAT travaille depuis de nombreuses années avec des architectes et maîtres-d'oeuvre dans la réalisation de bureaux et commerces, en situation "occupé" ou "nu"</p>
+  <br>
+  <p>La moitié de son activité est réalisé avec des donneurs d'ordre professionnels où le respect des délais, des engagements est fondamental... cette façon de travailler se retrouve naturellement avec les clients particuliers qui apprécient d'être traités en "pro".</p>
+  </div>
+</div>
  </div>
 
  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -232,50 +262,12 @@ $('#scrollUp').removeAttr( 'style' );
  }
  </script>
  </div>
-   <br>
-   <br>
+
 
       <!--accueil-->
        <div id="accueil">
-        <br>
-        <br>
-     <div id="hautdelapage">
-       <h1>Accueil</h1>
-       <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
-     </div>
-
-     <br>
-     <br>
-
-     <div id="présentationdusite">
-       <br>
-       <p>Spécialités :</p>
-       <ul>
-         <li>Réalisation de cloisons</li>
-         <li>Plâtrerie</li>
-         <li>Peinture et décoration</li>
-       </ul>
-       <p>Atouts :</p>
-       <ul>
-         <li>Qualité de l'équipe</li>
-         <li>Suivi de chantier rigoureux</li>
-       </ul>
-     </div>
-</br>
-</br>
-</br>
-     </div>
-     </br>
-       <div id="descriptionentreprise">
-       <br>
-       <br>
-       <p>ECUBAT travaille depuis de nombreuses années avec des architectes et maîtres-d'oeuvre dans la réalisation de bureaux et commerces, en situation "occupé" ou "nu"</p>
-       <br>
-       <p>La moitié de son activité est réalisé avec des donneurs d'ordre professionnels où le respect des délais, des engagements est fondamental... cette façon de travailler se retrouve naturellement avec les clients particuliers qui apprécient d'être traités en "pro".</p>
        </div>
 
-       <br>
-       <br>
 
 
        <div id="plâtrerie">
@@ -462,9 +454,6 @@ $('#scrollUp').removeAttr( 'style' );
 
 
 
-
-
-     </div>
 
 
  <div id="id_div_1" style="display:none;">

@@ -101,7 +101,7 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-image: url("Testimage1.jpg");
+	background-image: url("../images/Testimage1.jpg");
   background-size: cover;
   color: white;
   width: auto;

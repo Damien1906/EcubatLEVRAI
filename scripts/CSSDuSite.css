@@ -132,8 +132,7 @@ img {
 }
 /* carousel fin */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
  #accueil {
   text-align: left;
   color: #8B0000;
@@ -141,14 +140,6 @@ img {
   font: helvetica;
   font-weight: bold;
  }
-=======
-#hautdelapage, #présentationdusite, #descriptionentreprise, p {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
->>>>>>> parent of ef16124... fdsfdsfds
-
-=======
->>>>>>> parent of 6b7d0a8... Revert "Revert "Update CSSDuSite.css""
 
 #présentationdusite p1 {
   text-align: left;
@@ -158,7 +149,6 @@ img {
   font-size: 37px;
   font-weight: bold;
   padding-left: 20px;
-  text-decoration: underline;
 }
 
 #présentationdusite ul2 {

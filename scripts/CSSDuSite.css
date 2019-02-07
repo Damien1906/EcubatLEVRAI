@@ -147,6 +147,10 @@ img {
   font-size: 17px;
 }
 
+#tête_de_page {
+  background-color: white;
+}
+
 a.lien {
   text-decoration: none;
   color: blue;

@@ -78,7 +78,7 @@ img {
  padding-bottom: 60px;
 }
 
-.text p{
+.text, p {
  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -244,7 +244,7 @@ li a:hover {
   font-weight: bold;
 }
 
-#plâtrerie h1 {
+#plâtrerie, h1 {
   text-align: right;
   padding-right: 20px;
   font-size: 35px;
@@ -252,12 +252,12 @@ li a:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#plâtrerie p {
+#plâtrerie, p {
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#plâtrerie img {
+#plâtrerie, img {
   float: left;
   margin-right: 30px;
   height:20%;
@@ -277,7 +277,7 @@ li a:hover {
   padding-left: 10px;
 }
 
-#peinture img {
+#peinture, img {
   float: right;
 }
 
@@ -363,7 +363,7 @@ li a:hover {
   padding: 10px;
 }
 
-.information p, h2, ul1 {
+.information, p, h2, ul1 {
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -378,7 +378,7 @@ li a:hover {
   padding: 10px;
 }
 
-.question p, h2 , h3{
+.question, p, h2, h3{
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -398,11 +398,15 @@ input, textarea {
   color: #8B0000;
   border: 0.1px solid #8B0000;
 }
-#sujet { width: 250px; }
+#sujet {
+  width: 250px;
+}
+
 textarea {
 	width: 300px;
 	height: 5em;
 }
+
 label {
 	display: inline-block;
 	width: 150px;

@@ -129,16 +129,7 @@ img {
 /* carousel fin */
 
 
- #accueil {
-  text-align: left;
-  color: #8B0000;
-  font-family: sans-serif;
-  font: helvetica;
-  font-weight: bold;
- }
-
-
-#présentationdusite p1 {
+#présentationdusite p {
   text-align: left;
   color: white;
   font-family: sans-serif;
@@ -154,6 +145,10 @@ img {
   font-family: sans-serif;
   font: helvetica;
   font-size: 17px;
+}
+
+#tête_de_page {
+  background-color: white;
 }
 
 a.lien {
@@ -177,6 +172,7 @@ div.barredenavigation, ul.barredenavigation {
     padding: 0;
     overflow: hidden;
     background-color: #800E13;
+    opacity: 0.9;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -193,21 +189,21 @@ div.barredenavigation, ul.barredenavigation {
   width: 32px;
   height: 30px;
   margin: -6px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 li.barredenavigation {
     float: left;
 }
 
-li.barredenavigation a.custom-class {
+li.barredenavigation a {
     display: block;
     height: 30px;
     color: white;
     text-align: center;
-    padding-top: 45px;
-    padding-bottom: 65px;
+    padding-top: 22px;
+    padding-bottom: 43px;
     color: white;
     text-align: center;
     padding-left: 16px;
@@ -234,7 +230,7 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-image: url("Testimage1.jpg");
+	background-image: url("../images/Testimage1.jpg");
   background-size: cover;
   color: white;
   width: auto;

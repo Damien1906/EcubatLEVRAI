@@ -10,13 +10,131 @@ html {
   background-color: #ecf0f1;
 }
 
- #accueil {
-  text-align: left;
-  color: #8B0000;
-  font-family: sans-serif;
-  font: helvetica;
-  font-weight: bold;
- }
+/*caroussel début*/
+
+#carousel1 {
+  box-sizing: border-box
+}
+
+body, #caroussel1 {
+  font-family: Verdana, sans-serif;
+  margin:0
+}
+
+.mySlides {
+  display: none;
+  margin: auto;
+  max-height: 1000px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1500px;
+ max-height: 1000px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 20px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: left;
+ padding-left: 10px;
+ padding-bottom: 60px;
+}
+
+.text, p {
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 20px;
+ background-color: #bbb;
+ border-radius: 50%;
+ margin-bottom: 17px;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev, .next,.text {font-size: 11px}
+}
+/* carousel fin */
+
+#hautdelapage, #présentationdusite, #descriptionentreprise, p {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 
 #présentationdusite p {
@@ -126,7 +244,7 @@ li a:hover {
   font-weight: bold;
 }
 
-#plâtrerie h1 {
+#plâtrerie, h1 {
   text-align: right;
   padding-right: 20px;
   font-size: 35px;
@@ -134,16 +252,17 @@ li a:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#plâtrerie p {
+#plâtrerie, p {
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#plâtrerie img {
+#plâtrerie, img {
   float: left;
   margin-right: 30px;
   height:20%;
   width:30%;
+  box-shadow: 2px 2px 0.2em black;
 }
 
 #peinture {
@@ -158,7 +277,7 @@ li a:hover {
   padding-left: 10px;
 }
 
-#peinture img {
+#peinture, img {
   float: right;
 }
 
@@ -244,7 +363,7 @@ li a:hover {
   padding: 10px;
 }
 
-.information p, h2, ul1 {
+.information, p, h2, ul1 {
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -259,7 +378,7 @@ li a:hover {
   padding: 10px;
 }
 
-.question p, h2 , h3{
+.question, p, h2, h3{
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -279,11 +398,15 @@ input, textarea {
   color: #8B0000;
   border: 0.1px solid #8B0000;
 }
-#sujet { width: 250px; }
+#sujet {
+  width: 250px;
+}
+
 textarea {
 	width: 300px;
 	height: 5em;
 }
+
 label {
 	display: inline-block;
 	width: 150px;

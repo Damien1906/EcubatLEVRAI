@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 html {
@@ -10,8 +10,59 @@ html {
   background-color: #ecf0f1;
 }
 
-#tête_de_page {
-  background-color: white;
+/*caroussel début*/
+
+#carousel1 {
+  box-sizing: border-box
+}
+
+body, #caroussel1 {
+  font-family: Verdana, sans-serif;
+  margin:0
+}
+
+.mySlides {
+  display: none;
+  margin: auto;
+  max-height: 1000px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1500px;
+ max-height: 1000px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -77,6 +128,7 @@ html {
 }
 /* carousel fin */
 
+
  #accueil {
   text-align: left;
   color: #8B0000;
@@ -86,7 +138,7 @@ html {
  }
 
 
-#présentationdusite p {
+#présentationdusite p1 {
   text-align: left;
   color: white;
   font-family: sans-serif;
@@ -94,17 +146,14 @@ html {
   font-size: 37px;
   font-weight: bold;
   padding-left: 20px;
-  text-decoration: underline;
 }
 
 #présentationdusite ul2 {
   text-align: left;
-  color: white;
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 27px;
-  font-weight: bold;
-  padding-left: 50px;
+  font-size: 17px;
 }
 
 a.lien {
@@ -128,7 +177,6 @@ div.barredenavigation, ul.barredenavigation {
     padding: 0;
     overflow: hidden;
     background-color: #800E13;
-    opacity: 0.9;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -145,21 +193,21 @@ div.barredenavigation, ul.barredenavigation {
   width: 32px;
   height: 30px;
   margin: -6px;
-  margin-left: 3px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 li.barredenavigation {
     float: left;
 }
 
-li.barredenavigation a {
+li.barredenavigation a.custom-class {
     display: block;
     height: 30px;
     color: white;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 43px;
+    padding-top: 45px;
+    padding-bottom: 65px;
     color: white;
     text-align: center;
     padding-left: 16px;
@@ -167,8 +215,11 @@ li.barredenavigation a {
     border-right: 1px solid white;
     font-size: 18px;
     text-decoration: none;
-    opacity: 5;
 }
+
+a.custom-class {
+  font-family: NotoSans-SemiCondensedThin.ttf;
+  }
 
 li a:hover {
   background-color: #640D15;
@@ -176,16 +227,14 @@ li a:hover {
 
 #descriptionentreprise {
   text-align: left;
-  color: white;
+  color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 23px;
-  font-weight: bold;
-  width: 500px;
+  font-size: 17px;
 }
 
 #plâtrerie {
-	background-image: url("../images/Testimage1.jpg");
+	background-image: url("Testimage1.jpg");
   background-size: cover;
   color: white;
   width: auto;
@@ -195,18 +244,18 @@ li a:hover {
   font-weight: bold;
 }
 
-#plâtrerie, h1 {
+#plâtrerie h1 {
   text-align: right;
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
 }
 
-#plâtrerie, p {
+#plâtrerie p {
   text-align: center;
 }
 
-#plâtrerie, img {
+#plâtrerie img {
   float: left;
   margin-right: 30px;
   height:20%;
@@ -225,7 +274,7 @@ li a:hover {
   padding-left: 10px;
 }
 
-#peinture, img {
+#peinture img {
   float: right;
 }
 
@@ -311,7 +360,7 @@ li a:hover {
   padding: 10px;
 }
 
-.information, p, h2, ul1 {
+.information p, h2, ul2 {
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -326,7 +375,7 @@ li a:hover {
   padding: 10px;
 }
 
-.question, p, h2, h3{
+.question p, h2 , h3{
   color: #ecf0f1;
   font-family: sans-serif;
   font: helvetica;
@@ -346,15 +395,11 @@ input, textarea {
   color: #8B0000;
   border: 0.1px solid #8B0000;
 }
-#sujet {
-  width: 250px;
-}
-
+#sujet { width: 250px; }
 textarea {
 	width: 300px;
 	height: 5em;
 }
-
 label {
 	display: inline-block;
 	width: 150px;

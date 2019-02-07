@@ -409,15 +409,11 @@ label {
 }
 
 /* Bouton pop-up */
-.button_container{
-  width: 100%;
-  text-align: center;
-  padding-left: 400px;
-}
 
-#button_modal{
+
+#button_container{
   height: 25px;
-  width: 75px;
+  width: 145px;
   background-color: #D1D0D0;
   color: #8B0000;
   font-family: helvetica;
@@ -425,6 +421,7 @@ label {
   border: none;
   cursor: pointer;
   border: 0.5px solid #8B0000;
+  float: center;
 }
 
 #button{

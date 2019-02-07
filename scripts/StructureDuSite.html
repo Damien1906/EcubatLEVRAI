@@ -3,12 +3,7 @@
 <html>
    <head>
       <link rel="stylesheet" href="CSSDuSite.css" type="text/css">
-      <title>ECUBAT - Platrerie-Peinture Saint Genis Laval (Lyon)</title>
-
-  <script>
-  function visibilite(thingId) { var targetElement; targetElement = document.getElementById(thingId) ; if (targetElement.style.display == "modal") { targetElement.style.display = "modal" ; } else { targetElement.style.display = "none" ; } }
-</script>
-
+      <title>ECUBAT - Plâtrerie-Peinture Saint Genis Laval (Lyon)</title>
 
 <style>
 #scrollUp {
@@ -44,13 +39,12 @@ $('#scrollUp').removeAttr( 'style' );
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-<div id="#tête_de_page">
-  <img class="biglogo" src="../images/AA_logo.png" style="height: 110px; width: 280px;">
+<div id="tête_de_page">
 </div>
-
      <!-- barre de navigation -->
      <div class="barredenavigation">
        <ul class="barredenavigation">
+        <li class="barredenavigation"><img class="biglogo" src="../images/AA_logo.png" style="height: 110px; width: 280px;"></li>
         <li class="barredenavigation"><a href="#top"><img class="logo" src="../images/AA_accueil_1.png" alt="Accueil"></a></li>
         <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
         <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
@@ -70,109 +64,6 @@ $('#scrollUp').removeAttr( 'style' );
       <!-- div pour contenir le carousel -->
    <div id="carousel1">
      <meta name="viewport" content="width=device-width, initial-scale=1">
- <style>
- * {box-sizing: border-box}
- body {font-family: Verdana, sans-serif; margin:0}
- .mySlides {
-   display: none;
-   margin: auto;
-
- }
- img {vertical-align: middle;}
-
- /* Slideshow container */
- .slideshow-container {
-  max-width: 1500px;
-  position: relative;
-  margin: auto;
- }
-
- /* Next & previous buttons */
- .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
- }
-
- /* Position the "next button" to the right */
- .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
- }
-
- /* On hover, add a black background color with a little bit see-through */
- .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
- }
-
- /* Caption text */
- .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: left;
- }
-
- /* Number text (1/3 etc) */
- .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
- }
-
- /* The dots/bullets/indicators */
- .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
- }
-
- .active, .dot:hover {
-  background-color: #717171;
- }
-
- /* Fading animation */
- .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
- }
-
- @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
- }
-
- @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
- }
-
- /* On smaller screens, decrease text size */
- @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
- }
- </style>
 
  <body>
 
@@ -180,17 +71,45 @@ $('#scrollUp').removeAttr( 'style' );
 
  <div class="mySlides fade">
   <img src="../images/AA-c-1.jpg" style="width:100%">
-  <div class="text">TEXTE TEST</div>
+  <div class="text">
+    <div id="hautdelapage">
+     <h1>Accueil</h1>
+     <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
+   </div>
+ </div>
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-2.jpg" style="width:100%">
-  <div class="text"><!--texte sous la photo--></div>
+  <div class="text">
+    <div id="présentationdusite">
+    <br>
+    <p>Spécialités :</p>
+    <ul2>
+      <li>Réalisation de cloisons</li>
+      <li>Plâtrerie</li>
+      <li>Peinture et décoration</li>
+    </ul2>
+    <p>Atouts :</p>
+    <ul2>
+      <li>Qualité de l'équipe</li>
+      <li>Suivi de chantier rigoureux</li>
+    </ul2>
+  </div>
+</div>
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-3.jpg" style="width:100%">
-  <div class="text"><!--texte sous la photo--></div>
+  <div class="text">
+    <div id="descriptionentreprise">
+  <br>
+  <br>
+  <p>ECUBAT travaille depuis de nombreuses années avec des architectes et maîtres-d'oeuvre dans la réalisation de bureaux et commerces, en situation "occupé" ou "nu"</p>
+  <br>
+  <p>La moitié de son activité est réalisé avec des donneurs d'ordre professionnels où le respect des délais, des engagements est fondamental... cette façon de travailler se retrouve naturellement avec les clients particuliers qui apprécient d'être traités en "pro".</p>
+  </div>
+</div>
  </div>
 
  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -234,50 +153,12 @@ $('#scrollUp').removeAttr( 'style' );
  }
  </script>
  </div>
-   <br>
-   <br>
+
 
       <!--accueil-->
        <div id="accueil">
-        <br>
-        <br>
-     <div id="hautdelapage">
-       <h1>Accueil</h1>
-       <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
-     </div>
-
-     <br>
-     <br>
-
-     <div id="présentationdusite">
-       <br>
-       <p>Spécialités :</p>
-       <ul>
-         <li>Réalisation de cloisons</li>
-         <li>Plâtrerie</li>
-         <li>Peinture et décoration</li>
-       </ul>
-       <p>Atouts :</p>
-       <ul>
-         <li>Qualité de l'équipe</li>
-         <li>Suivi de chantier rigoureux</li>
-       </ul>
-     </div>
-</br>
-</br>
-</br>
-     </div>
-     </br>
-       <div id="descriptionentreprise">
-       <br>
-       <br>
-       <p>ECUBAT travaille depuis de nombreuses années avec des architectes et maîtres-d'oeuvre dans la réalisation de bureaux et commerces, en situation "occupé" ou "nu"</p>
-       <br>
-       <p>La moitié de son activité est réalisé avec des donneurs d'ordre professionnels où le respect des délais, des engagements est fondamental... cette façon de travailler se retrouve naturellement avec les clients particuliers qui apprécient d'être traités en "pro".</p>
        </div>
 
-       <br>
-       <br>
 
 
        <div id="plâtrerie">
@@ -390,11 +271,11 @@ $('#scrollUp').removeAttr( 'style' );
           <tbody>
             <tr>
               <td rowspan="2"><a class="BW" ><img src="../images/AA_SGBW.png" alt="Seigneurie Gauthier"></a><a class="C" href="https://www.seigneuriegauthier.com/"><img src="../images/AA_SGC.png" alt="Seigneurie Gauthier"></a></td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
-              <td rowspan="2">azerrt</td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
+              <td rowspan="2"></td>
             </tr>
           </tbody>
         </table>
@@ -429,11 +310,13 @@ $('#scrollUp').removeAttr( 'style' );
             <br>
             <br>
             <h3>ECUBAT :</h3>
-             <ul2>
+             <ul1>
               <li>38, route de Charly</li>
               <li>69230 Saint Genis Laval</li>
               <li>Tél : 04 78 56 34 10</li>
-            </ul2></div>
+            </ul1>
+          </div>
+
           <div class="question"><br>
           <h2>Une question, besoin d'un contact ? </h2>
           <p>Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
@@ -445,27 +328,30 @@ $('#scrollUp').removeAttr( 'style' );
           <br></div>
           <p><div class="form">
               <form name="my_form" action="#result" method="post">
-        	       <p> <label for="nom">Nom</label> <input type="text" id="nom"> </p>
-                 <p> <label for="nom">Prénom</label> <input type="text" id="prenom"> </p>
-                 <p> <label for="nom">Société</label> <input type="text" id="societe"> </p>
-                 <p> <label for="nom">Rue</label> <input type="text" id="rue"> </p>
-                 <p> <label for="nom">Ville</label> <input type="text" id="ville"> </p>
-                 <p> <label for="nom">Code Postal</label> <input type="text" id="code postal"> </p>
-                 <p> <label for="nom">Téléphone</label> <input type="text" id="telephone"> </p>
-        	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email"> </p>
-        	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet"> </p>
-                 <p> <label for="message">Message/Question</label> <textarea id="message"></textarea> </p>
-                 <p> <label for="envoyer"></label> <button id="button_modal" onclick= "alert ('demande envoyé')"> Envoyer</button> </p>
+        	       <p> <label for="nom">Nom</label> <input type="text" id="nom" placeholder="EX" required/> </p>
+                 <p> <label for="nom">Prénom</label> <input type="text" id="prenom" placeholder="EMPLE" required/> </p>
+                 <p> <label for="nom">Société</label> <input type="text" id="societe" placeholder="ECUBAT" /> </p>
+                 <p> <label for="nom">Rue</label> <input type="text" id="rue" placeholder=" 38 route de Charly "/> </p>
+                 <p> <label for="nom">Ville</label> <input type="text" id="ville" placeholder="St-Genis Laval"/> </p>
+                 <p> <label for="nom">Code Postal</label> <input type="text" id="code postal" placeholder="69230"/> </p>
+                 <p> <label for="nom">Téléphone</label> <input type="tel" id="telephone" placeholder=" 04 78 56 34 10" />  </p>
+        	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email" placeholder="ecubat@wanadoo.fr" required /> </p>
+        	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet" placeholder="Renovation"/> </p>
+                 <p> <label for="message">Message/Question</label> <textarea id="message" placeholder="Exemple" required /></textarea> </p>
+                 <p> <imput type="submit"  value="Envoyer" /> </p>
               </form>
             </div></p>
       </div>
 
 
-     </div>
+
+
 
  <div id="id_div_1" style="display:none;">
    Texte à masquer, afficher
  </div>
+    <script src="JVDuSite.js"></script>
+   </body>
 
 
 </html>

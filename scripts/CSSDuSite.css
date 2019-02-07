@@ -128,6 +128,9 @@ img {
 }
 /* carousel fin */
 
+#tête_de_page {
+  background-color: white;
+}
 
 #présentationdusite p {
   text-align: left;
@@ -191,6 +194,7 @@ div.barredenavigation, ul.barredenavigation {
   margin: -6px;
   margin-left: 3px;
   margin-right: 3px;
+  margin-bottom: 0.5px;
 }
 
 li.barredenavigation {

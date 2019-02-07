@@ -412,6 +412,7 @@ label {
 .button_container{
   width: 100%;
   text-align: center;
+  padding-left: 400px;
 }
 
 #button_modal{
@@ -424,4 +425,8 @@ label {
   border: none;
   cursor: pointer;
   border: 0.5px solid #8B0000;
+}
+
+#button{
+
 }

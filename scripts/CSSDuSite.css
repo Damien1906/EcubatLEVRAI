@@ -78,9 +78,6 @@ img {
  padding-bottom: 60px;
 }
 
-.text, p {
- text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -131,10 +128,6 @@ img {
  .prev, .next,.text {font-size: 11px}
 }
 /* carousel fin */
-
-#hautdelapage, #présentationdusite, #descriptionentreprise, p {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 
 #présentationdusite p {
@@ -249,12 +242,10 @@ li a:hover {
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #plâtrerie, p {
   text-align: center;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #plâtrerie, img {
@@ -262,7 +253,6 @@ li a:hover {
   margin-right: 30px;
   height:20%;
   width:30%;
-  box-shadow: 2px 2px 0.2em black;
 }
 
 #peinture {

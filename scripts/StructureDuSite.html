@@ -33,14 +33,35 @@ $('#scrollUp').removeAttr( 'style' );
 });
 </script>
 
+
+<script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+
+function growShrinkLogo() {
+  var Logo = document.getElementById("Logo")
+  if (document.body.scrollTop > 3 || document.documentElement.scrollTop > 3) {
+    Logo.style.width = '127px';
+    Logo.style.height = '39px';
+  } else {
+    Logo.style.width = '381px';
+    Logo.style.height = '117px';
+  }
+}
+</script>
+
+
    </head>
 
    <body>
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-<div id="tête_de_page">
-  <img class="biglogo" src="../images/AA_logo.png" style="height: 110px; width: 280px;">
+<div id="navigation">
+
+<div class="tête_de_page">
+  <img src="../images/AA_biglogo22.jpg" id='Logo'>
 </div>
      <!-- barre de navigation -->
      <div class="barredenavigation">
@@ -55,6 +76,9 @@ $('#scrollUp').removeAttr( 'style' );
         <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
        </ul>
      </div>
+
+</div>
+
      <!--bouton back-to-top-->
   <div id="scrollUp">
       <a href="#top"><img src="../images/to_top.png"></a>

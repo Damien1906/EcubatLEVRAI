@@ -150,8 +150,32 @@ img {
   font-size: 17px;
 }
 
-#tête_de_page {
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: +10;
+}
+
+.tête_de_page {
   background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: +10;
+}
+
+#Logo {
+  width:381px;
+  height:117px;
 }
 
 a.lien {
@@ -179,13 +203,7 @@ div.barredenavigation, ul.barredenavigation {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +1;
-}
-
-
-.biglogo {
-  width: 280px;
-  height: 110px;
+    z-index: +3;
 }
 
 .logo {
@@ -206,10 +224,10 @@ li.barredenavigation a {
     height: 30px;
     color: white;
     text-align: center;
-    padding-top: 22px;
-    padding-bottom: 43px;
     color: white;
     text-align: center;
+    padding-top: 22px;
+    padding-bottom: 43px;
     padding-left: 16px;
     padding-right: 16px;
     border-right: 1px solid white;

@@ -206,8 +206,7 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #800E13;
-    opacity: 0.9;
+    background-color: rgba(128, 14, 19, 0.7);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -421,6 +420,7 @@ input, textarea {
 	padding: 4px;
 	vertical-align: top;
   color: #8B0000;
+  background-color: #F6F6F5;
   border: 0.1px solid #8B0000;
 }
 #sujet { width: 250px; }
@@ -439,19 +439,15 @@ label {
 /* Bouton pop-up */
 
 
-#button_container{
+.button_container{
   height: 25px;
-  width: 145px;
-  background-color: #D1D0D0;
+  width: 65px;
+  background-color: #F6F6F5;
   color: #8B0000;
   font-family: helvetica;
   font-size: 14px;
-  border: none;
   cursor: pointer;
   border: 0.5px solid #8B0000;
   float: center;
-}
-
-#button{
-
+  margin-left: 4px;
 }

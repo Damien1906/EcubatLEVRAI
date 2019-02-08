@@ -304,10 +304,47 @@ li a:hover {
 #peinture img {
   float: right;
 }
+/*  background-image: url("../images/fondmarché.jpg");
+  background-size: cover;
+  #8B0000*/
 
 #marché {
+  background-color:#640C14;
+  display: flow-root;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#bureaux {
   padding-top: 60px;
-  color: #8B0000;
+  color: #640C14;
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: left;
+}
+
+#commerces {
+  padding-top: 60px;
+  color: #640C14;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
@@ -321,14 +358,6 @@ li a:hover {
   font: helvetica;
   text-align: center;
   padding-top: 2px;
-}
-
-#références {
-  padding-top: 60px;
-  color: #8B0000;
-  font-family: sans-serif;
-  font: helvetica;
-  text-align: left;
 }
 
 #fournisseurs {

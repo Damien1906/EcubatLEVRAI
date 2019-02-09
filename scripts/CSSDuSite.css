@@ -309,15 +309,22 @@ li a:hover {
   #8B0000*/
 
 #marché {
-  background-color:#640C14;
   display: flow-root;
+  width:100%;
+  background-image: url("../images/fondmarché.jpg");
+  background-size: cover;
+  width:100%;
+  height: auto;
 }
 
+
 div.gallery {
-  margin: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 130px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 280px;
 }
 
 div.gallery:hover {
@@ -332,6 +339,8 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color: white;
+  background-color:#640C14;
 }
 
 #bureaux {

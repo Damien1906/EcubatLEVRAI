@@ -317,9 +317,16 @@ li a:hover {
   height: auto;
 }
 
+#marché h1 {
+  color: white;
+  padding-left: 100px;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+
 
 div.gallery {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   margin-left: 130px;
   border: 1px solid #777;

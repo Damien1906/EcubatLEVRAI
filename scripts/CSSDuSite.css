@@ -328,9 +328,9 @@ li a:hover {
 div.gallery {
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 130px;
-  border: 1px solid #777;
-  float: left;
+  margin-left: 65px;
+  margin-right: 65px;
+  float: right;
   width: 280px;
 }
 

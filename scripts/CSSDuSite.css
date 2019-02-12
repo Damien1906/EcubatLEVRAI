@@ -184,6 +184,7 @@ img {
   width:381px;
   height:117px;
   transition: 300ms ease;
+  transition-duration: 0.5s;
 }
 
 a.lien {

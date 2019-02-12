@@ -305,9 +305,6 @@ li a:hover {
 #peinture img {
   float: right;
 }
-/*  background-image: url("../images/fondmarché.jpg");
-  background-size: cover;
-  #8B0000*/
 
 #marché {
   display: flow-root;
@@ -370,7 +367,7 @@ div.desc {
 #garanties {
   padding-top: 60px;
   background-color:#D1D0D0;
-  color: #8B0000;
+  color: white;
   font-family: sans-serif;
   font: helvetica;
   text-align: center;

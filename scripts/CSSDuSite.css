@@ -305,41 +305,46 @@ li a:hover {
 }
 
 #marché {
-  display: flow-root;
-  width:100%;
   background-image: url("../images/fondmarché.jpg");
   background-size: cover;
   width:100%;
   height: auto;
 }
 
-#marché h1 {
+.titremarché {
   color: white;
+  height: auto;
+  width: 100%;
+  display: inline-block;
   padding-left: 100px;
   padding-top: 50px;
   text-decoration: underline;
 }
 
+.galleryfather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-div.gallery {
+.gallery {
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 65px;
-  margin-right: 65px;
-  float: right;
+  margin-left: 45px;
+  margin-right: 45px;
   width: 280px;
 }
 
-div.gallery:hover {
+.gallery:hover {
   border: 1px solid #ccc;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
   color: white;

@@ -292,6 +292,7 @@ li a:hover {
 
 #peinture {
   background-color:#640C14;
+  width: auto;
   color:white;
   font-family: sans-serif;
   font: helvetica;
@@ -304,6 +305,9 @@ li a:hover {
 
 #peinture img {
   float: right;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 
 #marché {

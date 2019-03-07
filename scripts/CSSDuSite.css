@@ -338,12 +338,12 @@ li a:hover {
   margin-bottom: 100px;
   margin-left: 5%;
   margin-right: 5%;
-  fuck
   width: 280px;
 }
 
 .gallery:hover {
   border: 1px solid #ccc;
+  margin: 49px, 42.391px, 99px, 42.391px;
 }
 
 .gallery img {

@@ -171,7 +171,7 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #800E13;
+    background-color: rgba(128,14,19,0.75);
     opacity: 0.9;
     position: -webkit-sticky;
     position: sticky;

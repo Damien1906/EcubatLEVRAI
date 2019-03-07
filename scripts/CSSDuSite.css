@@ -33,8 +33,6 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
- max-width: 1500px;
- max-height: 1000px;
  position: relative;
  margin: auto;
 }
@@ -67,7 +65,7 @@ img {
 
 /* Caption text */
 .text {
- color: #f2f2f2;
+ color: white;
  font-size: 20px;
  padding: 8px 12px;
  position: absolute;
@@ -93,11 +91,12 @@ img {
  height: 15px;
  width: 15px;
  margin: 0 20px;
+ margin-bottom: 20px;
  background-color: #bbb;
  border-radius: 50%;
- margin-bottom: 17px;
- display: inline-block;
  transition: background-color 0.6s ease;
+ display: inline-block;
+
 }
 
 .active, .dot:hover {
@@ -128,6 +127,13 @@ img {
 }
 /* carousel fin */
 
+#tête_de_page {
+  background-color: white;
+}
+
+#hautdelapage h3 {
+  color: white;
+}
 
 #présentationdusite p {
   text-align: left;
@@ -137,18 +143,47 @@ img {
   font-size: 37px;
   font-weight: bold;
   padding-left: 20px;
+  text-decoration: underline;
 }
 
 #présentationdusite ul2 {
   text-align: left;
-  color: #8B0000;
+  color: white;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 17px;
+  font-size: 27px;
+  font-weight: bold;
+  padding-left: 50px;
 }
 
-#tête_de_page {
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: +10;
+}
+
+.tête_de_page {
   background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: +10;
+}
+
+#Logo {
+  width:381px;
+  height:117px;
+  transition: 300ms ease;
+  transition-duration: 0.5s;
 }
 
 a.lien {
@@ -171,26 +206,20 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(128,14,19,0.75);
-    opacity: 0.9;
+    background-color: rgba(128, 14, 19, 0.7);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +1;
-}
-
-
-.biglogo {
-  width: 280px;
-  height: 110px;
+    z-index: +3;
 }
 
 .logo {
   width: 32px;
   height: 30px;
   margin: -6px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 0.1px;
 }
 
 li.barredenavigation {
@@ -202,10 +231,10 @@ li.barredenavigation a {
     height: 30px;
     color: white;
     text-align: center;
-    padding-top: 22px;
-    padding-bottom: 43px;
     color: white;
     text-align: center;
+    padding-top: 22px;
+    padding-bottom: 43px;
     padding-left: 16px;
     padding-right: 16px;
     border-right: 1px solid white;
@@ -223,10 +252,12 @@ li a:hover {
 
 #descriptionentreprise {
   text-align: left;
-  color: #8B0000;
+  color: white;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 17px;
+  font-size: 23px;
+  font-weight: bold;
+  width: 500px;
 }
 
 #plâtrerie {
@@ -275,11 +306,51 @@ li a:hover {
 }
 
 #marché {
-  padding-top: 60px;
-  color: #8B0000;
-  font-family: sans-serif;
-  font: helvetica;
-  text-align: left;
+  background-image: url("../images/fondmarché.jpg");
+  background-size: cover;
+  width:100%;
+  height: auto;
+}
+
+.titremarché {
+  color: white;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 25px;
+  text-decoration: underline;
+}
+
+.galleryfather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  fuck
+  width: 280px;
+}
+
+.gallery:hover {
+  border: 1px solid #ccc;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color:#640C14;
 }
 
 #garanties {
@@ -290,14 +361,6 @@ li a:hover {
   font: helvetica;
   text-align: center;
   padding-top: 2px;
-}
-
-#références {
-  padding-top: 60px;
-  color: #8B0000;
-  font-family: sans-serif;
-  font: helvetica;
-  text-align: left;
 }
 
 #fournisseurs {
@@ -389,6 +452,7 @@ input, textarea {
 	padding: 4px;
 	vertical-align: top;
   color: #8B0000;
+  background-color: #F6F6F5;
   border: 0.1px solid #8B0000;
 }
 #sujet { width: 250px; }
@@ -405,19 +469,17 @@ label {
 }
 
 /* Bouton pop-up */
-.button_container{
-  width: 100%;
-  text-align: center;
-}
 
-#button_modal{
+
+.button_container{
   height: 25px;
-  width: 75px;
-  background-color: #D1D0D0;
+  width: 65px;
+  background-color: #F6F6F5;
   color: #8B0000;
   font-family: helvetica;
   font-size: 14px;
-  border: none;
   cursor: pointer;
   border: 0.5px solid #8B0000;
+  float: center;
+  margin-left: 4px;
 }

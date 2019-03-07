@@ -1,37 +1,3 @@
-
-<script>
-window.onscroll = function() {
-  growShrinkLogo()
-};
-
-function growShrinkLogo() {
-  var Logo = document.getElementById("Logo")
-  if (document.body.scrollTop > 3 || document.documentElement.scrollTop > 3) {
-    Logo.style.width = '190.5px';
-    Logo.style.height = '58.5px';
-  } else {
-    Logo.style.width = '381px';
-    Logo.style.height = '117px';
-  }
-}
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <form method="post" action="/cgi/formmail.cgi">
   <input type="HIDDEN" name="recipient" value="contact@ecubat.fr">
   <br>

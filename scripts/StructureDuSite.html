@@ -33,35 +33,14 @@ $('#scrollUp').removeAttr( 'style' );
 });
 </script>
 
-
-<script>
-window.onscroll = function() {
-  growShrinkLogo()
-};
-
-function growShrinkLogo() {
-  var Logo = document.getElementById("Logo")
-  if (document.body.scrollTop > 3 || document.documentElement.scrollTop > 3) {
-    Logo.style.width = '158.75px';
-    Logo.style.height = '48.75px';
-  } else {
-    Logo.style.width = '381px';
-    Logo.style.height = '117px';
-  }
-}
-</script>
-
-
    </head>
 
    <body>
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-<div id="navigation">
-
-<div class="tête_de_page">
-  <img src="../images/AA_biglogo22.jpg" id='Logo'>
+<div id="tête_de_page">
+  <img class="biglogo" src="../images/AA_logo.png" style="height: 110px; width: 280px;">
 </div>
      <!-- barre de navigation -->
      <div class="barredenavigation">
@@ -71,13 +50,11 @@ function growShrinkLogo() {
         <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
         <li class="barredenavigation"><a href="#marché">Marchés</a></li>
         <li class="barredenavigation"><a href="#garanties(lien)">Garanties</a></li>
+        <li class="barredenavigation"><a href="#références">Références</a></li>
         <li class="barredenavigation"><a href="#fournisseurs">Fournisseurs</a></li>
         <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
        </ul>
      </div>
-
-</div>
-
      <!--bouton back-to-top-->
   <div id="scrollUp">
       <a href="#top"><img src="../images/to_top.png"></a>
@@ -96,12 +73,12 @@ function growShrinkLogo() {
 
  <div class="mySlides fade">
   <img src="../images/AA-c-1.jpg" style="width:100%">
-    <div class="text">
-      <div id="hautdelapage">
-        <h1>Accueil</h1>
-        <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
-      </div>
-    </div>
+  <div class="text">
+    <div id="hautdelapage">
+     <h1>Accueil</h1>
+     <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
+   </div>
+ </div>
  </div>
 
  <div class="mySlides fade">
@@ -205,7 +182,6 @@ function growShrinkLogo() {
          <h1>Peinture</h1>
          <p>L'entreprise ECUBAT, outre les ouvrages courants de peinture et de revêtement, s'est spécialisée dans quelques produits décoratifs tels que :</p>
          <br>
-         <img src="../images/plâtrerie22.jpg" style="height: 100%; width: 30%; object-fit: scale-down">
          <ul>
            <li>La chaux d'antan</li>
            <li>Les cires essuyées</li>
@@ -214,6 +190,7 @@ function growShrinkLogo() {
          <br>
            <p>ECUBAT est ausi très bien placée pour éxécuter vos travaux en extérieur : volets, fenêtres, bandeaux et forgets.</p>
            <br>
+           <img src="../images/plâtrerie22.jpg" style="width:30%">
          <h3>Les peintures intérieures</h3>
            <p>Les peintures à effets, alliées à nos techniques de pose offrent des rendus agréables.</p>
            <br>
@@ -226,65 +203,26 @@ function growShrinkLogo() {
            <br>
            <br>
        </div>
+       <br>
+       <br>
 
-<div id="marché">
- <div class="titremarché">
-  <h1>Marchés</h1>
-</div>
-<div class="galleryfather">
-         <div class="gallery">
-           <div class="desc">Bureaux</div>
-           <a target="_blank" href="../images/imgmarché1.jpg">
-             <img src="../images/imgmarché1.jpg" alt="Bureaux" width="600" height="400">
-           </a>
-         </div>
-
-         <div class="gallery">
-           <a target="_blank" href="../images/imgmarché2.jpg">
-             <img src="../images/imgmarché2.jpg" alt="Maisons et Villas" width="600" height="400">
-           </a>
-           <div class="desc">Maisons et Villas</div>
-         </div>
-
-         <div class="gallery">
-           <div class="desc">Commerces</div>
-           <a target="_blank" href="../images/imgmarché3.jpg">
-             <img src="../images/imgmarché3.jpg" alt="Commerces" width="600" height="400">
-           </a>
-         </div>
+       <div id="marché">
+         <br>
+         <br>
+         <h1>Marchés</h1>
+         <ul>
+           <li>Les bureaux : agencement, circulations, salles d'attente, bureaux, salles de réunion...</li>
+           <li>Les loft et grands espaces</li>
+           <li>Les maisons et villas</li>
+         </ul>
+         <br>
+         <br>
        </div>
-</div>
-
-<!--<div id="bureaux">
-  <ul>
-    <li>Les bureaux : agencement, circulations, salles d'attente, bureaux, salles de réunion...</li>
-    <li>Les loft et grands espaces</li>
-    <li>Les maisons et villas</li>
-  </ul>
-  <br>
-</div>
-<div id="commerces">
-  <ul>
-    <li>Commerces:</li>
-      <ul>
-        <li>Magasins d'optique</li>
-        <li>Cerise et Potiron</li>
-        <li>L’OCCITANE en provence</li>
-      </ul>
-      <br>
-    <li>Bureaux</li>
-    <li>Nombreux lofts sur Lyon</li>
-    <li>Plusieurs centaines de particuliers dans l'ouest lyonnais : Saint-Genis Laval, Oullins, Vourles, Irigny, Pierre-Bénite....</li>
-  </ul>
-</div>-->
-
-
        <div id="garanties(lien)">
-
+         <br>
+         <br>
        <div id="garanties">
-      <h1>Garanties</h1>
-        <div class="box">
-          <img src="../images/imggarantie.jpg" style="width: 15%">
+        <h1>Garanties</h1>
         <br>
         <p>Garanties - Qualification</p>
         <br>
@@ -296,37 +234,29 @@ function growShrinkLogo() {
         <br>
         <p>ECUBAT est assurée au titre de la garantie décennale auprès de la compagnie L'<a class="lien" href="http://www.auxiliaire.fr/">AUXILIAIRE</a></p>
         <br>
-      </div>
-  <style>
-        .box {
-  border: 1px solid #640C14;
-  display: block;
-  width: 100px;
-  height: 100px;
-  color: white;
-  background-color: white;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: 1s ease;
-}
-
-.box:hover {
-  background-color: #640C14;
-  text-indent: 0%;
-  width: 100%;
-  height: 300px;
-}
-
-.box img {
-  float: right;
-}
-</style>
+        <br>
        </div>
        <br>
        <br>
 
-
+       <div id="références">
+         <br>
+         <br>
+         <h1>Références</h1>
+         <h4>Quelques références </h4>
+         <ul>
+           <li>Commerces:</li>
+             <ul>
+               <li>Magasins d'optique</li>
+               <li>Cerise et Potiron</li>
+               <li>L’OCCITANE en provence</li>
+             </ul>
+             <br>
+           <li>Bureaux</li>
+           <li>Nombreux lofts sur Lyon</li>
+           <li>Plusieurs centaines de particuliers dans l'ouest lyonnais : Saint-Genis Laval, Oullins, Vourles, Irigny, Pierre-Bénite....</li>
+         </ul>
+       </div>
 
        <br>
        <br>
@@ -381,8 +311,6 @@ function growShrinkLogo() {
             <br>
             <br>
             <br>
-            <br>
-            <br>
             <h3>ECUBAT :</h3>
              <ul1>
               <li>38, route de Charly</li>
@@ -391,12 +319,7 @@ function growShrinkLogo() {
             </ul1>
           </div>
 
-          <div class="question">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+          <div class="question"><br>
           <h2>Une question, besoin d'un contact ? </h2>
           <p>Avec ce formulaire, vous pouvez nous contacter rapidement et sans engagement.<br>
               Nous vous répondrons rapidement !</p>
@@ -417,8 +340,7 @@ function growShrinkLogo() {
         	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email" placeholder="ecubat@wanadoo.fr" required /> </p>
         	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet" placeholder="Renovation"/> </p>
                  <p> <label for="message">Message/Question</label> <textarea id="message" placeholder="Exemple" required /></textarea> </p>
-                 <p> <label></label><input class="button_container" type="submit" value="Envoyer"> </p>
-                 <p> <imput type="submit" value="Envoyer" /> </p>
+                 <p> <input type="submit" value="Envoyer le formulaire" id="bouton"> </p>
               </form>
             </div></p>
       </div>
@@ -430,7 +352,7 @@ function growShrinkLogo() {
  <div id="id_div_1" style="display:none;">
    Texte à masquer, afficher
  </div>
-    <script src="JVDuSite.js"></script>
+    <script src="js/JVDuSite.js"></script>
    </body>
 
 

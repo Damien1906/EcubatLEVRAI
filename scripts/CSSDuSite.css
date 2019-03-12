@@ -13,8 +13,7 @@ html {
 /*caroussel début*/
 
 #carousel1 {
-  box-sizing: border-box;
-  margin-bottom: 113.75px;
+  box-sizing: border-box
 }
 
 body, #caroussel1 {
@@ -206,7 +205,6 @@ div.barredenavigation, ul.barredenavigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: 50%;
     overflow: hidden;
     background-color: rgba(128, 14, 19, 0.7);
     position: -webkit-sticky;
@@ -271,8 +269,6 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   font-weight: bold;
-  padding-top: 113.75px;
-  margin-top: -113.75px;
 }
 
 #plâtrerie h1 {
@@ -299,8 +295,6 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
-  padding-top: 113.75px;
-  margin-top: -113.75px;
 }
 
 #peinture p, h1, ul {
@@ -316,8 +310,6 @@ li a:hover {
   background-size: cover;
   width:100%;
   height: auto;
-  padding-top: 113.75px;
-  margin-top: -113.75px;
 }
 
 .titremarché {
@@ -369,8 +361,6 @@ li a:hover {
   font: helvetica;
   text-align: center;
   padding-top: 2px;
-  padding-top: 113.75px;
-  margin-top: -113.75px;
 }
 
 #fournisseurs {
@@ -379,8 +369,6 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
-  padding-top: 113.75px;
-  margin-top: -113.75px;
 }
 
 #adresse {
@@ -390,8 +378,6 @@ li a:hover {
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
-  padding-top: 113.75px;
-  margin-top: -113.75px;
 }
 
 .map {

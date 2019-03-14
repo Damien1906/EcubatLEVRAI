@@ -93,19 +93,29 @@ function growShrinkLogo() {
  <body>
 
  <div class="slideshow-container">
-
  <div class="mySlides fade">
   <img src="../images/AA-c-1.jpg" style="width:100%">
+
     <div class="text">
       <div id="hautdelapage">
         <h1>Accueil</h1>
         <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
       </div>
     </div>
+
+
+    <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-2.jpg" style="width:100%">
+
   <div class="text">
     <div id="présentationdusite">
     <br>
@@ -122,10 +132,22 @@ function growShrinkLogo() {
     </ul2>
   </div>
 </div>
+
+
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-3.jpg" style="width:100%">
+  <div style="text-align:center">
+
+
   <div class="text">
     <div id="descriptionentreprise">
   <br>
@@ -137,16 +159,23 @@ function growShrinkLogo() {
 </div>
  </div>
 
+ <div style="text-align: center">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+ </div>
+
+
+  </div>
+
  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
- </div>
+</div>
 
- <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
- </div>
+
+
+
 
  <script>
  var slideIndex = 1;
@@ -226,7 +255,6 @@ function growShrinkLogo() {
            <br>
        </div>
 
-<<<<<<< HEAD
 <div id="marché">
  <div class="titremarché">
   <h1>Nos marchés</h1>
@@ -237,33 +265,23 @@ function growShrinkLogo() {
            <a target="_blank" href="../images/imgmarché1.jpg">
              <img src="../images/imgmarché1.jpg" alt="Bureaux" width="600" height="400">
            </a>
-       <div id="marché">
-         <div class="titremarché">
-           <h1>Marchés</h1>
          </div>
-         <div class="galleryfather">
-           <div class="gallery">
-             <div class="desc">Bureaux</div>
-             <a target="_blank" href="../images/imgmarché1.jpg">
-             <img src="../images/imgmarché1.jpg" alt="Bureaux" width="600" height="400">
-            </a>
-          </div>
 
-          <div class="gallery">
+         <div class="gallery">
            <a target="_blank" href="../images/imgmarché2.jpg">
              <img src="../images/imgmarché2.jpg" alt="Maisons et Villas" width="600" height="400">
            </a>
            <div class="desc">Maisons et Villas</div>
-          </div>
+         </div>
 
-          <div class="gallery">
+         <div class="gallery">
            <div class="desc">Commerces</div>
            <a target="_blank" href="../images/imgmarché3.jpg">
              <img src="../images/imgmarché3.jpg" alt="Commerces" width="600" height="400">
            </a>
-          </div>
-        </div>
-      </div>
+         </div>
+       </div>
+</div>
 
 <!--<div id="bureaux">
   <ul>
@@ -329,7 +347,7 @@ function growShrinkLogo() {
 }
 
 .box img {
-  float: right;
+  float:left;
 }
 </style>
        </div>
@@ -348,11 +366,11 @@ function growShrinkLogo() {
         <table>
         <thead>
           <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
-          <link href="style.css" type="text/css" rel="stylesheet" >
+          <link href="style.css" type="text/css" rel="stylesheet">
         </thead>
           <tbody>
             <tr>
-              <td rowspan="2"><a class="BW" ><img src="../images/AA_SGBW.png" alt="Seigneurie Gauthier"></a><a class="C" target="_blank" href="https://www.seigneuriegauthier.com/"><img src="../images/AA_SGC.png" alt="Seigneurie Gauthier"></a></td>
+              <td rowspan="2"><a class="BW" ><img src="../images/AA_SGBW.png" alt="Seigneurie Gauthier"></a><a class="C" href="https://www.seigneuriegauthier.com/"><img src="../images/AA_SGC.png" alt="Seigneurie Gauthier"></a></td>
               <td rowspan="2"></td>
               <td rowspan="2"></td>
               <td rowspan="2"></td>
@@ -428,6 +446,7 @@ function growShrinkLogo() {
         	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet" placeholder="Renovation"/> </p>
                  <p> <label for="message">Message/Question</label> <textarea id="message" placeholder="Exemple" required /></textarea> </p>
                  <p> <label></label><input class="button_container" type="submit" value="Envoyer"> </p>
+                 <p> <imput type="submit" value="Envoyer" /> </p>
               </form>
             </div></p>
       </div>

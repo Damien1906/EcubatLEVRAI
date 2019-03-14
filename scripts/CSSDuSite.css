@@ -305,8 +305,9 @@ li a:hover {
 }
 
 #marché {
-  background-image: url("../images/fondmarché.jpg");
-  background-size: cover;
+  /*background-image: url("../images/fondmarché.jpg");
+  background-size: cover;*/
+  background-color: white;
   width:100%;
   height: auto;
 }

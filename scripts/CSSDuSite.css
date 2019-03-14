@@ -329,15 +329,17 @@ li a:hover {
 }
 
 .gallery {
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 100px;
-  margin-left: 90px;
-  margin-right: 90px;
-  width: 280px;
+  margin-left: 55px;
+  margin-right: 55px;
+  width: 350px;
 }
 
 .gallery:hover {
-  border: 1px solid #ccc;
+  -webkit-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  -moz-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
 }
 
 .gallery img {

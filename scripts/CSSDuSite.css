@@ -388,6 +388,9 @@ height: 300px;
 
 .box img {
 float: right;
+width: auto;
+height: auto;
+transition: 1s ease;
 display: none;
 }
 

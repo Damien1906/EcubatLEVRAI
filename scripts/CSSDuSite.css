@@ -362,6 +362,36 @@ li a:hover {
   padding-top: 2px;
 }
 
+.box {
+border: 1px solid #640C14;
+display: block;
+width: 100%;
+height: 100px;
+color: white;
+background-color: #D1D0D0;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+transition: 1s ease;
+}
+
+.box:hover img {
+display: inline-block;
+}
+
+.box:hover {
+background-color: #640C14;
+text-indent: 0%;
+width: 100%;
+height: 300px;
+}
+
+.box img {
+float: right;
+display: none;
+}
+
+
 #fournisseurs {
   padding-top: 60px;
   color: #8B0000;

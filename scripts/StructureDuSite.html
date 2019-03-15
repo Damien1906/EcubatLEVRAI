@@ -49,6 +49,22 @@ function growShrinkLogo() {
     Logo.style.height = '117px';
   }
 }
+
+var el =  document . querySelector ( 'navigation' );
+
+// obtenir la position de défilement dans px
+console. log (el.scrollLeft, el.scrollTop);
+
+// définit la position de défilement dans px
+el.scrollLeft =  500 ;
+el.scrollTop =  1000 ;
+
+var scrollLeft =  window .pageXOffset | |  document .documentElement.scrollLeft,
+    scrollTop =  window .pageYOffset | |  document .documentElement.scrollTop;
+
+document .documentElement.scrollTop =  document .body.scrollTop =  1000 ;
+document .documentElement.scrollLeft =  document .body.scrollLeft =  500 ;
+
 </script>
 
 
@@ -288,6 +304,7 @@ function growShrinkLogo() {
 
 
        <div id="garanties(lien)">
+       </div>
 
        <div id="garanties">
       <h1>Garanties</h1>
@@ -305,31 +322,7 @@ function growShrinkLogo() {
         <p>ECUBAT est assurée au titre de la garantie décennale auprès de la compagnie L'<a class="lien" href="http://www.auxiliaire.fr/">AUXILIAIRE</a></p>
         <br>
       </div>
-  <style>
-        .box {
-  border: 1px solid #640C14;
-  display: block;
-  width: 100px;
-  height: 100px;
-  color: white;
-  background-color: white;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: 1s ease;
-}
 
-.box:hover {
-  background-color: #640C14;
-  text-indent: 0%;
-  width: 100%;
-  height: 300px;
-}
-
-.box img {
-  float: right;
-}
-</style>
        </div>
        <br>
        <br>

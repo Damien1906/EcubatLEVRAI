@@ -206,11 +206,11 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(128, 14, 19, 0.7);
+    background-color: rgba(128, 14, 19, 0);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +3;
+    z-index: +10;
 }
 
 .logo {
@@ -247,7 +247,7 @@ a.custom-class {
   }
 
 li a:hover {
-  background-color: #640D15;
+  background-color: rgba(128, 14, 19, 0.8);
 }
 
 #descriptionentreprise {
@@ -306,8 +306,9 @@ li a:hover {
 }
 
 #marché {
-  background-image: url("../images/fondmarché.jpg");
-  background-size: cover;
+  /*background-image: url("../images/fondmarché.jpg");
+  background-size: cover;*/
+  background-color: #D1D0D0;
   width:100%;
   height: auto;
 }
@@ -331,13 +332,18 @@ li a:hover {
 .gallery {
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 90px;
-  margin-right: 90px;
-  width: 280px;
+  margin-left: 55px;
+  margin-right: 55px;
+  width: 350px;
+  transition: 300ms ease;
 }
 
-.gallery:hover {
-  border: 1px solid #ccc;
+ .gallery:hover {
+   width: 380px;
+   transition: 300ms ease;
+  -webkit-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  -moz-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
 }
 
 .gallery img {
@@ -360,6 +366,35 @@ li a:hover {
   font: helvetica;
   text-align: center;
   padding-top: 2px;
+}
+
+.box {
+border: 1px solid #640C14;
+display: block;
+width: 100%;
+height: 100px;
+color: white;
+background-color: #D1D0D0;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+transition: 1s ease;
+}
+
+.box:hover img {
+display: inline-block;
+}
+
+.box:hover {
+background-color: #640C14;
+text-indent: 0%;
+width: 100%;
+height: 300px;
+}
+
+.box img {
+float: right;
+display: none;
 }
 
 #fournisseurs {
@@ -396,7 +431,7 @@ li a:hover {
 }
 
 .demande {
-  height: 550px;
+  height: auto;
   font-family: sans-serif;
   font: helvetica;
   color: #8B0000;

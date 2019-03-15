@@ -10,7 +10,7 @@ html {
   background-color: #ecf0f1;
 }
 
-/*caroussel début*/
+/*caroussel début #ecf0f1*/
 
 #carousel1 {
   box-sizing: border-box
@@ -206,7 +206,7 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(128, 14, 19, 0);
+    background-color: rgba(56, 4, 14, 0.5);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -229,8 +229,6 @@ li.barredenavigation {
 li.barredenavigation a {
     display: block;
     height: 30px;
-    color: white;
-    text-align: center;
     color: white;
     text-align: center;
     padding-top: 22px;

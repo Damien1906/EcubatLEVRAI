@@ -50,21 +50,6 @@ function growShrinkLogo() {
   }
 }
 
-var el =  document . querySelector ( 'navigation' );
-
-// obtenir la position de défilement dans px
-console. log (el.scrollLeft, el.scrollTop);
-
-// définit la position de défilement dans px
-el.scrollLeft =  500 ;
-el.scrollTop =  1000 ;
-
-var scrollLeft =  window .pageXOffset | |  document .documentElement.scrollLeft,
-    scrollTop =  window .pageYOffset | |  document .documentElement.scrollTop;
-
-document .documentElement.scrollTop =  document .body.scrollTop =  1000 ;
-document .documentElement.scrollLeft =  document .body.scrollLeft =  500 ;
-
 </script>
 
 

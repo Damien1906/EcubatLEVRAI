@@ -37,6 +37,9 @@ img {
 .slideshow-container {
  position: relative;
  margin: auto;
+ -webkit-box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
+box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
 }
 
 /* Next & previous buttons */
@@ -195,12 +198,10 @@ a.lien {
 
 .lien, a:hover {
   color: #B30000;
-  text-decoration: underline;
 }
 
 .lien, a:active {
   color: #ff3333;
-  text-decoration: underline;
 }
 
 div.barredenavigation, ul.barredenavigation {
@@ -248,6 +249,8 @@ a.custom-class {
 
 li a:hover {
   background-color: rgba(128, 14, 19, 0.8);
+  border-bottom: 2px solid white;
+  border-bottom-style: groove;
 }
 
 #descriptionentreprise {
@@ -334,12 +337,12 @@ li a:hover {
   margin-left: 55px;
   margin-right: 55px;
   width: 350px;
-  transition: 300ms ease;
+  transition: 400ms ease;
 }
 
  .gallery:hover {
    width: 380px;
-   transition: 300ms ease;
+   transition: 400ms ease;
   -webkit-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
   -moz-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
   box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
@@ -354,17 +357,17 @@ li a:hover {
   padding: 15px;
   text-align: center;
   color: white;
+  font-weight: bold;
   background-color:#640C14;
 }
 
 #garanties {
   padding-top: 60px;
   background-color:rgba(64, 64, 64, 0.8);
-  color: #8B0000;
+  color: white;
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
-  padding-top: 2px;
 }
 
 .box {

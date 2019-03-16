@@ -7,7 +7,9 @@
 html {
   padding: 0;
   margin: 0;
-  background-color: #ecf0f1;
+  /*background-color: #ecf0f1;*/
+  background-image: url("../images/AAA-fonddusite.jpg");
+  background-size: contain;
 }
 
 /*caroussel début #ecf0f1*/
@@ -206,7 +208,7 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(56, 4, 14, 0.5);
+    background-color: rgba(100, 13, 20, 0.5);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -259,8 +261,7 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-image: url("../images/Testimage1.jpg");
-  background-size: cover;
+  background-color: rgba(64, 64, 64, 0.5);
   color: white;
   width: auto;
   height: 100%;
@@ -306,7 +307,7 @@ li a:hover {
 #marché {
   /*background-image: url("../images/fondmarché.jpg");
   background-size: cover;*/
-  background-color: #D1D0D0;
+  background-color: rgba(64, 64, 64, 0.8);
   width:100%;
   height: auto;
 }
@@ -358,7 +359,7 @@ li a:hover {
 
 #garanties {
   padding-top: 60px;
-  background-color:#D1D0D0;
+  background-color:rgba(64, 64, 64, 0.8);
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -372,7 +373,7 @@ display: block;
 width: 100%;
 height: 100px;
 color: white;
-background-color: #D1D0D0;
+background-color: rgba(64, 64, 64, 0.8);
 text-indent: 100%;
 white-space: nowrap;
 overflow: hidden;
@@ -405,7 +406,7 @@ display: none;
 
 #adresse {
   padding-top: 40px;
-  background-color:#ecf0f1;
+  background-color:inherit;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -432,13 +433,13 @@ display: none;
   height: auto;
   font-family: sans-serif;
   font: helvetica;
-  color: #8B0000;
+  color: #ecf0f1;
   display:table;
   font-size:16px;
   font-style:normal;
   font-weight:400;
   text-align:left;
-  background-color: #EDEDED;
+  background-color: rgba(64, 64, 64, 0.8);
   border-bottom: 2px solid #8B0000;
   display: flow-root;
 }
@@ -447,7 +448,7 @@ display: none;
   float: left;
   width: 304px;
   height: 550px;
-  background-color:#6A0314;
+  background-color:rgba(106, 3, 20, 0.5);
   padding: 10px;
 }
 
@@ -459,7 +460,7 @@ display: none;
 }
 
 .question {
-  background-color:#6A0314;
+  background-color:rgba(106, 3, 20, 0.5);
   float: right;
   width: 304px;
   height: 550px;

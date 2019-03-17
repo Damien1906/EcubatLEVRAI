@@ -355,10 +355,12 @@ li a:hover {
 
 .desc {
   padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   color: white;
   font-weight: bold;
-  background-color:#640C14;
+  background-color: #C0C4C6;
 }
 
 #garanties {

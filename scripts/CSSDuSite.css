@@ -499,13 +499,15 @@ display: none;
   padding: 10px;
 }
 
-.information p, h2, ul1 {
+.information h2, ul1 {
   color: white;
-  font-family: sans-serif;
-  font: helvetica;
+  font-family: noto-sansb;
   text-align: left;
 }
-
+.information p {
+  font-family: SourceSansPro-reg;
+  font-size: 10px;
+}
 .question {
   background-color:rgba(106, 3, 20, 0.5);
   float: right;
@@ -516,8 +518,7 @@ display: none;
 
 .question p, h2 , h3{
   color: white;
-  font-family: sans-serif;
-  font: helvetica;
+  font-family: noto-sansb;
   text-align: left;
 }
 

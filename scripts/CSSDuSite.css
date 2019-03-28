@@ -27,10 +27,12 @@
 html {
   padding: 0;
   margin: 0;
-  background-color: #ecf0f1;
+  /*background-color: #ecf0f1;*/
+  background-image: url("../images/AAA-fonddusite.jpg");
+  background-size: contain;
 }
 
-/*caroussel début*/
+/*caroussel début #ecf0f1*/
 
 #carousel1 {
   box-sizing: border-box
@@ -55,6 +57,9 @@ img {
 .slideshow-container {
  position: relative;
  margin: auto;
+ -webkit-box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
+box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
 }
 
 /* Next & previous buttons */
@@ -111,17 +116,17 @@ img {
  height: 15px;
  width: 15px;
  margin: 0 20px;
- margin-bottom: 20px;
  background-color: #bbb;
  border-radius: 50%;
  transition: background-color 0.6s ease;
  display: inline-block;
-
+ top: 25px;
 }
 
-.active, .dot:hover {
- background-color: #717171;
+.dot:hover {
+ background-color: #800E13;
 }
+
 
 /* Fading animation */
 .fade {
@@ -213,12 +218,10 @@ a.lien {
 
 .lien, a:hover {
   color: #B30000;
-  text-decoration: underline;
 }
 
 .lien, a:active {
   color: #ff3333;
-  text-decoration: underline;
 }
 
 div.barredenavigation, ul.barredenavigation {
@@ -226,11 +229,11 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(128, 14, 19, 0.7);
+    background-color: rgba(100, 13, 20, 0.5);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +3;
+    z-index: +10;
 }
 
 .logo {
@@ -251,8 +254,6 @@ li.barredenavigation a {
     height: 30px;
     color: white;
     text-align: center;
-    color: white;
-    text-align: center;
     padding-top: 22px;
     padding-bottom: 43px;
     padding-left: 16px;
@@ -267,7 +268,10 @@ a.custom-class {
   }
 
 li a:hover {
-  background-color: #640D15;
+  background-color: rgba(128, 14, 19, 0.3);
+  border-left: 1px solid white;
+  width: 300px;
+  transition: 5s ease;
 }
 
 #descriptionentreprise {
@@ -281,8 +285,7 @@ li a:hover {
 }
 
 #plâtrerie {
-	background-image: url("../images/Testimage1.jpg");
-  background-size: cover;
+  background-color: rgba(64, 64, 64, 0.5);
   color: white;
   width: auto;
   height: 100%;
@@ -310,7 +313,7 @@ li a:hover {
 }
 
 #peinture {
-  background-color:#640C14;
+  background-color:rgba(106, 3, 20, 0.8);
   color:white;
   font-family: sans-serif;
   font: helvetica;
@@ -326,8 +329,9 @@ li a:hover {
 }
 
 #marché {
-  background-image: url("../images/fondmarché.jpg");
-  background-size: cover;
+  /*background-image: url("../images/fondmarché.jpg");
+  background-size: cover;*/
+  background-color: rgba(64, 64, 64, 0.8);
   width:100%;
   height: auto;
 }
@@ -353,12 +357,16 @@ li a:hover {
   margin-top: 50px;
   margin-bottom: 100px;
   margin-left: 5%;
-  margin-right: 5%;
-  width: 280px;
+  margin-left: 55px;
+  width: 350px;
+  transition: 400ms ease;
 }
 
-.gallery:hover {
-  border: 1px solid #ccc;
+ .gallery:hover {
+   width: 380px;
+   transition: 400ms ease;
+  -webkit-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
 }
 
 .gallery img {
@@ -368,19 +376,49 @@ li a:hover {
 
 .desc {
   padding: 15px;
+  padding-bottom: 20px;
   text-align: center;
   color: white;
-  background-color:#640C14;
+  font-weight: bold;
+  background-color: #C0C4C6;
 }
 
 #garanties {
   padding-top: 60px;
-  background-color:#D1D0D0;
-  color: #8B0000;
+  background-color:rgba(64, 64, 64, 0.8);
+  color: white;
   font-family: sans-serif;
   font: helvetica;
   text-align: center;
-  padding-top: 2px;
+}
+
+.box {
+border: 1px solid #640C14;
+display: block;
+width: 100%;
+height: 100px;
+color: white;
+background-color: rgba(64, 64, 64, 0.8);
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+transition: 1s ease;
+}
+
+.box:hover img {
+display: inline-block;
+}
+
+.box:hover {
+background-color: #640C14;
+text-indent: 0%;
+width: 100%;
+height: 300px;
+}
+
+.box img {
+float: right;
+display: none;
 }
 
 #fournisseurs {
@@ -393,7 +431,7 @@ li a:hover {
 
 #adresse {
   padding-top: 40px;
-  background-color:#ecf0f1;
+  background-color:inherit;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;
@@ -417,16 +455,16 @@ li a:hover {
 }
 
 .demande {
-  height: 550px;
+  height: auto;
   font-family: sans-serif;
   font: helvetica;
-  color: #8B0000;
+  color: #ecf0f1;
   display:table;
   font-size:16px;
   font-style:normal;
   font-weight:400;
   text-align:left;
-  background-color: #EDEDED;
+  background-color: rgba(64, 64, 64, 0.8);
   border-bottom: 2px solid #8B0000;
   display: flow-root;
 }
@@ -435,19 +473,19 @@ li a:hover {
   float: left;
   width: 304px;
   height: 550px;
-  background-color:#6A0314;
+  background-color:rgba(106, 3, 20, 0.5);
   padding: 10px;
 }
 
 .information p, h2, ul1 {
-  color: #ecf0f1;
+  color: white;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
 }
 
 .question {
-  background-color:#6A0314;
+  background-color:rgba(106, 3, 20, 0.5);
   float: right;
   width: 304px;
   height: 550px;
@@ -455,7 +493,7 @@ li a:hover {
 }
 
 .question p, h2 , h3{
-  color: #ecf0f1;
+  color: white;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;

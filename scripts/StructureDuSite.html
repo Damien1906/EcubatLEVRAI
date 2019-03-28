@@ -49,6 +49,7 @@ function growShrinkLogo() {
     Logo.style.height = '117px';
   }
 }
+
 </script>
 
 
@@ -89,24 +90,26 @@ function growShrinkLogo() {
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-
- <body>
-
  <div class="slideshow-container">
 
  <div class="mySlides fade">
   <img src="../images/AA-c-1.jpg" style="width:100%">
-    <div class="text">
+    <div class="text" style="padding-bottom: 0px;">
       <div id="hautdelapage">
         <h1>Accueil</h1>
         <h3>ECUBAT est une entreprise familiale spécialisée dans la rénovation des aménagements intérieurs depuis 1991</h3>
+      </div>
+      <div style="text-align:center; margin-top: 80px; margin-bottom: 30px;">
+       <span class="dot" onclick="currentSlide(1)" style="background-color: #640D14;"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </div>
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-2.jpg" style="width:100%">
-  <div class="text">
+  <div class="text" style="padding-bottom: 0px;">
     <div id="présentationdusite">
     <br>
     <p>Spécialités :</p>
@@ -121,18 +124,28 @@ function growShrinkLogo() {
       <li>Suivi de chantier rigoureux</li>
     </ul2>
   </div>
+  <div style="text-align:center; margin-top: 60px; margin-bottom: 30px;">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)" style="background-color: #640D14;"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
 </div>
  </div>
 
  <div class="mySlides fade">
   <img src="../images/AA-c-3.jpg" style="width:100%">
-  <div class="text">
+  <div class="text" style="padding-bottom: 0px;">
     <div id="descriptionentreprise">
   <br>
   <br>
   <p>ECUBAT travaille depuis de nombreuses années avec des architectes et maîtres-d'oeuvre dans la réalisation de bureaux et commerces, en situation "occupé" ou "nu"</p>
   <br>
   <p>La moitié de son activité est réalisé avec des donneurs d'ordre professionnels où le respect des délais, des engagements est fondamental... cette façon de travailler se retrouve naturellement avec les clients particuliers qui apprécient d'être traités en "pro".</p>
+  </div>
+  <div style="text-align:center; margin-top: 60px; margin-bottom: 30px;">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)" style="background-color: #640D14;"></span>
   </div>
 </div>
  </div>
@@ -142,11 +155,8 @@ function growShrinkLogo() {
 
  </div>
 
- <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
- </div>
+
+
 
  <script>
  var slideIndex = 1;
@@ -186,7 +196,12 @@ function growShrinkLogo() {
 
 
        <div id="plâtrerie">
-         <img src="../images/plâtrerie11.jpg">
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
          <br>
          <h1>Plâtrerie</h1>
          <p>La plâtrerie aujourd'hui, c'est essentiellement la pose de systèmes de plaques de plâtre qui permettent une finition rapide des volumes intérieurs.</p>
@@ -279,6 +294,7 @@ function growShrinkLogo() {
 
 
        <div id="garanties(lien)">
+       </div>
 
        <div id="garanties">
       <h1>Garanties</h1>
@@ -296,31 +312,7 @@ function growShrinkLogo() {
         <p>ECUBAT est assurée au titre de la garantie décennale auprès de la compagnie L'<a class="lien" href="http://www.auxiliaire.fr/">AUXILIAIRE</a></p>
         <br>
       </div>
-  <style>
-        .box {
-  border: 1px solid #640C14;
-  display: block;
-  width: 100px;
-  height: 100px;
-  color: white;
-  background-color: white;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: 1s ease;
-}
 
-.box:hover {
-  background-color: #640C14;
-  text-indent: 0%;
-  width: 100%;
-  height: 300px;
-}
-
-.box img {
-  float: right;
-}
-</style>
        </div>
        <br>
        <br>
@@ -417,7 +409,6 @@ function growShrinkLogo() {
         	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet" placeholder="Renovation"/> </p>
                  <p> <label for="message">Message/Question</label> <textarea id="message" placeholder="Exemple" required /></textarea> </p>
                  <p> <label></label><input class="button_container" type="submit" value="Envoyer"> </p>
-                 <p> <imput type="submit" value="Envoyer" /> </p>
               </form>
             </div></p>
       </div>

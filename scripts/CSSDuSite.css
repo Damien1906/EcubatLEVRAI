@@ -4,6 +4,26 @@
   box-sizing:border-box;
 }
 
+
+/*fonts*/
+
+@font-face {
+  src: url("fonts/noto-sans/NotoSans-SemiCondensedThin.ttf");
+  font-family: noto-sansthin;
+}
+@font-face {
+  src: url("fonts/noto-sans/NotoSans-SemiCondensedMedium.ttf");
+  font-family: noto-sansmed;
+}
+@font-face {
+  src: url("fonts/noto-sans/NotoSans-Bold.ttf");
+  font-family: noto-sansb;
+}
+
+/*end fonts*/
+
+
+
 html {
   padding: 0;
   margin: 0;
@@ -269,7 +289,7 @@ li a:hover {
   color: white;
   width: auto;
   height: 100%;
-  font-family: sans-serif;
+  font-family: noto-sans;
   font: helvetica;
   font-weight: bold;
 }
@@ -324,8 +344,9 @@ li a:hover {
   width: 100%;
   display: inline-block;
   padding-left: 100px;
-  padding-top: 30px;
-  text-decoration: underline;
+  padding-top: 25px;
+  font-family: noto-sansb;
+  font-size: 35px;
 }
 
 .galleryfather {

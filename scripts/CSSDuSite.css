@@ -19,6 +19,10 @@
   src: url("fonts/noto-sans/NotoSans-Bold.ttf");
   font-family: noto-sansb;
 }
+@font-face {
+  src: url("fonts/source-sans-pro/SourceSansPro-regular.otf");
+  font-family: SourceSansPro-reg;
+}
 
 /*end fonts*/
 
@@ -289,7 +293,8 @@ li a:hover {
   color: white;
   width: auto;
   height: 100%;
-  font-family: noto-sansmed;
+  font-family: SourceSansPro-reg;
+  font-size: 20px;
   font: helvetica;
   font-weight: bold;
 }

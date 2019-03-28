@@ -356,8 +356,8 @@ li a:hover {
 .gallery {
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 5%;
   margin-left: 55px;
+  margin-right: 55px;
   width: 350px;
   transition: 400ms ease;
 }
@@ -366,6 +366,7 @@ li a:hover {
    width: 380px;
    transition: 400ms ease;
   -webkit-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  -moz-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
   box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
 }
 
@@ -376,6 +377,7 @@ li a:hover {
 
 .desc {
   padding: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   color: white;

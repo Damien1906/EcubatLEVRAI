@@ -289,9 +289,22 @@ li a:hover {
   color: white;
   width: auto;
   height: 100%;
-  font-family: noto-sans;
+  font-family: noto-sansmed;
   font: helvetica;
   font-weight: bold;
+}
+
+.titreplatrerie{
+
+  color: white;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 25px;
+  font-family: noto-sansb;
+  font-size: 35px;
+
 }
 
 #plâtrerie h1 {

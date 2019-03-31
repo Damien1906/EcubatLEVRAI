@@ -259,12 +259,15 @@ li.barredenavigation a {
     color: white;
     text-align: center;
     padding-top: 14px;
-    padding-bottom: 32px;
+    padding-bottom: 34px;
     padding-left: 16px;
     padding-right: 16px;
     border-right: 1px solid white;
     font-size: 18px;
     text-decoration: none;
+    font-family: SourceSansPro-reg;
+    font-size: 18px;
+    font: helvetica;
 }
 
 a.custom-class {
@@ -272,10 +275,9 @@ a.custom-class {
   }
 
 li a:hover {
-  background-color: rgba(128, 14, 19, 0.3);
-  border-left: 1px solid white;
-  width: 300px;
-  transition: 5s ease;
+  background-color: rgba(128, 14, 19, 0.4);
+  border-left: 2px solid white;
+  margin-left: 5px;
 }
 
 #descriptionentreprise {
@@ -397,13 +399,27 @@ li a:hover {
 }
 
 .desc {
+  position: absolute;
+  width:100px;
   padding: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #C0C4C6;
+  opacity: 0.8;
+  display: inline-table;
+}
+
+.desc a {
+  display: table-cell;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: white;
   font-weight: bold;
-  background-color: #C0C4C6;
+  padding-top: 50px;
+  font-size: 18px;
+  font-family: SourceSansPro-reg;
 }
 
 #garanties {

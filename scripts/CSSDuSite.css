@@ -341,12 +341,23 @@ li a:hover {
   text-align: left;
 }
 
-#peinture p, h1, ul {
+#peintures ul {
+  padding-left: 50px;
+  font-family: SourceSansPro-reg;
+}
+
+#peinture p {
   padding-left: 10px;
+  font-family: SourceSansPro-reg;
 }
 
 #peinture img {
   float: right;
+}
+
+#peinture h1, h3 {
+  padding-left: 10px;
+  font-family: noto-sansb;
 }
 
 #marché {

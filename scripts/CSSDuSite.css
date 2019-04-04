@@ -298,6 +298,7 @@ li a:hover {
   font-size: 20px;
   font: helvetica;
   font-weight: bold;
+  background-color:rgb(106, 3, 20);
 }
 
 .titreplatrerie{
@@ -337,7 +338,6 @@ li a:hover {
 }
 
 #peinture {
-  background-color:rgb(106, 3, 20);
   color:white;
   font-family: sans-serif;
   font: helvetica;
@@ -518,7 +518,7 @@ display: none;
   float: left;
   width: 304px;
   height: 550px;
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   padding: 10px;
 }
 
@@ -532,7 +532,7 @@ display: none;
   font-size: 10px;
 }
 .question {
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   float: right;
   width: 304px;
   height: 550px;

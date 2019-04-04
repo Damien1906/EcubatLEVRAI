@@ -319,7 +319,6 @@ li a:hover {
   padding-right: 60px;
   font-size: 35px;
   text-decoration: underline;
-  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie p {
@@ -327,7 +326,6 @@ li a:hover {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
-  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie img {
@@ -339,9 +337,10 @@ li a:hover {
 
 #peinture {
   color:white;
-  font-family: sans-serif;
-  font: helvetica;
+  font-family: SourceSansPro-reg;
   text-align: left;
+  font-size: 20px;
+  text-shadow: 0 0 9px #494e50;
 }
 
 #peintures ul {
@@ -368,7 +367,7 @@ li a:hover {
   background-size: cover;*/
   width:100%;
   height: auto;
-  background-color:rgb(64, 64, 64);
+  background-color:rgba(64, 64, 64, 0.8);
 }
 
 .titremarché {

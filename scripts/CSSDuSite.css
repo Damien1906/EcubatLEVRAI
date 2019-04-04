@@ -319,7 +319,6 @@ li a:hover {
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
-  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie p {
@@ -327,7 +326,6 @@ li a:hover {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
-  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie img {
@@ -339,8 +337,7 @@ li a:hover {
 
 #peinture {
   color:white;
-  font-family: sans-serif;
-  font: helvetica;
+  font-family: SourceSansPro-reg;
   text-align: left;
 }
 

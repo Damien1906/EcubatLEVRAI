@@ -291,7 +291,6 @@ li a:hover {
 }
 
 #plâtrerie {
-  background-color: rgba(64, 64, 64, 0.5);
   color: white;
   width: auto;
   height: 100%;
@@ -336,7 +335,7 @@ li a:hover {
 }
 
 #peinture {
-  background-color:rgba(106, 3, 20, 0.8);
+  background-color:rgb(106, 3, 20);
   color:white;
   font-family: sans-serif;
   font: helvetica;
@@ -354,7 +353,6 @@ li a:hover {
 #marché {
   /*background-image: url("../images/fondmarché.jpg");
   background-size: cover;*/
-  background-color: rgba(64, 64, 64, 0.8);
   width:100%;
   height: auto;
 }

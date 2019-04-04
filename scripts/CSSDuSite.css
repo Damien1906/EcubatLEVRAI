@@ -355,6 +355,7 @@ li a:hover {
   background-size: cover;*/
   width:100%;
   height: auto;
+  background-color:rgb(64, 64, 64);
 }
 
 .titremarché {

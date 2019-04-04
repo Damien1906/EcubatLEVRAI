@@ -510,7 +510,7 @@ display: none;
   float: left;
   width: 304px;
   height: 550px;
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   padding: 10px;
 }
 
@@ -524,7 +524,7 @@ display: none;
   font-size: 10px;
 }
 .question {
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   float: right;
   width: 304px;
   height: 550px;

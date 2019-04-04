@@ -318,6 +318,7 @@ li a:hover {
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
+  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie p {
@@ -325,6 +326,7 @@ li a:hover {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
+  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie img {
@@ -366,6 +368,7 @@ li a:hover {
   padding-top: 15px;
   font-family: noto-sansb;
   font-size: 20px;
+  text-shadow: 0 0 9px #494e50;
 }
 
 .galleryfather {
@@ -414,9 +417,15 @@ li a:hover {
   text-align: center;
   color: white;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 0px;
   font-size: 18px;
   font-family: SourceSansPro-reg;
+}
+
+.bordergallery {
+  border-top: 1px solid white;
+  width: 20px;
+  align-content: center;
 }
 
 #garanties {

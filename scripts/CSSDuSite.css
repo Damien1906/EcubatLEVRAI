@@ -299,7 +299,6 @@ li a:hover {
 }
 
 #plâtrerie {
-  background-color: rgba(64, 64, 64, 0.5);
   color: white;
   width: auto;
   height: 100%;
@@ -307,6 +306,7 @@ li a:hover {
   font-size: 20px;
   font: helvetica;
   font-weight: bold;
+  background-color:rgb(106, 3, 20);
 }
 
 .titreplatrerie{
@@ -324,7 +324,7 @@ li a:hover {
 
 #plâtrerie h1 {
   text-align: right;
-  padding-right: 20px;
+  padding-right: 60px;
   font-size: 35px;
   text-decoration: underline;
 }
@@ -344,27 +344,38 @@ li a:hover {
 }
 
 #peinture {
-  background-color:rgba(106, 3, 20, 0.8);
   color:white;
-  font-family: sans-serif;
-  font: helvetica;
+  font-family: SourceSansPro-reg;
   text-align: left;
+  font-size: 20px;
+  text-shadow: 0 0 9px #494e50;
 }
 
-#peinture p, h1, ul {
+#peintures ul {
+  padding-left: 50px;
+  font-family: SourceSansPro-reg;
+}
+
+#peinture p {
   padding-left: 10px;
+  font-family: SourceSansPro-reg;
 }
 
 #peinture img {
   float: right;
 }
 
+#peinture h1, h3 {
+  padding-left: 10px;
+  font-family: noto-sansb;
+}
+
 #marché {
   /*background-image: url("../images/fondmarché.jpg");
   background-size: cover;*/
-  background-color: rgba(64, 64, 64, 0.8);
   width:100%;
   height: auto;
+  background-color:rgba(64, 64, 64, 0.8);
 }
 
 .titremarché {
@@ -376,6 +387,7 @@ li a:hover {
   padding-top: 15px;
   font-family: noto-sansb;
   font-size: 20px;
+  text-shadow: 0 0 9px #494e50;
 }
 
 .galleryfather {
@@ -408,13 +420,10 @@ li a:hover {
 
 .desc {
   position: absolute;
-  width:100px;
-  padding: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #C0C4C6;
-  opacity: 0.8;
-  display: inline-table;
+  background-color: rgba(192, 196, 198, 0.5);
+  display: block;
 }
 
 .desc a {
@@ -425,9 +434,27 @@ li a:hover {
   text-align: center;
   color: white;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 0px;
+  padding: 15px;
   font-size: 18px;
   font-family: SourceSansPro-reg;
+}
+
+.bordergallery {
+  border-bottom: 2px solid white;
+  width: 50px;
+  padding-left: 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.bordergallery img {
+  width: 32px;
+  height: 30px;
+  margin-bottom: 15px;
 }
 
 #garanties {
@@ -468,12 +495,14 @@ float: right;
 display: none;
 }
 
-#fournisseurs {
-  padding-top: 60px;
-  color: #8B0000;
+#fournisseurs h1{
+  padding-top: 30px;
+  color: #a8000b;
   font-family: sans-serif;
   font: helvetica;
   text-align: left;
+  padding-left: 60px;
+  font-family: noto-sansb;
 }
 
 #adresse {
@@ -520,7 +549,7 @@ display: none;
   float: left;
   width: 304px;
   height: 550px;
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   padding: 10px;
 }
 
@@ -534,19 +563,27 @@ display: none;
   font-size: 10px;
 }
 .question {
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   float: right;
   width: 304px;
   height: 550px;
   padding: 10px;
 }
 
-.question p, h2 , h3{
+.question p {
   color: white;
   font-family: noto-sansb;
   text-align: left;
+  font-size: 15px;
 }
 
+.question h2 , h3 {
+  color: white;
+  font-family: noto-sansb;
+  text-align: left;
+  font-size: 20px;
+}
+}
 .form {
   padding-top: 5px;
   padding-left: 420px;

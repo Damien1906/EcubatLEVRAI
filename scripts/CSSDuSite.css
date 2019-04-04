@@ -60,6 +60,7 @@ img {
 /* Slideshow container */
 .slideshow-container {
  position: relative;
+ background-color: white;
  margin: auto;
  -webkit-box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
 -moz-box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
@@ -69,6 +70,7 @@ box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
 /* Next & previous buttons */
 .prev, .next {
  cursor: pointer;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  position: absolute;
  top: 50%;
  width: auto;
@@ -228,6 +230,14 @@ a.lien {
   color: #ff3333;
 }
 
+#opacity {
+  background-color: white;
+  position: absolute;
+  width: 2000px;
+  height: 48px;
+  display: block;
+}
+
 div.barredenavigation, ul.barredenavigation {
     list-style-type: none;
     margin: 0;
@@ -275,9 +285,7 @@ a.custom-class {
   }
 
 li a:hover {
-  background-color: rgba(128, 14, 19, 0.4);
-  border-left: 2px solid white;
-  margin-left: 5px;
+  background-color: rgba(128, 14, 19, 1);
 }
 
 #descriptionentreprise {
@@ -470,7 +478,7 @@ display: none;
 
 #adresse {
   padding-top: 40px;
-  background-color:inherit;
+  background-color: inherit;
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;

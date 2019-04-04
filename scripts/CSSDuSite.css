@@ -298,6 +298,7 @@ li a:hover {
   font-size: 20px;
   font: helvetica;
   font-weight: bold;
+  background-color:rgb(106, 3, 20);
 }
 
 .titreplatrerie{
@@ -318,6 +319,7 @@ li a:hover {
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
+  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie p {
@@ -325,6 +327,7 @@ li a:hover {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
+  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie img {
@@ -335,7 +338,6 @@ li a:hover {
 }
 
 #peinture {
-  background-color:rgb(106, 3, 20);
   color:white;
   font-family: sans-serif;
   font: helvetica;
@@ -366,6 +368,7 @@ li a:hover {
   background-size: cover;*/
   width:100%;
   height: auto;
+  background-color:rgb(64, 64, 64);
 }
 
 .titremarché {
@@ -377,6 +380,7 @@ li a:hover {
   padding-top: 15px;
   font-family: noto-sansb;
   font-size: 20px;
+  text-shadow: 0 0 9px #494e50;
 }
 
 .galleryfather {
@@ -425,9 +429,15 @@ li a:hover {
   text-align: center;
   color: white;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 0px;
   font-size: 18px;
   font-family: SourceSansPro-reg;
+}
+
+.bordergallery {
+  border-top: 1px solid white;
+  width: 20px;
+  align-content: center;
 }
 
 #garanties {
@@ -520,7 +530,7 @@ display: none;
   float: left;
   width: 304px;
   height: 550px;
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   padding: 10px;
 }
 
@@ -534,7 +544,7 @@ display: none;
   font-size: 10px;
 }
 .question {
-  background-color:rgba(106, 3, 20, 0.5);
+  background-color:rgb(106, 3, 20);
   float: right;
   width: 304px;
   height: 550px;

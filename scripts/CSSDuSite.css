@@ -340,6 +340,7 @@ li a:hover {
   font-family: SourceSansPro-reg;
   text-align: left;
   font-size: 20px;
+  text-shadow: 0 0 9px #494e50;
 }
 
 #peintures ul {
@@ -366,7 +367,7 @@ li a:hover {
   background-size: cover;*/
   width:100%;
   height: auto;
-  background-color:rgb(64, 64, 64);
+  background-color:rgba(64, 64, 64, 0.8);
 }
 
 .titremarché {

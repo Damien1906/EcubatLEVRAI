@@ -298,6 +298,7 @@ li a:hover {
   font-size: 20px;
   font: helvetica;
   font-weight: bold;
+  background-color:rgb(106, 3, 20);
 }
 
 .titreplatrerie{
@@ -335,7 +336,6 @@ li a:hover {
 }
 
 #peinture {
-  background-color:rgb(106, 3, 20);
   color:white;
   font-family: sans-serif;
   font: helvetica;

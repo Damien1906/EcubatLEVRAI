@@ -412,12 +412,10 @@ li a:hover {
 
 .desc {
   position: absolute;
-  width:100px;
-  padding: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(192, 196, 198, 0.5);
-  display: inline-table;
+  display: block;
 }
 
 .desc a {
@@ -429,14 +427,26 @@ li a:hover {
   color: white;
   font-weight: bold;
   padding-top: 0px;
+  padding: 15px;
   font-size: 18px;
   font-family: SourceSansPro-reg;
 }
 
 .bordergallery {
-  border-top: 1px solid white;
-  width: 20px;
+  border-bottom: 2px solid white;
+  width: 50px;
+  padding-left: 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
   align-content: center;
+}
+
+.bordergallery img {
+  width: 32px;
+  height: 30px;
+  margin-bottom: 15px;
 }
 
 #garanties {

@@ -258,7 +258,7 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 li.barredenavigation {
-    float: left;
+    float: right;
 }
 
 li.barredenavigation a {
@@ -270,7 +270,6 @@ li.barredenavigation a {
     padding-bottom: 34px;
     padding-left: 16px;
     padding-right: 16px;
-    border-right: 1px solid white;
     font-size: 18px;
     text-decoration: none;
     font-family: SourceSansPro-reg;

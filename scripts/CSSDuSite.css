@@ -228,8 +228,6 @@ a.lien {
   color: #ff3333;
 }
 
-<<<<<<< HEAD
-=======
 #opacity {
   background-color: white;
   position: absolute;
@@ -238,7 +236,6 @@ a.lien {
   z-index: -1;
 }
 
->>>>>>> 85e6d701c7869602bbc575f8494d52c97cacf89b
 div.barredenavigation, ul.barredenavigation {
     list-style-type: none;
     margin: 0;

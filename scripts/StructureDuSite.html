@@ -5,7 +5,7 @@
      <meta charset="utf-8"/>
       <link rel="stylesheet" href="CSSDuSite.css" type="text/css">
       <title>ECUBAT - Plâtrerie-Peinture Saint Genis Laval (Lyon)</title>
-  <div id="opacity"></div>
+
       <style>
         #scrollUp {
           position: fixed;
@@ -52,7 +52,13 @@ function growShrinkLogo() {
 }
 
 </script>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+                $(document).on('scroll',function(){
+                        opacite = 3 - ( $(document).scrollTop() / $("#barredenavigation").outerHeight( true ) ) ;
+                        $('#bckg').css('opacity', opacite);
+                });
+</script>
 
    </head>
 
@@ -61,23 +67,36 @@ function growShrinkLogo() {
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
   <div id="navigation">
-
     <div class="tête_de_page">
       <img src="../images/AA_biglogo22.jpg" id='Logo'>
     </div>
 
      <!-- barre de navigation -->
-     <div class="barredenavigation">
-       <ul class="barredenavigation">
-        <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
-        <li class="barredenavigation"><a href="#fournisseurs">Fournisseurs</a></li>
-        <li class="barredenavigation"><a href="#garanties(lien)">Garanties</a></li>
-        <li class="barredenavigation"><a href="#marché">Marchés</a></li>
-        <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
-        <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
-       </ul>
-     </div>
-
+     <div id="opacity6">
+    <div id="barredenavigation">
+       <ul3 id="barredenavigation">
+        <li3>
+          <a href="#adresse">Adresse et Contact</a>
+        </li3>
+        <li3>
+          <a href="#fournisseurs">Fournisseurs</a>
+        </li3>
+        <li3>
+          <a href="#garanties(lien)">Garanties</a>
+        </li3>
+        <li3>
+          <a href="#marché">Marchés</a>
+        </li3>
+        <li3>
+          <a href="#peinture">Peinture</a>
+        </li3>
+        <li3>
+          <a href="#plâtrerie">Plâtrerie</a>
+        </li3>
+      </ul3>
+    </div>
+    <div id="bckg"></div>
+</div>
 </div>
 
      <!--bouton back-to-top-->

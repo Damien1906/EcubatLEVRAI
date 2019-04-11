@@ -231,12 +231,11 @@ a.lien {
 }
 
 #opacity {
-  background-color: ;
+  background-color: white;
   position: absolute;
   width: 2000px;
   height: 48px;
-  display: block;
-  opacity: 0.5;
+  z-index: -1;
 }
 
 div.barredenavigation, ul.barredenavigation {

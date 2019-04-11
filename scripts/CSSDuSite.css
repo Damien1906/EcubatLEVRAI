@@ -133,7 +133,22 @@ box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
 
 
 /* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
 
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -304,7 +319,6 @@ li a:hover {
   padding-right: 20px;
   font-size: 35px;
   text-decoration: underline;
-  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie p {
@@ -312,7 +326,6 @@ li a:hover {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
-  text-shadow: 0 0 9px black;
 }
 
 #plâtrerie img {
@@ -324,18 +337,28 @@ li a:hover {
 
 #peinture {
   color:white;
-  font-family: sans-serif;
-  font: helvetica;
+  font-family: SourceSansPro-reg;
   text-align: left;
+  font-size: 20px;
 }
 
-#peinture p, h1, ul {
+#peintures ul {
+  padding-left: 50px;
+  font-family: SourceSansPro-reg;
+}
+
+#peinture p {
   padding-left: 10px;
-  text-shadow: 0 0 9px black
+  font-family: SourceSansPro-reg;
 }
 
 #peinture img {
   float: right;
+}
+
+#peinture h1, h3 {
+  padding-left: 10px;
+  font-family: noto-sansb;
 }
 
 #marché {

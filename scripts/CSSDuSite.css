@@ -232,7 +232,7 @@ a.lien {
   background-color: white;
   position: absolute;
   width: 2000px;
-  height: 500px;
+  height: 167px;
   z-index: -1;
 }
 
@@ -258,23 +258,25 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 li.barredenavigation {
-    float: left;
+    float: right;
 }
 
 li.barredenavigation a {
-    display: block;
-    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 50px;
     color: white;
     text-align: center;
     padding-top: 14px;
-    padding-bottom: 34px;
+    padding-bottom: 14px;
     padding-left: 16px;
     padding-right: 16px;
-    border-right: 1px solid white;
     font-size: 18px;
+    letter-spacing: 1px;
     text-decoration: none;
     font-family: SourceSansPro-reg;
-    font-size: 18px;
     font: helvetica;
 }
 

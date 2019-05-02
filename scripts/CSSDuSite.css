@@ -285,7 +285,7 @@ a.custom-class {
   }
 
 li a:hover {
-  background-color: rgba(128, 14, 19, 1);
+  background-: rgba(128, 14, 19, 0.4);
 }
 
 #descriptionentreprise {

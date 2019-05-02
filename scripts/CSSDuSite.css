@@ -228,20 +228,28 @@ a.lien {
   color: #ff3333;
 }
 
-#opacity {
-  background-color: white;
-  position: absolute;
-  width: 2000px;
-  height: 500px;
-  z-index: -1;
+#opacity6 {
+
 }
 
-div.barredenavigation, ul.barredenavigation {
+#bckg {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  z-index:1;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  background-color: rgb(100, 13, 20);
+  top: 0;
+}
+
+#barredenavigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(100, 13, 20, 0.5);
+    background-color: rgba(100, 13, 20, 0.7);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -258,23 +266,24 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 li.barredenavigation {
-    float: left;
+    float: right;
 }
 
-li.barredenavigation a {
-    display: block;
-    height: 30px;
+#barredenavigation a, li3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
     color: white;
     text-align: center;
-    padding-top: 14px;
-    padding-bottom: 34px;
+    margin-bottom: 7px;
+    margin-top: 7px;
     padding-left: 16px;
     padding-right: 16px;
-    border-right: 1px solid white;
     font-size: 18px;
+    letter-spacing: 1px;
     text-decoration: none;
     font-family: SourceSansPro-reg;
-    font-size: 18px;
     font: helvetica;
 }
 
@@ -282,7 +291,7 @@ a.custom-class {
   font-family: NotoSans-SemiCondensedThin.ttf;
   }
 
-li a:hover {
+li3 a:hover {
   background-color: rgba(128, 14, 19, 0.4);
 }
 

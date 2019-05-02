@@ -55,7 +55,7 @@ function growShrinkLogo() {
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
                 $(document).on('scroll',function(){
-                        opacite = 3 - ( $(document).scrollTop() / $("#barredenavigation").outerHeight( true ) ) ;
+                        opacite = 3 - ( $(document).scrollTop() / $("barredenavigation").outerHeight( true ) ) ;
                         $('#bckg').css('opacity', opacite);
                 });
 </script>

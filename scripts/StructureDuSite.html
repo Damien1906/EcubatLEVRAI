@@ -46,6 +46,14 @@ function growShrinkLogo() {
 
 </script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+                $(document).on('scroll',function(){
+                        opacite = 3 - ( $(document).scrollTop() / $("barredenavigation").outerHeight( true ) ) ;
+                        $('#bckg').css('opacity', opacite);
+                });
+</script>
 
    </head>
 
@@ -53,25 +61,31 @@ function growShrinkLogo() {
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-<div id="navigation">
-
-<div class="tête_de_page">
-  <img src="../images/AA_biglogo22.jpg" id='Logo'>
-</div>
-
-  <div id="opacity"></div>
+      <div id="navigation">
+         <div class="tête_de_page">
+           <img src="../images/AA_biglogo22.jpg" id='Logo'>
+         </div>
 
      <!-- barre de navigation -->
      <div class="barredenavigation">
-       <ul class="barredenavigation">
-        <li class="barredenavigation"><a href="#top"><img class="logo" src="../images/AA_accueil_1.png" alt="Accueil"></a></li>
-        <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
-        <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
-        <li class="barredenavigation"><a href="#marché">Marchés</a></li>
-        <li class="barredenavigation"><a href="#garanties(lien)">Garanties</a></li>
-        <li class="barredenavigation"><a href="#fournisseurs">Fournisseurs</a></li>
-        <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
-       </ul>
+       <li class="barredenavigation">
+           <a href="#adresse">Adresse et Contact</a>
+         </li>
+         <li class="barredenavigation">
+           <a href="#fournisseurs">Fournisseurs</a>
+         </li>
+         <li class="barredenavigation">
+           <a href="#garanties(lien)">Garanties</a>
+         </li>
+         <li class="barredenavigation">
+           <a href="#marché">Marchés</a>
+         </li>
+         <li class="barredenavigation">
+           <a href="#peinture">Peinture</a>
+         </li>
+         <li class="barredenavigation">
+           <a href="#plâtrerie">Plâtrerie</a>
+         </li>
      </div>
 
 </div>
@@ -263,16 +277,25 @@ function growShrinkLogo() {
          </div>
          <div class="galleryfather">
            <div class="gallery">
+             <div class="textin">
+               <p>Les bureaux : agencement, circulations, <br>salles d'attente, bureaux, salles de réunion...</p>
+               </div>
              <div class="desc">
-               <div class="bordergallery"><img src="../images/market-square-filled.png"></div>
+               <div class="bordergallery"></div>
                <a>Bureaux</a>
              </div>
-             <a target="_blank" href="../images/imgmarché1.jpg">
              <img src="../images/imgmarché1v2.jpg" alt="Bureaux" width="600" height="400">
-            </a>
+             <a target="_blank" href="../images/imgmarché1.jpg"></a>
           </div>
 
           <div class="gallery">
+          <div class="textin">
+            <p><ul3>
+              <li3>Magasins d'optique</li3>
+              <li3>Cerise et Potiron</li3>
+              <li3>L’OCCITANE en provence</li3>
+            </ul3></p>
+            </div>
           <div class="desc">
             <div class="bordergallery"></div>
             <a>Maisons et Villas</a>
@@ -283,6 +306,9 @@ function growShrinkLogo() {
           </div>
 
           <div class="gallery">
+          <div class="textin">
+            <p>Plusieurs centaines de particuliers dans l'ouest lyonnais : Saint-Genis Laval, Oullins, Vourles, Irigny, Pierre-Bénite....</p>
+            </div>
            <div class="desc">
              <div class="bordergallery"></div>
              <a>Commerces</a>

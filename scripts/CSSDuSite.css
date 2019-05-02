@@ -91,7 +91,7 @@ box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
- background-color: rgba(73, 78, 80, 0.8);
+ background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -229,13 +229,25 @@ a.lien {
   color: #ff3333;
 }
 
-#opacity {
+/*#opacity {
   background-color: ;
   position: absolute;
   width: 2000px;
   height: 48px;
   display: block;
   opacity: 0.5;
+}*/
+
+#bckg {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  z-index:1;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  background-color: rgb(100, 13, 20);
+  top: 0;
 }
 
 div.barredenavigation, ul.barredenavigation {
@@ -243,7 +255,8 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(100, 13, 20, 0.5);
+    background-color: rgba(100, 13, 20, 0.8);
+    letter-spacing: 5px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -260,24 +273,24 @@ div.barredenavigation, ul.barredenavigation {
 }
 
 li.barredenavigation {
-    float: left;
+    float: right;
 }
 
-li.barredenavigation a {
-    display: block;
+.barredenavigation a, li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
     height: 30px;
     color: white;
     text-align: center;
-    padding-top: 14px;
-    padding-bottom: 34px;
+    margin-bottom: 7px;
+    margin-top: 7px;
     padding-left: 16px;
     padding-right: 16px;
-    border-right: 1px solid white;
     font-size: 18px;
     text-decoration: none;
     font-family: SourceSansPro-reg;
-    font-size: 18px;
-    font: helvetica;
 }
 
 a.custom-class {
@@ -657,6 +670,7 @@ li a:hover {
   margin-left: 55px;
   margin-right: 55px;
   width: 350px;
+  height: auto;
   transition: 400ms ease;
 }
 
@@ -668,17 +682,33 @@ li a:hover {
   box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
 }
 
+.gallery:hover .textin {display: block;}
+
 .gallery img {
   width: 100%;
   height: auto;
 }
 
+.textin {
+ display: non;
+ overflow: hidden;
+ position: absolute;
+ width: auto;
+ height: auto;
+ margin: 0;
+ background-color: white;
+ opacity: 0.5;
+ z-index: 10;
+}
+
 .desc {
   position: absolute;
+  width:100px;
+  padding: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(192, 196, 198, 0.5);
-  display: block;
+  display: inline-table;
 }
 
 .desc a {
@@ -696,8 +726,8 @@ li a:hover {
 }
 
 .bordergallery {
-  border-bottom: 2px solid white;
-  width: 50px;
+  border-top: 1px solid white;
+  width: 20px;
   padding-left: 15px;
   justify-content: center;
   text-align: center;

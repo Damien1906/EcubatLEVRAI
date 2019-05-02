@@ -2,19 +2,11 @@
 
 <html>
    <head>
-     <meta charset="utf-8"/>
       <link rel="stylesheet" href="CSSDuSite.css" type="text/css">
       <title>ECUBAT - Plâtrerie-Peinture Saint Genis Laval (Lyon)</title>
 
-      <style>
-        #scrollUp {
-          position: fixed;
-          width: 50px;
-          height: 50px;
-          bottom : 20px;
-          right: -100px;
-          opacity: 0.8;
-        }
+<style>
+
 </style>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
@@ -28,6 +20,7 @@ $('#scrollUp').css('right','10px');
 } else {
 $('#scrollUp').removeAttr( 'style' );
 }
+
 
 });
 });
@@ -52,13 +45,7 @@ function growShrinkLogo() {
 }
 
 </script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-                $(document).on('scroll',function(){
-                        opacite = 3 - ( $(document).scrollTop() / $("barredenavigation").outerHeight( true ) ) ;
-                        $('#bckg').css('opacity', opacite);
-                });
-</script>
+
 
    </head>
 
@@ -66,32 +53,24 @@ function growShrinkLogo() {
      <!--tête de page-->
       <script type="text/javascript" rel="stylesheet" src="JVDuSite.js"></script>
 
-  <div id="navigation">
-    <div class="tête_de_page">
-      <img src="../images/AA_biglogo22.jpg" id='Logo'>
-    </div>
+<div id="navigation">
+
+<div class="tête_de_page">
+  <img src="../images/AA_biglogo22.jpg" id='Logo'>
+</div>
+
+  <div id="opacity"></div>
 
      <!-- barre de navigation -->
      <div class="barredenavigation">
        <ul class="barredenavigation">
-         <li class="barredenavigation">
-           <a href="#adresse">Adresse et Contact</a>
-         </li>
-         <li class="barredenavigation">
-           <a href="#fournisseurs">Fournisseurs</a>
-         </li>
-         <li class="barredenavigation">
-           <a href="#garanties(lien)">Garanties</a>
-         </li>
-         <li class="barredenavigation">
-           <a href="#marché">Marchés</a>
-         </li>
-         <li class="barredenavigation">
-           <a href="#peinture">Peinture</a>
-         </li>
-         <li class="barredenavigation">
-           <a href="#plâtrerie">Plâtrerie</a>
-         </li>
+        <li class="barredenavigation"><a href="#top"><img class="logo" src="../images/AA_accueil_1.png" alt="Accueil"></a></li>
+        <li class="barredenavigation"><a href="#plâtrerie">Plâtrerie</a></li>
+        <li class="barredenavigation"><a href="#peinture">Peinture</a></li>
+        <li class="barredenavigation"><a href="#marché">Marchés</a></li>
+        <li class="barredenavigation"><a href="#garanties(lien)">Garanties</a></li>
+        <li class="barredenavigation"><a href="#fournisseurs">Fournisseurs</a></li>
+        <li class="barredenavigation"><a href="#adresse">Adresse et Contact</a></li>
        </ul>
      </div>
 
@@ -234,46 +213,44 @@ function growShrinkLogo() {
 
 
        <div id="plâtrerie">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <div class="content-slider">
-            <div class="slider">
-              <div class="mask">
-                <ul>
-                  <li class="anim1">
-                    <div class="quote">La plâtrerie aujourd'hui, c'est essentiellement la pose de systèmes de plaques de plâtre qui permettent une finition rapide des volumes intérieurs.</div>
-                    <div class="source">-</div>
-                  </li>
-                  <li class="anim2">
-                    <div class="quote">Ce matériau se prête à une grande diversité d'application grâce à sa facilité de mise en oeuvre.</div>
-                    <div class="source">--</div>
-                  </li>
-                  <li class="anim3">
-                    <div class="quote">Nous respectons les préconisations de mise en œuvre des fabricants à la lettre, afin de garantir à nos clients les meilleures résultats dans le temps en terme d'acoustique, de thermique et d'hygrométrie.</div>
-                    <div class="source">---</div>
-                  </li>
-                  <li class="anim4">
-                    <div class="quote">...</div>
-                    <div class="source">----</div>
-                  </li>
-                  <li class="anim5">
-                    <div class="quote">...</div>
-                    <div class="source">-----</div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class="content-slider">
+<div class="slider">
+  <div class="mask">
+    <ul>
+      <li class="anim1">
+        <div class="quote">La plâtrerie aujourd'hui, c'est essentiellement la pose de systèmes de plaques de plâtre qui permettent une finition rapide des volumes intérieurs.</div>
+        <div class="source">-</div>
+      </li>
+      <li class="anim2">
+        <div class="quote">Ce matériau se prête à une grande diversité d'application grâce à sa facilité de mise en oeuvre.</div>
+        <div class="source">--</div>
+      </li>
+      <li class="anim3">
+        <div class="quote">Nous respectons les préconisations de mise en œuvre des fabricants à la lettre, afin de garantir à nos clients les meilleures résultats dans le temps en terme d'acoustique, de thermique et d'hygrométrie.</div>
+        <div class="source">---</div>
+      </li>
+      <li class="anim4">
+        <div class="quote">"Vis comme si tu devais mourir demain."</div>
+        <div class="source">Gandhi</div>
+      </li>
+      <li class="anim5">
+        <div class="quote">...</div>
+        <div class="source">-----</div>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+       </div>
 
        <div id="peinture">
-         <br>
          <br>
          <br>
          <h1>Peinture</h1>
@@ -310,32 +287,32 @@ function growShrinkLogo() {
          <div class="galleryfather">
            <div class="gallery">
              <div class="desc">
-               <div class="bordergallery"></div>
-                <a>Bureaux</a>
-               </div>
-                  <a target="_blank" href="../images/imgmarché1.jpg">
-                    <img src="../images/imgmarché1v2.jpg" alt="Bureaux" width="600" height="400">
-                  </a>
+               <div class="bordergallery"><img src="../images/market-square-filled.png"></div>
+               <a>Bureaux</a>
+             </div>
+             <a target="_blank" href="../images/imgmarché1.jpg">
+             <img src="../images/imgmarché1v2.jpg" alt="Bureaux" width="600" height="400">
+            </a>
           </div>
 
           <div class="gallery">
-            <div class="desc">
-              <div class="bordergallery"></div>
-                <a>Maisons et Villas</a>
+          <div class="desc">
+            <div class="bordergallery"></div>
+            <a>Maisons et Villas</a>
             </div>
-              <a target="_blank" href="../images/imgmarché2.jpg">
-                <img src="../images/imgmarché2v2.jpg" alt="Maisons et Villas" width="600" height="400">
-              </a>
+           <a target="_blank" href="../images/imgmarché2.jpg">
+             <img src="../images/imgmarché2v2.jpg" alt="Maisons et Villas" width="600" height="400">
+           </a>
           </div>
 
           <div class="gallery">
-            <div class="desc">
-              <div class="bordergallery"></div>
-                <a>Commerces</a>
-            </div>
-                <a target="_blank" href="../images/imgmarché3.jpg">
-                  <img src="../images/imgmarché3v2.jpg" alt="Commerces" width="600" height="400">
-                </a>
+           <div class="desc">
+             <div class="bordergallery"></div>
+             <a>Commerces</a>
+           </div>
+           <a target="_blank" href="../images/imgmarché3.jpg">
+             <img src="../images/imgmarché3v2.jpg" alt="Commerces" width="600" height="400">
+           </a>
           </div>
         </div>
       </div>
@@ -404,8 +381,8 @@ function growShrinkLogo() {
         </thead>
           <tbody>
             <tr>
-              <td rowspan="2"><a class="BW" ><img src="../images/AA_SGBW.png" alt="Seigneurie Gauthier"></a><a class="C" target="_blank" href="https://www.seigneuriegauthier.com/"><img src="../images/AA_SGC.png" alt="Seigneurie Gauthier"></a></td>
-              <td rowspan="2"><a class="BW" ><img src="../images/AA_BCBW.png" alt="BlanColor"></a><a class="C" target="_blank" href="http://www.blancolor.com/fr/"></a></td>
+              <td rowspan="2"><a class="BW" ><img src="../images/AA_SGBW.png" alt="Seigneurie Gauthier" width="80%"></a><a class="C" target="_blank" href="https://www.seigneuriegauthier.com/"><img src="../images/AA_SGC.png" alt="Seigneurie Gauthier" width="50%"></a></td>
+              <td rowspan="2"><a class="BW" ><img src="../images/AA_BCBW.png" alt="BlanColor" width="50%"></a><a class="C" target="_blank" href="http://www.blancolor.com/fr/"></a></td>
               <td rowspan="2"></td>
               <td rowspan="2"></td>
               <td rowspan="2"></td>
@@ -417,6 +394,12 @@ function growShrinkLogo() {
 <br>
       </div>
     </div>
+  <div id="fournisseurs">
+    <img src="../images/AA_blancolor.jpg">
+
+
+  </div>
+
 
           <div id="adresse">
             <br>

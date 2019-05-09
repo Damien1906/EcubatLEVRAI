@@ -379,8 +379,6 @@ li a:hover {
 
 #peinture img {
   float: right;
-  position: absolute;
-
 }
 
 #peinture h1, h3 {
@@ -391,18 +389,28 @@ li a:hover {
 .carrés {
   text-align: left;
   float: left;
+  display: inline-block;
 }
 
 .carrés:hover{
   background-color: #640C14;
   text-indent: 0%;
-  width: ;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .carré_D {
   text-align: right;
   float: right;
+  display: inline-block;
+}
+
+.carré_D:hover {
+  background-color: #640C14;
+  text-indent: 0%;
+  width: 100%;
+  height: auto;
+  text-align: right;
 }
 
 .content-slider {

@@ -172,20 +172,19 @@ box-shadow: 0px 13px 40px -2px rgba(0,0,0,0.55);
   color: white;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 37px;
+  font-size: 30px;
   font-weight: bold;
   padding-left: 20px;
   text-decoration: underline;
 }
 
-#présentationdusite ul2 {
+#présentationdusite li {
   text-align: left;
   color: white;
   font-family: sans-serif;
   font: helvetica;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: bold;
-  padding-left: 50px;
 }
 
 #navigation {
@@ -258,7 +257,7 @@ div.barredenavigation, ul.barredenavigation {
     padding: 0;
     overflow: hidden;
     background-color: rgba(100, 13, 20, 0.8);
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -283,11 +282,11 @@ li.barredenavigation {
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-    height: 30px;
+    height: px;
     color: white;
     text-align: center;
-    margin-bottom: 7px;
-    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     padding-left: 16px;
     padding-right: 16px;
     font-size: 18px;
@@ -827,6 +826,10 @@ display: none;
   -webkit-box-shadow: 0px 14px 59px -13px rgba(0,0,0,0.84);
   -moz-box-shadow: 0px 14px 59px -13px rgba(0,0,0,0.84);
   box-shadow: 0px 14px 59px -13px rgba(0,0,0,0.84);
+  color: white;
+  font-family: noto-sansb;
+  font-size: 15px;
+  background-color:rgb(106, 3, 20);
 }
 
 .demande {
@@ -884,7 +887,7 @@ display: none;
 }
 }
 .form {
-  padding-top: 5px;
+  padding-top: 50px;
   padding-left: 420px;
   font-family: SourceSansPro-reg;
 }

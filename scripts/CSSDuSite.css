@@ -43,7 +43,7 @@ html {
   box-sizing: border-box
 }
 
-body, #caroussel1 {
+body #caroussel1 {
   font-family: Verdana, sans-serif;
   margin:0
 }
@@ -222,11 +222,11 @@ a.lien {
   color: blue;
 }
 
-.lien, a:hover {
+.lien a:hover {
   color: #B30000;
 }
 
-.lien, a:active {
+.lien a:active {
   color: #ff3333;
 }
 
@@ -277,7 +277,7 @@ li.barredenavigation {
     float: right;
 }
 
-.barredenavigation a, li {
+li.barredenavigation a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -379,38 +379,61 @@ li a:hover {
 
 #peinture img {
   float: right;
+  height: 850px;
+  width: 281px;
 }
 
-#peinture h1, h3 {
+#peinture h1 h3 {
   padding-left: 10px;
   font-family: noto-sansb;
 }
 
 .carrés {
-  text-align: left;
+  text-align: right;
   float: left;
-  display: inline-block;
+  background-color: #38040E;
+  width: 100%;
+  display: block;
+  text-indent: 10%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 1s cubic-bezier(0.71,-0.45, 0.35, 1.3);
 }
+
 
 .carrés:hover{
   background-color: #640C14;
   text-indent: 0%;
   width: 100%;
-  height: auto;
 }
 
 .carré_D {
-  text-align: right;
+  text-align: left ;
   float: right;
-  display: inline-block;
+  background-color: #640C14;
+  width: 10%;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 1s cubic-bezier(0.71,-0.45, 0.35, 1.3);
 }
 
+
 .carré_D:hover {
-  background-color: #640C14;
+  background-color: #38040E;
   text-indent: 0%;
   width: 100%;
-  height: auto;
-  text-align: right;
+}
+
+
+#peinture table {
+    border-collapse: collapse;
+    text-overflow: ellipsis;
+}
+
+#peinture td {
+  padding: 0px;
 }
 
 .content-slider {
@@ -672,7 +695,7 @@ li a:hover {
   background-size: cover;*/
   width:100%;
   height: auto;
-  background-color:rgba(64, 64, 64, 0.8);
+  background-color: rgba(64, 64, 64, 0.8);
 }
 
 .titremarché {
@@ -713,7 +736,9 @@ li a:hover {
   box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
 }
 
-.gallery:hover .textin {display: inline-block;}
+.gallery:hover .textin {
+  display: inline-block;
+}
 
 .gallery img {
   width: 100%;
@@ -783,16 +808,16 @@ li a:hover {
 }
 
 .box {
-border: 1px solid #640C14;
-display: block;
-width: 100%;
-height: 100px;
-color: white;
-background-color: rgba(64, 64, 64, 0.8);
-text-indent: 100%;
-white-space: nowrap;
-overflow: hidden;
-transition: 1s ease;
+  border: 1px solid #640C14;
+  display: block;
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: rgba(64, 64, 64, 0.8);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 1s cubic-bezier(0.53,-0.77, 0.56, 1.51);
 }
 
 .box:hover img {
@@ -809,8 +834,6 @@ height: 300px;
 .box img {
 float: right;
 display: none;
-}
-
 }
 
 #adresse {
@@ -861,7 +884,7 @@ display: none;
   padding: 10px;
 }
 
-.information h2, ul1 {
+.information h2 ul1 {
   color: white;
   font-family: noto-sansb;
   text-align: left;
@@ -885,7 +908,7 @@ display: none;
   font-size: 15px;
 }
 
-.question h2 , h3 {
+.question h2  h3 {
   color: white;
   font-family: noto-sansb;
   text-align: left;

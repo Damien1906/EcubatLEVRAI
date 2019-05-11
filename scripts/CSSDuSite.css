@@ -262,7 +262,7 @@ div.barredenavigation, ul.barredenavigation {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: +10;
+    z-index: 10;
 }
 
 .logo {
@@ -387,6 +387,8 @@ li a:hover {
 
 #peinture td.img {
   table-layout: auto;
+  height: 850px;
+  width: 281px;
 }
 
 #peinture div.carrés {
@@ -408,6 +410,7 @@ li a:hover {
   background-color: #640C14;
   text-indent: 0%;
   width: 100%;
+  z-index: -1
 }
 
 #peinture div.carré_D {

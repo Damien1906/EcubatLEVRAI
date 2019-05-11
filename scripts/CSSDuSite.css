@@ -222,11 +222,12 @@ a.lien {
   color: blue;
 }
 
-.lien a:hover {
+a.lien:hover {
   color: #B30000;
+  text-decoration: underline;
 }
 
-.lien a:active {
+a.lien:active {
   color: #ff3333;
 }
 
@@ -403,7 +404,7 @@ li a:hover {
 }
 
 
-#peinture div.carrés/*:hover*/{
+#peinture div.carrés:hover{
   background-color: #640C14;
   text-indent: 0%;
   width: 100%;
@@ -423,7 +424,7 @@ li a:hover {
 }
 
 
-#peinture div.carré_D/*:hover*/ {
+#peinture div.carré_D:hover {
   background-color: #38040E;
   text-indent: 0%;
   width: 100%;
@@ -823,7 +824,7 @@ li a:hover {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  transition: 1s cubic-bezier(0.53,-0.77, 0.56, 1.51);
+  transition: 1s cubic-bezier(0.85,-0.24, 0.13, 1.19);
 }
 
 .box:hover img {
@@ -834,7 +835,7 @@ display: inline-block;
 background-color: #640C14;
 text-indent: 0%;
 width: 100%;
-height: 300px;
+height: 390px;
 }
 
 .box img {

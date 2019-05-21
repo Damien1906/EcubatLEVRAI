@@ -37,6 +37,10 @@ html {
   background-size: contain;
 }
 
+body {
+  margin: 0;
+}
+
 /*caroussel début #ecf0f1*/
 
 #carousel1 {
@@ -257,8 +261,8 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(100, 13, 20, 0.8);
-    letter-spacing: 2px;
+    background-color: rgba(100, 13, 20, 0.5);
+    letter-spacing: 3px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -286,8 +290,8 @@ li.barredenavigation a {
     height: px;
     color: white;
     text-align: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding-left: 16px;
     padding-right: 16px;
     font-size: 18px;
@@ -380,8 +384,8 @@ li a:hover {
   width: 281px;
 }
 
-#peinture h1 h3 {
-  padding-left: 10px;
+#peinture h1 {
+  padding-left: 50px;
   font-family: noto-sansb;
 }
 
@@ -764,7 +768,7 @@ li a:hover {
  margin: 0;
  background-color: white;
  opacity: 0.5;
- z-index: 10;
+ z-index: 5;
 }
 
 .desc {

@@ -17,7 +17,7 @@
           opacity: 0.8;
           z-index: 10;
         }
-</style>
+      </style>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
@@ -43,7 +43,7 @@ window.onscroll = function() {
 };
 
 function growShrinkLogo() {
-  var Logo = document.getElementById("Logo")
+  var Logo = document.getElementById('Logo')
   if (document.body.scrollTop > 3 || document.documentElement.scrollTop > 3) {
     Logo.style.width = '158.75px';
     Logo.style.height = '48.75px';
@@ -54,7 +54,66 @@ function growShrinkLogo() {
 }
 
 </script>
+<!-- <script>
+window.onscroll = function() {
+  growShrinkGauche_1()
+};
 
+function growShrinkGauche_1() {
+  var gauche_1 = document.getElementById('gauche_1')
+  if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+    gauche_1.style.width = '100%';
+    gauche_1.style.backgroundColor = '#640C14';
+    gauche_1.style.textIndent = '0%';
+
+  } else {
+    gauche_1.style.width = '10%';
+    gauche_1.style.backgroundColor = '#38040E';
+    gauche_1.style.textIndent = '100%'
+  }
+}
+
+</script>
+<script>
+window.onscroll = function() {
+  growShrinkDroite()
+};
+
+function growShrinkDroite() {
+  var droite = document.getElementById('droite')
+  if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
+    droite.style.width = '100%';
+    droite.style.backgroundColor = '#38040E';
+    droite.style.textIndent = '0%';
+
+  } else {
+    droite.style.width = '10%';
+    droite.style.backgroundColor = '#640C14';
+    droite.style.textIndent = '100%'
+  }
+}
+
+</script>
+<script>
+window.onscroll = function() {
+  growShrinkGauche_2()
+};
+
+function growShrinkGauche_2() {
+  var droite = document.getElementById('gauche_2')
+  if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
+    gauche_2.style.width = '100%';
+    gauche_2.style.backgroundColor = '#38040E';
+    gauche_2.style.textIndent = '0%';
+
+  } else {
+    gauche_2.style.width = '10%';
+    gauche_2.style.backgroundColor = '#640C14';
+    gauche_2.style.textIndent = '100%'
+  }
+}
+
+</script> -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script>
@@ -72,7 +131,7 @@ function growShrinkLogo() {
 
   <div id="navigation">
     <div class="tête_de_page">
-      <img src="../images/AA_biglogo22.jpg" id='Logo'>
+      <img src="../images/AA_biglogo22.jpg" id="Logo">
     </div>
 
      <!-- barre de navigation -->
@@ -264,7 +323,7 @@ function growShrinkLogo() {
            <tbody>
              <tr>
               <td>
-                <div class="carrés" style="height: 379px;">
+                <div id="gauche_1" class="carrés" style="height: 379px;">
                  <p>L'entreprise ECUBAT, outre les ouvrages courants de peinture et de revêtement,</p>
                  <p> s'est spécialisée dans quelques produits décoratifs tels que :</p>
                  <br>
@@ -283,7 +342,7 @@ function growShrinkLogo() {
             </tr>
             <tr>
               <td>
-                <div class="carré_D" style="height: 137px;">
+                <div id="droite" class="carré_D" style="height: 137px;">
                   <h3>Les peintures intérieures</h3>
                   <p>Les peintures à effets, alliées à nos techniques de pose offrent des rendus agréables.</p>
                 </div>
@@ -291,7 +350,7 @@ function growShrinkLogo() {
             </tr>
             <tr>
               <td>
-                <div class="carrés" style="height: 337px;">
+                <div id="gauche_2" class="carrés" style="height: 337px;">
                  <h3>Les peintures décoratives...</h3>
                  <p>... d'abord une peinture est essentiellement décorative*</p>
                  <p>Depuis quelques années les fabricants rivalisent d'ingéniosité et de créativité pour </p>
@@ -303,10 +362,6 @@ function growShrinkLogo() {
             </tr>
           </tbody>
          </table>
-         <script>
-          ScrollReveal().reveal('carrés')
-          ScrollReveal().reveal('carré_D')
-         </script>
        </div>
 
        <div id="marché">

@@ -920,8 +920,6 @@ input, textarea {
 	padding: 4px;
 	vertical-align: top;
   color: #8B0000;
-  background-color: #F6F6F5;
-  border: 0.1px solid #8B0000;
 }
 #sujet { width: 250px; }
 textarea {

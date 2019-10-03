@@ -164,8 +164,15 @@ img {
   background-color: white;
 }
 
-#hautdelapage h3 {
+#hautdelapage  {
+  text-align: left;
   color: white;
+  font-family: sans-serif;
+  font: helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  width: 500px;
+  padding-left: 100px;
 }
 
 #présentationdusite p {

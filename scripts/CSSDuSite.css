@@ -732,13 +732,15 @@ li a:hover {
  display: none;
  margin-top: 50%;
  margin-bottom: 50%;
+ margin-left: 50%;
+ margin-right: 50%;
  align-items: flex-end;
  overflow: auto;
  position: absolute;
  bottom: 0px;
  right: 0px;
  text-align: center;
- width: 250px;
+ width: 100%;
  height: auto;
  margin: 0;
  background-color: rgba(192, 196, 198, 0.5);
@@ -751,8 +753,10 @@ li a:hover {
 
 .desc {
   position: absolute;
-  width:100px;
-  padding: 15px;
+  overflow:auto;
+  align-items: flex-end;
+  width:40%;
+  margin-left: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(192, 196, 198, 0.5);
@@ -765,11 +769,12 @@ li a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow:auto;
   color: white;
   font-weight: bold;
   padding-top: 0px;
   padding: 15px;
-  font-size: 18px;
+  font-size: 118%;
   font-family: SourceSansPro-reg;
 }
 

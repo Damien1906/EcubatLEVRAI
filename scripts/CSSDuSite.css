@@ -165,14 +165,23 @@ img {
 }
 
 #hautdelapage  {
-  text-align: left;
+  text-align: center;
   color: white;
-  font-family: sans-serif;
+  font-family: SourceSansPro-reg;
   font: helvetica;
   font-size: 23px;
-  font-weight: bold;
-  width: 500px;
-  padding-left: 100px;
+  margin-left: 800px;
+  margin-right: 70px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: rgba(235,235,235,0.5);
+}
+
+#hautdelapage h4 {
+  color: #800E13 ;
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
 #présentationdusite p {

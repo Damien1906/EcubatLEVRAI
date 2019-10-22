@@ -723,9 +723,9 @@ li a:hover {
 }
 
  .gallery:hover {
-  -webkit-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
-  -moz-box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
-  box-shadow: -4px 6px 32px -1px rgba(0,0,0,0.87);
+  -webkit-box-shadow: -4px 6px 32px -1px rgba(31,31,31,0.87);
+  -moz-box-shadow: -4px 6px 32px -1px rgba(31,31,31,0.87);
+  box-shadow: -4px 6px 32px -1px rgba(31,31,31,0.87);
 }
 
 .gallery:hover .textin {
@@ -870,13 +870,12 @@ display: none;
 
 .demande {
   height: auto;
-  font-family: sans-serif;
+  font-family: SourceSansPro-reg;
   font: helvetica;
   color: #ecf0f1;
-  display:table;
   font-size:16px;
   font-style:normal;
-  font-weight:400;
+  font-weight:4;
   text-align:left;
   background-color: rgba(64, 64, 64, 0.8);
   border-bottom: 2px solid #8B0000;
@@ -885,10 +884,11 @@ display: none;
 
 .information {
   float: left;
+  padding-top: 200px;
+  padding-left: 15px1;2
   width: 304px;
-  height: 550px;
+  height: 600px;
   background-color:rgb(106, 3, 20);
-  padding: 10px;
 }
 
 .information h2 ul1 {
@@ -904,7 +904,7 @@ display: none;
   background-color:rgb(106, 3, 20);
   float: right;
   width: 304px;
-  height: 550px;
+  height: 600px;
   padding: 10px;
 }
 

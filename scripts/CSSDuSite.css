@@ -179,29 +179,63 @@ img {
 }
 
 #hautdelapage h4 {
-  color: #800E13 ;
+  color: #e31e2d ;
   font-size: 30px;
   font-family: sans-serif;
 }
 
-#présentationdusite p {
-  text-align: left;
-  color: white;
-  font-family: sans-serif;
-  font: helvetica;
-  font-size: 30px;
-  font-weight: bold;
-  padding-left: 20px;
-  text-decoration: underline;
+.styled{
+  font-weight:bold;
+  width:;
+  height:;
+  padding-top:10px;
+  padding-right:50px;
+  padding-bottom:10px;
+  padding-left:50px;
+  border-top:;
+  border-right:;
+  border-bottom:;
+  border-left:;
+  font-family:;
+  font-size:14px;
+  line-height:;
+  color:#ffffff;
+  background:#e31e2d;
+  border-radius:10px;
 }
 
-#présentationdusite li {
-  text-align: left;
-  color: white;
+
+#présentationdusite{
+  margin-left: 100px;
+  margin-right: 800px;
+  margin-top: 75px;
+  margin-bottom: 175px;
+  padding: 20px;
+  background-color: rgba(235, 235, 235, 0.5);
+}
+
+#présentationdusite h1 {
+  text-align: center;
+  color: #800E13;
   font-family: sans-serif;
-  font: helvetica;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 30px;
+}
+
+#présentationdusite h2 {
+  text-align: center;
+  color: white;
+  font-family:SourceSansPro-reg;
+  font: serif;
+  font-size: 23px;
+}
+
+ #descriptionentreprise {
+  margin-left: 100px;
+  margin-right: 850px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  padding: 50px;
+  background-color: rgba(235, 235, 235, 0.5);
 }
 
 #navigation {

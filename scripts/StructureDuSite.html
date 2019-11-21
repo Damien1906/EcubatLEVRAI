@@ -54,66 +54,7 @@ function growShrinkLogo() {
 }
 
 </script>
-<!-- <script>
-window.onscroll = function() {
-  growShrinkGauche_1()
-};
 
-function growShrinkGauche_1() {
-  var gauche_1 = document.getElementById('gauche_1')
-  if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
-    gauche_1.style.width = '100%';
-    gauche_1.style.backgroundColor = '#640C14';
-    gauche_1.style.textIndent = '0%';
-
-  } else {
-    gauche_1.style.width = '10%';
-    gauche_1.style.backgroundColor = '#38040E';
-    gauche_1.style.textIndent = '100%'
-  }
-}
-
-</script>
-<script>
-window.onscroll = function() {
-  growShrinkDroite()
-};
-
-function growShrinkDroite() {
-  var droite = document.getElementById('droite')
-  if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
-    droite.style.width = '100%';
-    droite.style.backgroundColor = '#38040E';
-    droite.style.textIndent = '0%';
-
-  } else {
-    droite.style.width = '10%';
-    droite.style.backgroundColor = '#640C14';
-    droite.style.textIndent = '100%'
-  }
-}
-
-</script>
-<script>
-window.onscroll = function() {
-  growShrinkGauche_2()
-};
-
-function growShrinkGauche_2() {
-  var droite = document.getElementById('gauche_2')
-  if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
-    gauche_2.style.width = '100%';
-    gauche_2.style.backgroundColor = '#38040E';
-    gauche_2.style.textIndent = '0%';
-
-  } else {
-    gauche_2.style.width = '10%';
-    gauche_2.style.backgroundColor = '#640C14';
-    gauche_2.style.textIndent = '100%'
-  }
-}
-
-</script> -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script>
@@ -328,9 +269,6 @@ function growShrinkGauche_2() {
                  <p>ECUBAT est ausi très bien placée pour éxécuter vos travaux en extérieur : volets, fenêtres, bandeaux et forgets.</p>
                </div>
               </td>
-              <td class="img" rowspan="3">
-               <img src="../images/plâtrerie22_rognage.jpg">
-              </td>
             </tr>
             <tr>
               <td>
@@ -497,16 +435,7 @@ function growShrinkGauche_2() {
 
 
       <div class="demande">
-          <div class="information">  <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+          <div class="information">
             <h3>ECUBAT :</h3>
              <ul1>
               <li>38, route de Charly</li>
@@ -529,18 +458,18 @@ function growShrinkGauche_2() {
               afin que nous puissions bien vous répondre.</p>
           <br></div>
           <p><div class="form">
-              <form name="my_form" action="#result" method="post">
-        	       <p> <label for="nom">Nom</label> <input type="text" id="nom" placeholder="EX" required/> </p>
-                 <p> <label for="nom">Prénom</label> <input type="text" id="prenom" placeholder="EMPLE" required/> </p>
-                 <p> <label for="nom">Société</label> <input type="text" id="societe" placeholder="ECUBAT" /> </p>
-                 <p> <label for="nom">Rue</label> <input type="text" id="rue" placeholder=" 38 route de Charly "/> </p>
-                 <p> <label for="nom">Ville</label> <input type="text" id="ville" placeholder="St-Genis Laval"/> </p>
-                 <p> <label for="nom">Code Postal</label> <input type="text" id="code postal" placeholder="69230"/> </p>
-                 <p> <label for="nom">Téléphone</label> <input type="tel" id="telephone" placeholder=" 04 78 56 34 10" />  </p>
-        	       <p> <label for="email">E-mail</label> <input type="e-mail" id="email" placeholder="ecubat@wanadoo.fr" required /> </p>
-        	       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet" placeholder="Renovation"/> </p>
-                 <p> <label for="message">Message/Question</label> <textarea id="message" placeholder="Exemple" required /></textarea> </p>
-                 <p> <label></label><input class="button_container" type="submit" value="Envoyer"> </p>
+              <form name="my_form" action="cible.php" method="post">
+        	       <p> <label for="nom">Nom</label> <input type="text" name="nom" placeholder="EX" required/> </p>
+                 <p> <label for="nom">Prénom</label> <input type="text" name="prenom" placeholder="EMPLE" required/> </p>
+                 <p> <label for="nom">Société</label> <input type="text" name="societe" placeholder="ECUBAT" /> </p>
+                 <p> <label for="nom">Rue</label> <input type="text" name="rue" placeholder=" 38 route de Charly "/> </p>
+                 <p> <label for="nom">Ville</label> <input type="text" name="ville" placeholder="St-Genis Laval"/> </p>
+                 <p> <label for="nom">Code Postal</label> <input type="text" name="code postal" placeholder="69230"/> </p>
+                 <p> <label for="nom">Téléphone</label> <input type="tel" name="telephone" placeholder=" 04 78 56 34 10" />  </p>
+        	       <p> <label for="email">E-mail</label> <input type="e-mail" name="email" placeholder="ecubat@wanadoo.fr" required /> </p>
+        	       <p> <label for="sujet">Sujet</label> <input type="text" name="sujet" placeholder="Renovation"/> </p>
+                 <p> <label for="message">Message/Question</label> <textarea name="message" placeholder="Exemple" required></textarea> </p>
+                 <p> <label></label><input class="button_container" type="submit" value="Envoyer"/> </p>
               </form>
             </div></p>
       </div>

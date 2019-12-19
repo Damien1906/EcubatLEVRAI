@@ -208,7 +208,6 @@ function growShrinkLogo() {
        </div>
 
 
-
        <div id="plâtrerie">
           <br>
           <br>
@@ -248,15 +247,33 @@ function growShrinkLogo() {
 
       </div>
 
-
        <div id="peinture">
 
-         <h1>Peinture</h1>
+      <h1>Peinture</h1>
          <table>
            <tbody>
              <tr>
               <td>
                 <div id="gauche_1" class="carrés" style="height: 379px;">
+                  <script type="text/javascript">
+                  $(document).ready(function(){
+
+                    $("gauche_1").hide();
+
+                    // faire apparaitre gauche_1
+                    $(function () {
+                      function fadeOutEffect()
+                      $(window).scrollTop(function () {
+                        if ($(this).scrollTop() > 650 ) {
+                          $('gauche_1').fadeIn(300);
+                        } else {
+                          $('gauche_1').fadeOut(300);
+                        }
+                      });
+                    });
+                  });
+                     </script>
+
                  <p>L'entreprise ECUBAT, outre les ouvrages courants de peinture et de revêtement,</p>
                  <p> s'est spécialisée dans quelques produits décoratifs tels que :</p>
                  <br>
@@ -272,6 +289,8 @@ function growShrinkLogo() {
             </tr>
             <tr>
               <td>
+
+
                 <div id="droite" class="carré_D" style="height: 137px;">
                   <h3>Les peintures intérieures</h3>
                   <p>Les peintures à effets, alliées à nos techniques de pose offrent des rendus agréables.</p>
@@ -293,6 +312,12 @@ function growShrinkLogo() {
           </tbody>
          </table>
        </div>
+
+
+
+
+
+
 
        <div id="marché">
          <div class="galleryfather">

@@ -141,9 +141,6 @@ function growShrinkLogo() {
     <h2>Réalisation de plâtrerie, de peinture et de décoration</h2>
     <h1>Atouts </h1>
     <h2>Qualité de l'équipe Suivi de chantier rigoureux</h1>
-      <input class="favorite styled"
-      type="button"
-      value="Afficher">
   </div>
   <div style="text-align:center; margin-top: 60px; margin-bottom: 30px;">
    <span class="dot" onclick="currentSlide(1)"></span>
@@ -158,9 +155,6 @@ function growShrinkLogo() {
   <div class="text" style="padding-bottom: 0px;">
     <div id="descriptionentreprise">
       <p>ECUBAT travaille depuis de nombreuses années avec des architectes et maîtres-d'oeuvre dans la réalisation de bureaux et commerces, en situation "occupé" ou "nu"</p>
-      <input class="favorite styled "
-      type="button"
-      value="Afficher">
     </div>
   <div style="text-align:center; margin-top: 60px; margin-bottom: 30px;">
    <span class="dot" onclick="currentSlide(1)"></span>
@@ -257,6 +251,25 @@ function growShrinkLogo() {
 
        <div id="peinture">
 
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script>
+         $(document).ready(function(){
+           $(".btn1").click(function(){
+             $("p").fadeOut();
+           });
+           $(".btn2").click(function(){
+             $("p").fadeIn();
+           });
+         });
+         </script>
+         </head>
+         <body>
+
+         <p>This is a paragraph.</p>
+
+         <button class="btn1">Fade out</button>
+         <button class="btn2">Fade in</button>
+         
          <h1>Peinture</h1>
          <table>
            <tbody>
@@ -444,11 +457,12 @@ function growShrinkLogo() {
           <div class="information">
             <h3>ECUBAT :</h3>
              <ul1>
-              <li>Adresse : 38, route de Charly </n> 69230 Saint Genis Laval</li>
-              <li>Téléphone : 04 78 56 34 10</li>
-              <li>Adresse email: ecubat@wanadoo.fr
+              <li>38, route de Charly</li>
+              <li>69230 Saint Genis Laval</li>
+              <li>Tél : 04 78 56 34 10</li>
             </ul1>
           </div>
+
           <div class="question">
             <br>
             <br>
@@ -463,23 +477,21 @@ function growShrinkLogo() {
               afin que nous puissions bien vous répondre.</p>
           <br></div>
           <p><div class="form">
-              <form name="my_form" action="cible.php" method="post">
-        	       <p> <label for="nom">Nom</label> <input type="text" name="nom" required/> </p>
-                 <p> <label for="nom">Prénom</label> <input type="text" name="prenom" required/> </p>
-                 <p> <label for="nom">Société</label> <input type="text" name="societe" /> </p>
-                 <p> <label for="nom">Rue</label> <input type="text" name="rue"/> </p>
-                 <p> <label for="nom">Ville</label> <input type="text" name="ville" /> </p>
-                 <p> <label for="nom">Code Postal</label> <input type="text" name="code postal" /> </p>
-                 <p> <label for="nom">Téléphone</label> <input type="tel" name="telephone" />  </p>
-        	       <p> <label for="email">E-mail</label> <input type="e-mail" name="email" required /> </p>
-        	       <p> <label for="sujet">Sujet</label> <input type="text" name="sujet" /> </p>
-                 <p> <label for="message">Message/Question</label> <textarea name="message" required></textarea> </p>
-                 <p> <label></label><input class="button_container" type="submit" value="Envoyer"/> </p>
+              <form name="my_form" action="cible.php" method="post" autocomplete="on">
+        	       <p> <label for="nom">Nom</label> <input type="text" name="nom" placeholder="EX" required/> </p>
+                 <p> <label for="nom">Prénom</label> <input type="text" name="prenom" placeholder="EMPLE" required/> </p>
+                 <p> <label for="nom">Société</label> <input type="text" name="societe" placeholder="ECUBAT" /> </p>
+                 <p> <label for="nom">Rue</label> <input type="text" name="rue" placeholder=" 38 route de Charly "/> </p>
+                 <p> <label for="nom">Ville</label> <input type="text" name="ville" placeholder="St-Genis Laval"/> </p>
+                 <p> <label for="nom">Code Postal</label> <input type="text" name="code postal" placeholder="69230"/> </p>
+                 <p> <label for="nom">Téléphone</label> <input type="tel" name="telephone" placeholder=" 04 78 56 34 10" />  </p>
+        	       <p> <label for="email">E-mail</label> <input type="e-mail" name="email" placeholder="ecubat@wanadoo.fr" required /> </p>
+        	       <p> <label for="sujet">Sujet</label> <input type="text" name="sujet" placeholder="Renovation"/> </p>
+                 <p> <label for="message">Message/Question</label> <textarea name="message" placeholder="Exemple" required></textarea> </p>
+                 <p> <label></label><input class="button_container" type="submit" value="Envoyer" href="mailto:adrien.leboucher@assomption-lyon.org"/> </p>
               </form>
             </div></p>
       </div>
-
-
 
 
 

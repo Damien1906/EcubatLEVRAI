@@ -906,6 +906,7 @@ display: none;
 
 .information {
   float: left;
+  padding: 30px;
   padding-top: 200px;
   padding-left: 15px1;2
   width: 304px;
@@ -918,12 +919,12 @@ display: none;
   font-family: noto-sansb;
   text-align: left;
 }
-.information p {
+.information p li {
   font-family: SourceSansPro-reg;
   font-size: 10px;
 }
 .question {
-  background-color:rgb(106, 3, 20);
+  background-color:rgba(106, 3, 20,0.8);
   float: right;
   width: 304px;
   height: 600px;
@@ -952,10 +953,12 @@ display: none;
 
 input, textarea {
 	/*déjà en inline-block*/
+  background: #585858;
+  border:1px solid #585858;
 	width: 150px;
 	padding: 4px;
 	vertical-align: top;
-  color: #8B0000;
+  color: white;
 }
 #sujet { width: 250px; }
 textarea {
@@ -976,14 +979,15 @@ label {
 .button_container{
   height: 25px;
   width: 65px;
-  background-color: #F6F6F5;
-  color: #8B0000;
+  background-color: #585858;
+  color: white;
   font-family: helvetica;
   font-size: 14px;
   cursor: pointer;
-  border: 0.5px solid #8B0000;
+  border: 0.5px solid #585858;
   float: center;
   margin-left: 4px;
+  font-family: SourceSansPro-reg;
 }
 
 

@@ -246,27 +246,33 @@ function growShrinkLogo() {
           </div>
 
       </div>
-
+      
        <div id="peinture">
          
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
          <script>
-         $(document).ready(function(){
-           $(".btn1").click(function(){
-             $("p").fadeOut();
+         window.onscroll = function() {
+           fadeInOutdiv()
+         };
+         
+         function fadeInOutdiv(){
+           if (peinture.scrollTop > 3 || peintureElement.scrollTop > 3) {
+                    $("gauche_1").fadeOut();
            });
-           $(".btn2").click(function(){
-             $("p").fadeIn();
+           else
+             $("gauche_1").fadeIn();
            });
          });
+         
+         
+         
+         
+         window.addEventListener('scroll', function() {
+     document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px';
+   });
+   
+   
          </script>
-         </head>
-         <body>
-    
-         <p>This is a paragraph.</p>
-    
-         <button class="btn1">Fade out</button>
-         <button class="btn2">Fade in</button>
          
       <h1>Peinture</h1>
          <table>

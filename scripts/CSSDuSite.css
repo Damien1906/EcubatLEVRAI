@@ -179,7 +179,7 @@ img {
 }
 
 #hautdelapage h4 {
-  color: #e31e2d ;
+  color: #800E13;
   font-size: 30px;
   font-family: sans-serif;
 }
@@ -192,7 +192,7 @@ img {
   padding-right:50px;
   padding-bottom:10px;
   padding-left:50px;
-  border-top:;
+  border-top: auto;
   border-right:;
   border-bottom:;
   border-left:;
@@ -200,24 +200,24 @@ img {
   font-size:14px;
   line-height:;
   color:#ffffff;
-  background:#e31e2d;
+  background:#800E13;
   border-radius:10px;
 }
-
 
 #présentationdusite{
   margin-left: 100px;
   margin-right: 800px;
-  margin-top: 75px;
-  margin-bottom: 175px;
+  margin-top: 50px;
+  margin-bottom: 150px;
   padding: 20px;
   background-color: rgba(235, 235, 235, 0.5);
+  text-align: center;
 }
 
 #présentationdusite h1 {
   text-align: center;
   color: #800E13;
-  font-family: sans-serif;
+  font-family:SourceSansPro-reg;
   font-size: 30px;
 }
 
@@ -231,11 +231,14 @@ img {
 
  #descriptionentreprise {
   margin-left: 100px;
-  margin-right: 850px;
-  margin-top: 50px;
+  margin-right: 800px;
+  margin-top:: 50px;
   margin-bottom: 200px;
-  padding: 50px;
+  padding: 25px;
   background-color: rgba(235, 235, 235, 0.5);
+  font-size: 25px;
+  font-family: SourceSansPro-reg;
+  text-align: center;
 }
 
 #navigation {
@@ -355,15 +358,6 @@ li a:hover {
     text-shadow: 0 0 9px #272727;
 }
 
-#descriptionentreprise {
-  text-align: left;
-  color: white;
-  font-family: sans-serif;
-  font: helvetica;
-  font-size: 23px;
-  font-weight: bold;
-  width: 500px;
-}
 
 #plâtrerie {
   color: white;

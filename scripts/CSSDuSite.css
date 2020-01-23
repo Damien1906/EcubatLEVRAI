@@ -856,22 +856,21 @@ display: none;
   float: left;
   padding: 30px;
   padding-top: 200px;
-  padding-left: 15px;
+  padding-left: 15px1;2
   width: 304px;
   height: 600px;
-  background-color:rgba(106, 3, 20, 0.8);
+  background-color:rgb(106, 3, 20);
 }
 
-.information h3 {
-  font-size: 20px;
-}
-
-.information ul {
+.information h2 ul1 {
   color: white;
+  font-family: noto-sansb;
   text-align: left;
-  font-size: 15px;
 }
-
+.information p li {
+  font-family: SourceSansPro-reg;
+  font-size: 10px;
+}
 .question {
   background-color:rgba(106, 3, 20,0.8);
   float: right;
@@ -885,7 +884,6 @@ display: none;
   font-family: noto-sansb;
   text-align: left;
   font-size: 15px;
-  font-weight: bold;
 }
 
 .question h2  h3 {
@@ -930,13 +928,12 @@ label {
   height: 25px;
   width: 65px;
   background-color: #585858;
-  color: white;
+  color: #C8C8C8;
   font-family: helvetica;
   font-size: 14px;
   cursor: pointer;
   border: 0.5px solid #585858;
   float: center;
-  align-items: center;
   margin-left: 4px;
   font-family: SourceSansPro-reg;
 }

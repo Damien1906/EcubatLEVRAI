@@ -4,10 +4,20 @@
  <script src="https://unpkg.com/scrollreveal"></script>
    <head>
      <meta charset="utf-8"/>
-      <link rel="stylesheet" href="CSSDuSite.css" type="text/css"></link>
+      <link rel="stylesheet" href="CSSDuSite.css" type="text/css">
       <title>ECUBAT - Plâtrerie-Peinture Saint Genis Laval (Lyon)</title>
 
-
+      <style>
+        #scrollUp {
+          position: fixed;
+          width: 50px;
+          height: 50px;
+          bottom : 20px;
+          right: -100px;
+          opacity: 0.8;
+          z-index: 10;
+        }
+      </style>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
@@ -25,6 +35,7 @@ $('#scrollUp').removeAttr( 'style' );
 });
 });
 </script>
+
 
 <script>
 window.onscroll = function() {
@@ -98,7 +109,7 @@ function growShrinkLogo() {
 
       <!-- div pour contenir le carousel -->
    <div id="carousel1">
-     <meta name="viewport" width="device-width" initial-scale="1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
  <div class="slideshow-container">
@@ -237,57 +248,18 @@ function growShrinkLogo() {
       </div>
 
        <div id="peinture">
-
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-         <script>
-         window.onscroll = function() {
-           fadeInOutdiv()
-         };
-
-         function fadeInOutdiv(){
-           if (peinture.scrollTop > 3 || peintureElement.scrollTop > 3) {
-                    $("gauche_1").fadeOut();
-           });
-           else
-             $("gauche_1").fadeIn();
-           });
-         });
-
-
-
-
-         window.addEventListener('scroll', function() {
-     document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px';
-   });
-
-
-         </script>
-
-      <h1>Peinture</h1>
-         <table>
-           <tbody>
-             <tr>
-              <td>
-                <div id="gauche_1" class="carrés" style="height: 379px;">
-                 <p>L'entreprise ECUBAT, outre les ouvrages courants de peinture et de revêtement,</p>
-                 <p> s'est spécialisée dans quelques produits décoratifs tels que :</p>
-                 <br>
-                 <ul style="list-style-type: none;">
-                   <li>La chaux d'antan</li>
-                   <li>Les cires essuyées</li>
-                   <li>Les enduits rustiques cirés</li>
-                 </ul>
-                 <br>
-                 <p>ECUBAT est ausi très bien placée pour éxécuter vos travaux en extérieur : volets, fenêtres, bandeaux et forgets.</p>
-               </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-
-
-                <div id="droite" class="carré_D" style="height: 137px;">
-                  <h3>Les peintures intérieures</h3>
+         <div id="peinture-carré">
+          <h1>PEINTURE</h1>
+              <div id="peinture1">
+                <p>L'entreprise ECUBAT, outre les ouvrages courants de peinture et de revêtement,</p>
+                <p> s'est spécialisée dans quelques produits décoratifs tels que :</p>
+              </div>
+              <div id="peinture-liste">
+                  <p> La chaux d'antan <br> Les cires essuyées <br> Les enduits rustiques cirés </p>
+              </div>
+              <div id="peinture2">
+                  <p>ECUBAT est ausi très bien placée pour éxécuter vos travaux en extérieur : volets, fenêtres, bandeaux et forgets.</p>
+                <h3>Les peintures intérieures</h3>
                   <p>Les peintures à effets, alliées à nos techniques de pose offrent des rendus agréables.</p>
                 <h3>Les peintures décoratives</h3>
                   <p>Une peinture est essentiellement décorative (hormis les fonctions de protection qui constituent l'autre rôle d'une peinture)</p>               <p>Depuis quelques années les fabricants rivalisent d'ingéniosité et de créativité pour </p>
@@ -419,7 +391,7 @@ function growShrinkLogo() {
         </table> -->
 
 <br>
-
+      </div>
     </div>
 
           <div id="adresse">
@@ -439,18 +411,14 @@ function growShrinkLogo() {
 
 
       <div class="demande">
-
           <div class="information">
-            <h3>ECUBAT</h3>
-
-             <ul>
+            <h3>ECUBAT :</h3>
+             <ul1>
               <li>Adresse : 38, route de Charly </n> 69230 Saint Genis Laval</li>
               <li>Téléphone : 04 78 56 34 10</li>
-              <li>Adresse email: ecubat@wanadoo.fr</li>
-            </ul>
-
+              <li>Adresse email: ecubat@wanadoo.fr
+            </ul1>
           </div>
-
           <div class="question">
             <br>
             <br>

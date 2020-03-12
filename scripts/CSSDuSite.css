@@ -33,7 +33,7 @@ html {
   padding: 0;
   margin: 0;
   /*background-color: #ecf0f1;*/
-  background-color: rgb(250, 250, 250)
+  background-color: rgb(250, 250, 250);
   background-size: contain;
 }
 
@@ -44,7 +44,7 @@ body {
 /*caroussel début #ecf0f1*/
 
 #carousel1 {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body #caroussel1 {
@@ -185,19 +185,12 @@ img {
 
 .styled{
   font-weight:bold;
-  width:;
-  height:;
   padding-top:10px;
   padding-right:50px;
   padding-bottom:10px;
   padding-left:50px;
   border-top: auto;
-  border-right:;
-  border-bottom:;
-  border-left:;
-  font-family:;
   font-size:14px;
-  line-height:;
   color:#ffffff;
   background:#800E13;
   border-radius:10px;
@@ -336,7 +329,6 @@ li.barredenavigation a {
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-    height: px;
     color: white;
     text-align: center;
     margin-bottom: 10px;
@@ -352,12 +344,6 @@ a.custom-class {
   font-family: NotoSans-SemiCondensedThin.ttf;
   }
 
-li a:hover {
-  background-: rgba(128, 14, 19, 0.4);
-    text-shadow: 0 0 9px #272727;
-}
-
-
 #plâtrerie {
   color: white;
   width: auto;
@@ -366,7 +352,6 @@ li a:hover {
   font-size: 20px;
   font: helvetica;
   font-weight: bold;
-  /**background-color:rgb(106, 3, 20);**/
   background-color:rgb(106, 3, 20);
 }
 
@@ -636,7 +621,6 @@ li a:hover {
   font-family: SourceSansPro-reg;
   text-align: center;
   font-size: 120%;
-  background-color: #;
   display: flow-root;
   padding: 10%;
   background-color: rgb(64, 64, 64);
@@ -668,52 +652,7 @@ li a:hover {
   background-color: white;
 }
 
-/*#peinture div.carrés {
-  text-align: center;
-  float: left;
-  background-color: rgb(250, 250, 250);
-  width: 0%;
-  height: 100%;
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: 1s cubic-bezier(0.85,-0.24, 0.13, 1.19);
-  text-overflow: ellipsis;
-}
-
-
-#peinture div.carrés:hover{
-  background-color: rgb(250, 250, 250);
-  text-indent: 0%;
-  width: 100%;
-  z-index: -1
-}
-
-#peinture div.carré_D {
-  text-align: center ;
-  float: right;
-  background-color: rgb(250, 250, 250);
-  width: 0%;
-  height: 100%;
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: 1s cubic-bezier(0.85,-0.24, 0.13, 1.19);
-}
-
-
-#peinture div.carré_D:hover {
-  background-color: rgb(250, 250, 250);
-  text-indent: 0%;
-  width: 100%;
-}
-*/
-
 #marché {
-  /*background-image: url("../images/fondmarché.jpg");
-  background-size: cover;*/
   width:100%;
   height: auto;
   background-color: rgba(64, 64, 64, 0.8);

@@ -626,9 +626,10 @@ a.custom-class {
   background-color: rgb(64, 64, 64);
 }
 
-#peinture-liste {
+#peinture-liste ul {
   font-family: SourceSansPro-reg;
   color: #800E13;
+  list-style-type: none;
 }
 
 #peinture p {

@@ -798,9 +798,32 @@ float: right;
 display: none;
 }
 
+#fournisseurs {
+  padding-top: 7%;
+  padding-left: 8%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  color: white;
+  font-family: sans-serif;
+  font: helvetica;
+  background-color: rgb(64, 64, 64);
+}
+
+#fournisseurs table {
+  text-align: center;
+}
+
+#fournisseurs td {
+  padding-bottom: 5%;
+}
+
+#fournisseurs th {
+text-align: left;
+}
+
 #adresse {
-  padding-top: 40px;
-  background-color: inherit;
+  padding-top: ;
+  background-color:  rgb(64, 64, 64);
   color: #8B0000;
   font-family: sans-serif;
   font: helvetica;

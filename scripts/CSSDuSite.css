@@ -303,7 +303,7 @@ div.barredenavigation, ul.barredenavigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(100, 13, 20, 0.5);
+    background-color: rgba(100, 13, 20, 1);
     letter-spacing: 3px;
     position: -webkit-sticky;
     position: sticky;

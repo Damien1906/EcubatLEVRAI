@@ -877,17 +877,21 @@ text-align: left;
   padding-left: 15px;
   width: 304px;
   height: 600px;
-  color: white;
   background-color:rgba(106, 3, 20,0.8);
 }
 
-.information h2 ul1 {
+.information h3 {
+  color: white;
   font-family: noto-sansb;
   text-align: left;
+  font-size: 20px;
 }
-.information p li {
+.information li {
+  color: white;
   font-family: noto-sansb;
   font-size: 15px;
+  text-align: left;
+  list-style-type: circle;
 }
 .question {
   background-color:rgba(106, 3, 20,0.8);
@@ -904,7 +908,7 @@ text-align: left;
   font-size: 15px;
 }
 
-.question h2  h3 {
+.question h3 {
   color: white;
   font-family: noto-sansb;
   text-align: left;

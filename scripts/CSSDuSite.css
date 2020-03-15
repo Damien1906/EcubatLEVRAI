@@ -809,12 +809,23 @@ display: none;
   background-color: rgba(64, 64, 64, 0.9);
 }
 
+#fournisseurs caption {
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: sans-serif;
+  font: helvetica;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
 #fournisseurs table {
   text-align: center;
 }
 
 #fournisseurs th, td {
   padding-left: 0%;
+  padding-top: 1%;
 }
 
 #fournisseurs th {

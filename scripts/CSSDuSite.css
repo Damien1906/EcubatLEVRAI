@@ -800,21 +800,21 @@ display: none;
 
 #fournisseurs {
   padding-top: 7%;
-  padding-left: 8%;
-  padding-right: 10%;
+  padding-left: 3%;
+  padding-right: 5%;
   padding-bottom: 5%;
   color: white;
   font-family: sans-serif;
   font: helvetica;
-  background-color: rgb(64, 64, 64);
+  background-color: rgba(64, 64, 64, 0.9);
 }
 
 #fournisseurs table {
   text-align: center;
 }
 
-#fournisseurs td {
-  padding-bottom: 5%;
+#fournisseurs th, td {
+  padding-left: 0%;
 }
 
 #fournisseurs th {

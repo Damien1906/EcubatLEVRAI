@@ -866,7 +866,7 @@ text-align: left;
   font-style:normal;
   font-weight:4;
   text-align:left;
-  background-color: rgba(64, 64, 64, 0.8);
+  background-color: rgba(20, 20, 20,0.8);
   display: flow-root;
 }
 
@@ -877,7 +877,7 @@ text-align: left;
   padding-left: 15px;
   width: 304px;
   height: 600px;
-  background-color:rgba(106, 3, 20,0.8);
+  background-color:rgba(20, 20, 20,0.5);
 }
 
 .information h3 {
@@ -894,7 +894,7 @@ text-align: left;
   list-style-type: circle;
 }
 .question {
-  background-color:rgba(106, 3, 20,0.8);
+  background-color:rgba(20, 20, 20,0.5);
   float: right;
   width: 304px;
   height: 600px;

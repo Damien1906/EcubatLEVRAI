@@ -616,7 +616,7 @@ a.custom-class {
     z-index: 0;
   }
 }
-
+/*
 #peinture {
   font-family: SourceSansPro-reg;
   text-align: center;
@@ -651,6 +651,58 @@ a.custom-class {
   display: inline-block;
   padding-left: 50px;
   background-color: white;
+}
+*/
+#peinture2 {
+  background-color: rgba(20, 20, 20,0.9);
+  color: white;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: SourceSansPro-reg;
+  font-size: 15px;
+  font-size-adjust: auto;
+}
+
+#peinture_int_main {
+  display: flow-root;
+  background-color: rgba(20, 20, 20,0.9);
+}
+
+#peinture_int {
+  float: right;
+  color: white;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: right;
+  font-family: SourceSansPro-reg;
+  font-size: 15px;
+  font-size-adjust: auto;
+}
+
+#peinture_int_img {
+}
+
+#peinture_deco_main {
+  display: flow-root;
+  background-color: rgba(20, 20, 20,0.9);
+}
+
+#peinture_deco {
+  float: left;
+  color: white;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: SourceSansPro-reg;
+  font-size: 15px;
+  font-size-adjust: auto;
+}
+
+#peinture_deco_img {
+  text-align: right;
 }
 
 #marché {

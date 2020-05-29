@@ -373,11 +373,11 @@ img {
 }
 
 .slider li.anim1 {
-  animation: cycle 40s linear infinite;
+  animation: cycle 100s linear infinite;
 }
 
 .slider li.anim2 {
-  animation: cycle2 40s linear infinite;
+  animation: cycle2 100s linear infinite;
 }
 
 .slider:hover li {
@@ -387,9 +387,6 @@ img {
 
 @keyframes cycle {
   0% {
-    top: 0px;
-  }
-  4% {
     top: 0px;
   }
   16% {
@@ -416,10 +413,6 @@ img {
     top: -325px;
     opacity: 0;
     z-index: 0;
-  }
-  96% {
-    top: -325px;
-    opacity: 0;
   }
   100% {
     top: 0px;

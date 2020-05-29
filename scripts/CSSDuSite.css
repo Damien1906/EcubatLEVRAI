@@ -234,10 +234,8 @@ img {
 }
 
 #navigation {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -247,10 +245,8 @@ img {
 
 .tête_de_page {
   background-color: white;
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -263,29 +259,6 @@ img {
   transition: 300ms ease;
 }
 
-a.lien {
-  text-decoration: none;
-  color: blue;
-}
-
-a.lien:hover {
-  color: #B30000;
-  text-decoration: underline;
-}
-
-a.lien:active {
-  color: #ff3333;
-}
-
-/*#opacity {
-  background-color: ;
-  position: absolute;
-  width: 2000px;
-  height: 48px;
-  display: block;
-  opacity: 0.5;
-}*/
-
 #bckg {
   width: 100%;
   height: 50px;
@@ -294,11 +267,10 @@ a.lien:active {
   margin: 0;
   padding: 0;
   position: sticky;
-  background-color: rgb(100, 13, 20);
   top: 0;
 }
 
-div.barredenavigation, ul.barredenavigation {
+.barredenavigation div, ul.barredenavigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -320,11 +292,11 @@ div.barredenavigation, ul.barredenavigation {
   margin-bottom: 0.1px;
 }
 
-li.barredenavigation {
+.barredenavigation li {
     float: right;
 }
 
-li.barredenavigation a {
+.barredenavigation a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -339,10 +311,6 @@ li.barredenavigation a {
     text-decoration: none;
     font-family: SourceSansPro-reg;
 }
-
-a.custom-class {
-  font-family: NotoSans-SemiCondensedThin.ttf;
-  }
 
 #plâtrerie {
   color: white;
